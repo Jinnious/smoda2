@@ -8,7 +8,7 @@ className="custom_button_box">
         {text}
 </div>
 
-Header.defaultProps = {
-    text: "Default",
-}
+// Header.defaultProps = {
+//     text: "Default",
+// }
 export default Header;
