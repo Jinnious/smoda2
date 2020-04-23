@@ -1,13 +1,5 @@
-.custom_button_box {
-    color:white;
-    cursor: pointer;
-    background-color: tomato;
-    height:20%;
-
+.footer {
+    background-color: whitesmoke;
+    bottom:0px;
+    height:300px;
 }
-
-.custom_button_box_inner::selection {
-    background:none;
-    color:none;
-}
-
