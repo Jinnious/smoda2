@@ -1,0 +1,21 @@
+.about_inner {
+    background-color: #FFF8E2;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+.about_info {
+    width: 50%;
+    margin: 10px;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+}
+
+.about_img, img{
+    margin: 10px;
+    width: 50%;
+    height: auto;
+    padding: 10px;
+}
