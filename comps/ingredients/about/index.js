@@ -4,13 +4,16 @@ import './about.css';
 
 const defaultImg = require('./ammonia.png');
 
-const IngredAbout = ({img}) => <div>
-    <div> <img src={img} /></div>
-    <div>hello</div>
+const IngredAbout = ({img,text}) => <div className="about">
+    <div className="about_inner">
+    <div className="about_img"> <img src={img} /></div>
+    <div className="about_info">{text}</div>
+    </div>
 </div>;
 
 IngredAbout.defaultProps = {
-    img:defaultImg
+    img:defaultImg,
+    text: "hello"
 }
 
 
