@@ -10,5 +10,5 @@ className="custom_button_box">
 
 // Header.defaultProps = {
 //     text: "Default",
-// }dsfsfsfsfsfsf
+// }dsfsfsfsfsfsf 왜ㅐ 안돼?!!
 export default Header;
