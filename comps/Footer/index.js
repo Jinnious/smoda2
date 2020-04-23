@@ -2,10 +2,15 @@
 import React from 'react';
 import './footer.css';
 
-const Footer = ({text, bgcolor}) => <div 
-style={{backgroundColor:bgcolor}}
-className="custom_button_box">
-        {text}
-</div>
+// const defaultImg = require('./Logo.png');
 
-export default Footer;
+// const Footer = ({img}) => <div className="header">
+//     <div className="header_img"> <img src={img} /></div>
+// </div>;
+
+// Footer.defaultProps = {
+//     img:defaultImg
+// }
+
+
+// export default Footer;
