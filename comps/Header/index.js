@@ -8,7 +8,8 @@ className="header">
         {text}
 </div>
 
-// Header.defaultProps = {
-//     text: "Default",
-// }dsfsfsfsfsfsf 왜ㅐ 안돼?!!jkjkhkjhjk
+Header.defaultProps = {
+    text: "hi"
+
+}
 export default Header;
