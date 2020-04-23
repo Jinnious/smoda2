@@ -10,7 +10,7 @@ const OptionButton = ({text, img, bgcolor, onMouseOver, onMouseOut}) => <div
     >
     <div className="optionbutton_box_inner">
         {text}
-        <img src={img}/>
+     <img src={img}/> 
     </div>
 </div>
 
