@@ -1,0 +1,10 @@
+.smoking {
+    display: inline-block;
+    background-color: #FFF8E2;
+    margin: auto;
+    width: 300px;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
