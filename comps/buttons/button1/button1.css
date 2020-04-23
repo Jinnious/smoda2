@@ -1,0 +1,22 @@
+.custom_button_box {
+    display:inline-flex;
+    border-radius:19px;
+    padding:10px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #999;
+    margin: 5px;
+
+}
+
+.custom_button_box_inner::selection {
+    background:none;
+    color:none;
+}
+
+.custom_button_box:hover {
+    background-color: white;
+    color: rgb(242,143,60);
+    border: 3px solid rgb(242,143,60);
+    padding: 7px;
+}
