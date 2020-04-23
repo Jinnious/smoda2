@@ -40,10 +40,12 @@ export const Buttons2 = () => <div>
 
 
 export const DefaultButton3 = () => <OptionButton />;
+
 export const Buttons3 = () => <div>
 <div>
 <OptionButton text="Smoking" bgcolor="#c8553D" />
 </div>
 </div>
+
 
 
