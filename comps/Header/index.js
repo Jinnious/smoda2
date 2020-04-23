@@ -16,5 +16,10 @@ Header.defaultProps = {
     img:defaultImg
 }
 
+<<<<<<< HEAD
 //kk
+=======
+
+
+>>>>>>> 6d5be53eb479f3b6899fb1141f6ea9bfd95290cf
 export default Header;
