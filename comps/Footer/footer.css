@@ -1,0 +1,13 @@
+.custom_button_box {
+    color:white;
+    cursor: pointer;
+    background-color: tomato;
+    height:20%;
+
+}
+
+.custom_button_box_inner::selection {
+    background:none;
+    color:none;
+}
+
