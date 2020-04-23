@@ -4,8 +4,8 @@ import './button1.css';
 
 const BasicButton = ({text, bgcolor}) => <div 
 style={{backgroundColor:bgcolor}}
-className="custom_button_box">
-    <div className="custom_button_box_inner">
+className="custom_button1_box">
+    <div className="custom_button1_box_inner">
         {text}
     </div>
 </div>
