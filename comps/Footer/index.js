@@ -5,8 +5,10 @@ import BasicButton from '../buttons/button1';
 
 
 const Footer = () => <div className="footer">
+
+
         <div className="button_down"><BasicButton /></div>
-        
+
 </div>;
 
 Footer.defaultProps = {
