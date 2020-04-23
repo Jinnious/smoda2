@@ -3,8 +3,8 @@ import Header from '../comps/Header';
 import Footer from '../comps/Footer';
 
 export default {
-  title: 'Button',
-  component: Button,
+  title: 'Header',
+  component: Header,
 };
 
 export const MyHeader = () => <Header />;
