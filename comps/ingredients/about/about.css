@@ -1,5 +1,7 @@
 .about {
     text-align: justify;
+    
+  
 }
 
 .about_inner {
@@ -9,6 +11,7 @@
     width: 300px;
     align-content: center;
     justify-content: center;
+    align-items: center;
     padding: 10px;
     margin: 10px;
 }
@@ -19,8 +22,6 @@
     text-align: center;
     margin: 10px;
  
- 
-  
 }
 
 .about_img img{
@@ -28,6 +29,5 @@
     width:  270px;
     border-radius: 10px;
     height: auto;
-
- 
 }
+
