@@ -4,11 +4,11 @@ import './header.css';
 
 const Header = ({text, bgcolor}) => <div 
 style={{backgroundColor:bgcolor}}
-className="custom_button_box">
+className="header">
         {text}
 </div>
 
 Header.defaultProps = {
-    text: "Default",
+    text: "hi",
 }
 export default Header;
