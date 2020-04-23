@@ -1,7 +1,20 @@
 .header {
     color:white;
     cursor: pointer;
-    background-color: peru;
+    background-color:;
     height:20%;
 
+}
+
+
+.header_circle {
+    border-radius: 90%;
+    background-color: whitesmoke;
+    position: relative;
+    margin-top: -180px;
+}
+
+.header_box {
+    background-color: whitesmoke;
+    height:299px;
 }

@@ -2,13 +2,18 @@
 import React from 'react';
 import './header.css';
 
-const Header = ({text, bgcolor}) => <div 
-style={{backgroundColor:bgcolor}}
-className="header">
-        {text}
-</div>
+const defaultImg = require('./logo.svg');
 
-// Header.defaultProps = {
-//     text: "Default",
-// }dsfsfsfsfsfsf 왜ㅐ 안돼?!!jkjkhkjhjk
+const Header = ({img}) => <div className="header">
+        <div className="header_box"></div>
+        <div className="header_circle">
+    <div className="header_img"> <img src={img} /></div>
+    </div>
+</div>;
+
+Header.defaultProps = {
+    img:defaultImg
+}
+
+
 export default Header;
