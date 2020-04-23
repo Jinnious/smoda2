@@ -1,7 +1,6 @@
 import React from 'react';
 import './about.css';
 
-
 const defaultImg = require('./ammonia.png');
 
 const IngredAbout = ({img,text}) => <div className="about">
@@ -13,7 +12,7 @@ const IngredAbout = ({img,text}) => <div className="about">
 
 IngredAbout.defaultProps = {
     img:defaultImg,
-    text: "hello"
+    text: "Ammonia is a strong, colorless gas. If the gas is dissolved in water, it is called liquid ammonia. Poisoning may occur if you breathe in ammonia or if you swallow or touch products that contain very large amounts of ammonia."
 }
 
 

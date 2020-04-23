@@ -1,29 +1,33 @@
 .about {
-    align-items: center;
-    justify-items: center;
+    text-align: justify;
 }
 
 .about_inner {
+    display: inline-block;
     background-color: #FFF8E2;
     margin: auto;
-    width: 60%;
+    width: 300px;
+    align-content: center;
+    justify-content: center;
     padding: 10px;
-    align-items: center;
-    justify-items: center;
+    margin: 10px;
 }
 
 .about_info {
-    width: 50%;
-    margin: 10px;
+    
     font-size: 27px;
     text-align: center;
-    padding: 10px;
+    margin: 10px;
+ 
+ 
+  
 }
 
-.about_img, img{
+.about_img img{
     margin: 10px;
-    width: 70%;
+    width:  270px;
+    border-radius: 10px;
     height: auto;
-    padding: 10px;
 
+ 
 }

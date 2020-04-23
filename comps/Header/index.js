@@ -2,6 +2,7 @@
 import React from 'react';
 import './header.css';
 
+
 const defaultImg = require('./logo.svg');
 
 const Header = ({img}) => <div className="header">
