@@ -1,19 +1,22 @@
 import React from 'react';
 import './button2.css';
 
-const StartButton = ({text, bgcolor, onMouseOver, onMouseOut}) => <div 
+
+const StartButton = ({text,  bgcolor, onMouseOver, onMouseOut}) => <div 
     style={{backgroundColor:bgcolor}}
     className="startbutton_box"
     onMouseOver={onMouseOver}
     onMouseOut={onMouseOut}
     >
-    <div className="startbutton_box_inner">
+    <div className="xc">
         {text}
+       
     </div>
 </div>
 
 StartButton.defaultProps = {
     text:"Default Button",
+    
     bgcolor: "#c8553D",
     onMouseOver:MouseOver,
     onMouseOut:MouseOut
