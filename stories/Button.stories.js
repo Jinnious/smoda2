@@ -2,7 +2,7 @@ import React from 'react';
 import BasicButton from '../comps/buttons/button1';
 import StartButton from '../comps/buttons/button2';
 import OptionButton from '../comps/buttons/button3';
-import IngredAbout from '../comps/ingredients/about';
+
 
 export default {
     title: "Default Button",
@@ -46,4 +46,4 @@ export const Buttons3 = () => <div>
 </div>
 </div>
 
-export const MyIngredAbout = () => <IngredAbout />;
+
