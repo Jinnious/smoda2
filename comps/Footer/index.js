@@ -2,15 +2,12 @@
 import React from 'react';
 import './footer.css';
 
-// const defaultImg = require('./Logo.png');
 
-// const Footer = ({img}) => <div className="header">
-//     <div className="header_img"> <img src={img} /></div>
-// </div>;
+const Footer = () => <div className="footer">
+</div>;
 
-// Footer.defaultProps = {
-//     img:defaultImg
-// }
+Footer.defaultProps = {
+}
 
 
-// export default Footer;
+export default Footer;
