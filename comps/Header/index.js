@@ -10,5 +10,5 @@ className="header">
 
 // Header.defaultProps = {
 //     text: "Default",
-// }dsfsfsfsfsfsf 왜ㅐ 안돼?!!
+// }dsfsfsfsfsfsf 왜ㅐ 안돼?!!jkjkhkjhjk
 export default Header;
