@@ -6,7 +6,7 @@ const StartButton = ({text, bgcolor, onMouseOver, onMouseOut}) => <div
     className="startbutton_box"
     onMouseOver={onMouseOver}
     onMouseOut={onMouseOut}
-    >
+     >
     <div className="startbutton_box_inner">
         {text}
     </div>
