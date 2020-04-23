@@ -8,12 +8,14 @@
     cursor: pointer;
     box-shadow: 1px 1px 5px #999;
     margin: 5px;
-   
-
+    text-align: center;
+    align-items: center;
 }
 
 .custom_button1_box_inner {
-    text-align: center;
+    
+    padding: 5px;
+    
 }
 
 .custom_button1_box_inner::selection {

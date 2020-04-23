@@ -11,7 +11,7 @@ className="custom_button1_box">
 </div>
 
 BasicButton.defaultProps = {
-    text: "Default",
+    text: "Def",
     bgcolor: "rgb(242,143,60)"
 }
 export default BasicButton;
