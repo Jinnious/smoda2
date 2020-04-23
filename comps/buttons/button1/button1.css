@@ -1,5 +1,5 @@
 .custom_button1_box {
-    display:block;
+    display:inline-block;
     position: relative;
     width: 40px;
     border-radius:14px;
@@ -10,6 +10,7 @@
     margin: 5px;
     text-align: center;
     align-items: center;
+   
 }
 .custom_button1_box_inner {
     
