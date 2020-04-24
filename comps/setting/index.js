@@ -20,13 +20,15 @@ const SettingPage2 = ({}) =>
     <div id="setting_inner">
 
     <SubHeader text="Sound" color="#588B8B"/>
+
     <SettingPage />
 
     <SubHeader text="Language" color="#F28F3B"/>
-    
+    <div className="buttons">
     <LanguageButton  />
     <LanguageButton text ="English"/>
     <LanguageButton text ="Chinese"/>
+    </div>
 
     </div>
 

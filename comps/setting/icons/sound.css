@@ -1,7 +1,7 @@
 .soundiconwithtext img{
     width: 40px;
-   
-
+   left: 0;
+    margin: 5px;
 }
 .soundicon{
 
@@ -22,8 +22,7 @@
     flex-direction: column;
     margin: 20px;
     color: #707071;
-
     text-align: center;
-
+    left: 20%;
 }
 
