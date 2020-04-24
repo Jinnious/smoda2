@@ -14,7 +14,7 @@ const SettingPage2 = ({}) =>
     <div id="setting">
 
     <div id="setting_heading">
-    <SubHeader text="Setting" FontSize={100}/>
+    <SubHeader text="Setting" fontSize={47}/>
     </div>
 
     <div id="setting_inner">
@@ -23,7 +23,10 @@ const SettingPage2 = ({}) =>
     <SettingPage />
 
     <SubHeader text="Language" color="#F28F3B"/>
+    
     <LanguageButton  />
+    <LanguageButton text ="English"/>
+    <LanguageButton text ="Chinese"/>
 
     </div>
 

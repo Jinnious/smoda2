@@ -2,9 +2,10 @@
 
     border: solid 5px #C8553D;
     border-radius: 10px;
-    
+    width: 300px;
 }
 
 #setting {
-    display: inline-block;
+    display: inline-flex;
+    flex-direction: column;
 }
