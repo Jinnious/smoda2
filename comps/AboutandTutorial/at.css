@@ -1,0 +1,15 @@
+
+#page {
+display: inline-flex;
+flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+.aboutus_inner {
+
+    border: solid 3px #707071;
+}
