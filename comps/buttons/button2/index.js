@@ -16,7 +16,6 @@ const StartButton = ({text,  bgcolor, onMouseOver, onMouseOut}) => <div
 
 StartButton.defaultProps = {
     text:"Default Button",
-    
     bgcolor: "#c8553D",
     onMouseOver:MouseOver,
     onMouseOut:MouseOut
