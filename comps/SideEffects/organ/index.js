@@ -4,10 +4,12 @@ import './organ.css';
 const defaultImg = require('../../../img/good_lung.png')
 
 
-const TheOrgan = ({img, text}) => <div className="organ">
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
-    <div className="organ_img"><img src={img} /></div>
-    <div className="organ_name">{text}</div>
+const TheOrgan = ({img, text}) => <div>
+    <div className="organ">
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
+        <div className="organ_img"><img src={img} /></div>
+        <div className="organ_name">{text}</div>
+    </div>
 </div>;
 
 
