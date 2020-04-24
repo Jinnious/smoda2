@@ -2,9 +2,11 @@ import React from 'react';
 import './sound.css';
 
 
-const defaultImg = require('./speakeron.svg');
+const defaultImg = require('./speakeron.png');
+const defaultImg2 = require('./speakeroff.png');
 
-const Setting = ({img, text}) => <div className="soundicon">
+
+const SettingPage = ({img, text}) => <div className="soundicon">
 
 <div>
     <div className="soundiconwithtext">
@@ -23,11 +25,12 @@ const Setting = ({img, text}) => <div className="soundicon">
 </div>
 
 
-Sound.defaultProps = {
+SettingPage.defaultProps = {
 
     text:"ON",
-    img:defaltImg
+    img:defaultImg,
+    img2:defaultImg2
 
 }
 
-export default Setting;
+export default SettingPage;

@@ -1,11 +1,9 @@
 import React from 'react';
-
-
+import SettingPage from '../comps/setting';
 
 export default {
-
-    title :"SettingPage"
-   
+    title: 'SettingPage',
+    componets: SettingPage
 };
 
-export const Setting = () => <Setting />
+export const SettingPagewithIcons = () => <SettingPage />
