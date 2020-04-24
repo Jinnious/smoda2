@@ -1,0 +1,15 @@
+.soundiconwithtext img{
+    width: 30px;
+}
+
+.soundicon{
+    display: block;
+    
+}
+
+
+.soundiconwithtext {
+    display: inline-block;
+    margin: 20px;
+
+}

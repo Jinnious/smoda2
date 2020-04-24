@@ -11,13 +11,13 @@ const SettingPage = ({img, text}) => <div className="soundicon">
 <div>
     <div className="soundiconwithtext">
     <img src={img} />
-    {text}
+    <div> {text}</div>  
     </div>
 
 
     <div className="soundiconwithtext">
-    <img src={img} />
-    {text}
+    <img src={defaultImg2} />
+    <div> {text="OFF"}</div>  
     </div>
 
 </div>
@@ -28,6 +28,7 @@ const SettingPage = ({img, text}) => <div className="soundicon">
 SettingPage.defaultProps = {
 
     text:"ON",
+    
     img:defaultImg,
     img2:defaultImg2
 
