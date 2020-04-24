@@ -1,5 +1,5 @@
 import React from 'react';
-import SettingPage from '../comps/setting';
+import SettingPage from '../comps/setting/icons';
 
 export default {
     title: 'SettingPage',
@@ -7,3 +7,6 @@ export default {
 };
 
 export const SettingPagewithIcons = () => <SettingPage />
+
+
+

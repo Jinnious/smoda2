@@ -1,38 +1,46 @@
 import React from 'react';
-import './sound.css';
+import SettingPage from './icons';
+import SubHeader from '../comps/SubHeader';
 
 
-const defaultImg = require('./speakeron.png');
-const defaultImg2 = require('./speakeroff.png');
 
-
-const SettingPage = ({img, text}) => <div className="soundicon">
-<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
-
-<div>
-    <div className="soundiconwithtext">
-    <img src={img} />
-    <div> {text}</div>  
-    </div>
-
-
-    <div className="soundiconwithtext">
-    <img src={defaultImg2} />
-    <div> {text="OFF"}</div>  
-    </div>
-
-</div>
-
-</div>
-
-
-SettingPage.defaultProps = {
-
-    text:"ON",
+const SpPage = ({}) => {
     
-    img:defaultImg,
-    img2:defaultImg2
+
+
+
+    <div id="setting">
+
+    <div id="setting_heading">
+    <SubHeader text="Setting"/>
+    </div>
+
+    <div id="settong_inner">
+
+    <SubHeader/>
+    <SettingPage />
+
+    <SubHeader text="Language" color="#F28F3B"/>
+    <LanguageButton  />
+
+    </div>
+
+
+
+
+    </div>
+    
+
+
 
 }
 
-export default SettingPage;
+
+SbPage.defaultProps ={
+
+
+}
+
+
+
+export default SbPage;
