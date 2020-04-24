@@ -1,23 +1,27 @@
 import React from 'react';
 import './question.css';
 import BasicButton from '../../buttons/button1';
+import SubHeader from '../../subheader';
+import { QuizSubHead } from '../../../stories/subhead.stories';
 
 const defaultImg = require('./circle.png');
 const defaultImg2 = require('./wrong.png');
 
 
-const Questions = ({defaultImg,defaultImg2,text}) => <div className="about">
+const Questions = ({img1,img2,text}) => <div className="about">
 
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
-
     <div className="about_inner">
+    <QuizSubHead />
     <div className="about_info">{text}
-    <div className="about_img"> <img src={defaultImg} /></div>
-    <div className="about_img"> <img src={defaultImg2} /></div>
+    <div className="about_img"> <img src={img1} /></div>
+    <div className="about_img"> <img src={img2} /></div>
    
    </div>
 
  <p><BasicButton text="Back" bgcolor="rgb(105,138,137)"/></p>
+ <p><BasicButton text="Next" bgcolor="rgb(105,138,137)"/></p>
+
   
   
 
@@ -25,7 +29,8 @@ const Questions = ({defaultImg,defaultImg2,text}) => <div className="about">
 </div>;
 
 Questions.defaultProps = {
-    img:defaultImg, defaultImg2,
+    img1:defaultImg,
+    img2:defaultImg2,
     text: "Is nicotine an ingredient of cigarette?"
 }
 
