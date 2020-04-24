@@ -7,6 +7,7 @@ const defaultImg2 = require('./speakeroff.png');
 
 
 const SettingPage = ({img, text}) => <div className="soundicon">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
 
 <div>
     <div className="soundiconwithtext">
