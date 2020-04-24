@@ -60,7 +60,13 @@ export const DefaultButton4 = () => <LanguageButton />;
 
 export const Buttons4 = () => <div>
 <div>
+<LanguageButton  />
+</div>
+<div>
 <LanguageButton text="Japanese"  />
+</div>
+<div>
+<LanguageButton text="Chinese"  />
 </div>
 </div>
 
