@@ -3,19 +3,21 @@ import './dsct.css';
 
 
 
-const EffectDescription = ({text}) => <div className="dsct">
+const EffectDescription = ({text,img}) => <div className="dsct">
 
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
 
     <div className="dsct_inner">
      
         <div className="about_info">{text}</div>
+        <div className="des_img"> <img src={img} /></div>
+
     </div>
 </div>;
 
 EffectDescription.defaultProps = {
 
-    text: "Ammonia is a strong, colorless gas. If the gas is dissolved in water, it is called liquid ammonia. Poisoning may occur if you breathe in ammonia or if you swallow or touch products that contain very large amounts of ammonia."
+    text: "Your lungs can be very badly affected by smoking. Coughs, colds, wheezing and asthma are just the start."
 }
 
 
