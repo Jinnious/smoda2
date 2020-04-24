@@ -6,6 +6,7 @@
 align-items: center;
 justify-content: center;
 
+
 }
 
 
@@ -14,6 +15,7 @@ justify-content: center;
     position: relative;
     /* margin-top: -100px; */
     justify-content: center;
+    margin-top:0;
 
 }
 
@@ -32,6 +34,6 @@ justify-content: center;
 position: relative;
 padding: 50px;
 left:10%;
-margin-top:-160px;
+top:100px;
 }
 
