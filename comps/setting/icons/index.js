@@ -11,8 +11,9 @@ const SettingPage = ({img, text}) => <div className="soundicon">
 
 <div>
     <div className="soundiconwithtext">
+
     <img src={img} />
-    <div> {text}</div>  
+    {text}
     </div>
 
 

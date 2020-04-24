@@ -4,6 +4,7 @@ import React from 'react';
 import Questions from '../comps/Quiz/Questions';
 import QuizSubHead1  from './subhead.stories';
 import SubHeader from '../comps/subheader';
+import QuestionAnswer from '../comps/Quiz/Questions';
 
 
 export default {
@@ -15,6 +16,8 @@ export default {
 export const Quiz1 = () =><div>
     <div><SubHeader text="Quiz 1" color="#F28F3C"/></div>
     <div><Questions /></div>
+  
+
 </div>
 
 export const Quiz2 = () => <div>

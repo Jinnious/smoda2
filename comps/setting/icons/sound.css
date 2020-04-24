@@ -1,18 +1,29 @@
 .soundiconwithtext img{
-    width: 30px;
-    margin: 2px;
+    width: 40px;
+   
 
 }
 .soundicon{
-    display: block;
+
+  display: inline;
+  position: relative;
+
+
    
 }
 
 
 .soundiconwithtext {
+    justify-content: center;
+    align-items:center;
     font-family: 'Fredoka One', cursive;
-    display: inline-block;
+    display: inline-flex;
+    position: relative;
+    flex-direction: column;
     margin: 20px;
     color: #707071;
 
+    text-align: center;
+
 }
+
