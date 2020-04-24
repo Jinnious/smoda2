@@ -2,7 +2,7 @@ import React from 'react';
 // import defaultImg1 from '../comps/Quiz/Questions';
 // import defaultImg2 from '../comps/Quiz/Questions';
 import QuestionAnswer from '../comps/Quiz/Questions';
-import QuizSubHead1  from './subhead.stories';
+
 import SubHeader from '../comps/subheader';
 
 
