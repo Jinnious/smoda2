@@ -8,7 +8,13 @@
 }
 
 .organ_select {
+    width:100%;
+}
+.firstline {
+    display: flex;
 }
 
-.firstline {
+
+.secondline {
+    display: flex;
 }

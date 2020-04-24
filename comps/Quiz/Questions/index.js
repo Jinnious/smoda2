@@ -1,6 +1,7 @@
 import React from 'react';
 import './question.css';
 import BasicButton from '../../buttons/button1';
+import { Button1 } from '../../../stories/Button.stories';
 
 const defaultImg = require('./circle.png');
 const defaultImg2 = require('./wrong.png');
@@ -16,11 +17,9 @@ const Questions = ({img1,img2,text}) => <div className="about">
     <div className="wrong"> <img src={img2} /></div>
    </div>
    </div>
-
- <p className="quizbuttons">
-     <div className="quizback"><BasicButton text="Back" bgcolor="rgb(105,138,137)"/></div>
- <div className="quiznext"><BasicButton text="Next" bgcolor="rgb(99,77,55)"/></div></p>
-
+<div className="quizbuttons">
+<Button1 />
+</div>
   
   
 

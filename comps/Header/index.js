@@ -9,7 +9,8 @@ const defaultImg = require('./logo.svg');
 const Header = ({img}) => <div className="header">
         <div className="header_box"><div className="navright"><Navigation /></div></div>
         <div className="header_circle">
-    <div className="header_img"> <img src={img} /></div>
+    <div className="header_img"> 
+    <img src={img} /></div>
     </div>
 </div>;
 
