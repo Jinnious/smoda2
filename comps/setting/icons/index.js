@@ -29,7 +29,6 @@ const SettingPage = ({img, text}) => <div className="soundicon">
 SettingPage.defaultProps = {
 
     text:"ON",
-    
     img:defaultImg,
     img2:defaultImg2
 

@@ -1,10 +1,12 @@
 import React from 'react';
 import SettingPage from './icons';
-import SubHeader from '../comps/SubHeader';
+import SubHeader from '../../comps/subheader';
+import LanguageButton from '../buttons/button4';
+import './settingpage.css';
 
 
 
-const SpPage = ({}) => {
+const SettingPage2 = ({}) => 
     
 
 
@@ -12,12 +14,12 @@ const SpPage = ({}) => {
     <div id="setting">
 
     <div id="setting_heading">
-    <SubHeader text="Setting"/>
+    <SubHeader text="Setting" FontSize={100}/>
     </div>
 
-    <div id="settong_inner">
+    <div id="setting_inner">
 
-    <SubHeader/>
+    <SubHeader text="Sound" color="#588B8B"/>
     <SettingPage />
 
     <SubHeader text="Language" color="#F28F3B"/>
@@ -28,19 +30,18 @@ const SpPage = ({}) => {
 
 
 
-    </div>
+    </div>;
     
 
 
 
+
+
+
+SettingPage2.defaultProps ={
+
+
 }
 
 
-SbPage.defaultProps ={
-
-
-}
-
-
-
-export default SbPage;
+export default SettingPage2;
