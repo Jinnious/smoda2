@@ -8,7 +8,6 @@
     align-content: center;
     justify-content: center;
     padding: 10px;
-    margin: 10px;
 }
 
 .ciga_title {
@@ -19,6 +18,7 @@
 
 .cigaImg {
     position: relative;
-    left: 25%;
-    margin-top: 10%;
+    max-width: 70%;
+    margin-top: 20%;
+    left: 14%;
 }

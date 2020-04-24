@@ -1,5 +1,8 @@
 .organ_img, img {
     width: 40%;
+    position: relative;
+    left: 30%;
+    padding: 2px;
 }
 
 
@@ -7,14 +10,17 @@
     font-family: 'Fredoka One', cursive;
     color: #707071;
     font-size: 170%;
-    align-self: center;
     padding: 10px;
     margin: 5px;
-    position: relative;
-    left: 2%;
+    text-align: center;
 }
 
 .organ {
-    margin: 10px;
     display: inline-block;
+    align-content: center;
+    justify-content: center;
+}
+
+.organ_img:hover {
+    padding: 4px;
 }
