@@ -14,13 +14,14 @@ const Questions = ({img1,img2,text}) => <div className="about">
     <div className="about_inner">
     <QuizSubHead />
     <div className="about_info">{text}
-    <div className="about_img"> <img src={img1} /></div>
-    <div className="about_img"> <img src={img2} /></div>
-   
+    <div className="quizicon">
+    <div className="right"> <img src={img1} /></div>
+    <div className="wrong"> <img src={img2} /></div>
+   </div>
    </div>
 
- <p><BasicButton text="Back" bgcolor="rgb(105,138,137)"/></p>
- <p><BasicButton text="Next" bgcolor="rgb(105,138,137)"/></p>
+ <p><BasicButton text="Back" bgcolor="rgb(105,138,137)"/>
+ <BasicButton text="Next" bgcolor="rgb(99,77,55)"/></p>
 
   
   
