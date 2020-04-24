@@ -1,13 +1,14 @@
 import React from 'react';
+import './dsct.css';
 
 
 
-const EffectDescription = ({img,text}) => <div className="about">
+const EffectDescription = ({text}) => <div className="dsct">
 
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
 
-    <div className="about_inner">
-        <div className="about_img"> <img src={img} /></div>
+    <div className="dsct_inner">
+     
         <div className="about_info">{text}</div>
     </div>
 </div>;
