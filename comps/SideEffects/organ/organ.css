@@ -1,8 +1,8 @@
 .organ_img, img {
-    width: 40%;
+    width: 60%;
     position: relative;
-    left: 30%;
     padding: 2px;
+    left: 20%;
 }
 
 
