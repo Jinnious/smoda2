@@ -1,0 +1,10 @@
+.organ_img, img {
+    width: 40%;
+}
+
+
+.organ_name {
+    font-family: 'Fredoka One', cursive;
+    color: #707071;
+    font-size: 25px;
+}
