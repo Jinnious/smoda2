@@ -1,21 +1,17 @@
-.custom_button1_box {
-    display:inline-block;
-    position: relative;
-    width: 40px;
-    border-radius:14px;
+
+.custom_button_box {
+    display:inline-flex;
+    border-radius:19px;
+    width: 100px;
     padding:10px;
+    justify-content: center;
     color: white;
     cursor: pointer;
     box-shadow: 1px 1px 5px #999;
     margin: 5px;
-    text-align: center;
-    align-items: center;
-   
-}
-.custom_button1_box_inner {
-    
-    padding: 5px;
-    
+
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
 }
 
 .custom_button1_box_inner::selection {

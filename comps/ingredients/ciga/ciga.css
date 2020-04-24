@@ -7,51 +7,51 @@
 }
 
 .dot_ben {
-    height: 25px;
-    width: 25px;
+    height: 8%;
+    width: 3%;
     background-color: #588B8B;
     position: absolute;
     border-radius: 50%;
-    top: 210px;
-    left: 150px;
+    bottom: 30%;
+    left: 15%;
 }
 
 .dot_but {
-    height: 25px;
-    width: 25px;
+    height: 8%;
+    width: 3%;
     background-color: #707071;
     border-radius: 50%;
     position: absolute;
-    top: 230px;
-    left: 300px;
+    top: 67%;
+    left: 33%;
 }
 
 .dot_tar {
-    height: 25px;
-    width: 25px;
+    height: 8%;
+    width: 3%;
     background-color: #4469E3;
     border-radius: 50%;
     position: absolute;
-    top: 210px;
-    left: 370px;
+    bottom: 30%;
+    left: 42%;
 }
 
 .dot_ammo {
-    height: 25px;
-    width: 25px;
+    height: 8%;
+    width: 3%;
     background-color: #F28F3C;
     border-radius: 50%;
     position: absolute;
-    top: 250px;
-    left: 220px;
+    top: 72%;
+    left: 23%;
 }
 
 .dot_nic {
-    height: 25px;
-    width: 25px;
+    height: 8%;
+    width: 3%;
     background-color: #C8553D;
     border-radius: 50%;
     position: absolute;
-    top: 240px;
-    left: 80px;
+    top: 70%;
+    left: 9%;
 }
