@@ -1,5 +1,5 @@
 import React from 'react';
-import './question.css';
+import './answer.css';
 import BasicButton from '../../buttons/button1';
 
 const defaultImg = require('./circle.png');
