@@ -2,4 +2,6 @@
 
     align-self: flex-end;
     float: right;
+    width:450px;
+    margin-left:20px;
 }
