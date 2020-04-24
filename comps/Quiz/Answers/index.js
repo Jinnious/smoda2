@@ -32,7 +32,7 @@ QuestionAnswer.defaultProps = {
     img1:defaultImg,
     img2:defaultImg2,
     text1: "Is nicotine an ingredient of cigarette?",
-    text2: "Yes. Nicotine is an ingredient of cigarette."
+    text2: "Yes. Nicotine is an ingredient of cigaretteh."
 }
 
 
