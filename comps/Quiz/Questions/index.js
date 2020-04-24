@@ -9,7 +9,7 @@ const defaultImg2 = require('./wrong.png');
 const Questions = ({img1,img2,text}) => <div className="about">
 
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
-    <div className="about_inner">
+    <div className="question_inner">
     <div className="about_info">{text}
     <div className="quizicon">
     <div className="right"> <img src={img1} /></div>
@@ -17,8 +17,9 @@ const Questions = ({img1,img2,text}) => <div className="about">
    </div>
    </div>
 
- <p><BasicButton text="Back" bgcolor="rgb(105,138,137)"/>
- <BasicButton text="Next" bgcolor="rgb(99,77,55)"/></p>
+ <p className="quizbuttons">
+     <div className="quizback"><BasicButton text="Back" bgcolor="rgb(105,138,137)"/></div>
+ <div className="quiznext"><BasicButton text="Next" bgcolor="rgb(99,77,55)"/></div></p>
 
   
   
