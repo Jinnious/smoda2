@@ -1,15 +1,18 @@
 .soundiconwithtext img{
     width: 30px;
-}
+    margin: 2px;
 
+}
 .soundicon{
     display: block;
-    
+   
 }
 
 
 .soundiconwithtext {
+    font-family: 'Fredoka One', cursive;
     display: inline-block;
     margin: 20px;
+    color: #707071;
 
 }
