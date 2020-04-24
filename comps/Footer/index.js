@@ -1,16 +1,18 @@
 
 import React from 'react';
 import './footer.css';
-
-// const defaultImg = require('./Logo.png');
-
-// const Footer = ({img}) => <div className="header">
-//     <div className="header_img"> <img src={img} /></div>
-// </div>;
-
-// Footer.defaultProps = {
-//     img:defaultImg
-// }
+import BasicButton from '../buttons/button1';
 
 
-// export default Footer;
+const Footer = () => <div className="footer">
+
+
+        <div className="button_down"><BasicButton /></div>
+
+</div>;
+
+Footer.defaultProps = {
+}
+
+
+export default Footer;

@@ -2,6 +2,9 @@ import React from 'react';
 import BasicButton from '../comps/buttons/button1';
 import StartButton from '../comps/buttons/button2';
 import OptionButton from '../comps/buttons/button3';
+import drk from '../comps/buttons/button3/beer.png';
+import LanguageButton from '../comps/buttons/button4';
+
 
 
 export default {
@@ -68,7 +71,26 @@ export const Buttons3 = () => <div>
 <div>
 <OptionButton text="Smoking" bgcolor="#c8553D" />
 </div>
+
+<div>
+<OptionButton text="Drinking" bgcolor="#588B8B" img={drk} />
+</div>
 </div>
 
+
+
+export const DefaultButton4 = () => <LanguageButton />;
+
+export const Buttons4 = () => <div>
+<div>
+<LanguageButton  />
+</div>
+<div>
+<LanguageButton text="Japanese"  />
+</div>
+<div>
+<LanguageButton text="Chinese"  />
+</div>
+</div>
 
 
