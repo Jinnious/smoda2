@@ -3,7 +3,7 @@
     display:inline-flex;
     border-radius:19px;
     width: 100px;
-    padding:10px;
+    padding:5px;
     justify-content: center;
     color: white;
     cursor: pointer;
@@ -11,7 +11,7 @@
     margin: 5px;
 
     font-family: 'Fredoka One', cursive;
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .custom_button1_box_inner::selection {

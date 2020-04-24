@@ -13,7 +13,7 @@ const OptionButton = ({text, img, bgcolor, onMouseOver, onMouseOut}) => <div
         {text}
      <img src={img}/> 
     </div>
-</div>
+</div>;
 
 OptionButton.defaultProps = {
     text:"Default Button",
