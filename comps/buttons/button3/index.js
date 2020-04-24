@@ -8,9 +8,9 @@ const OptionButton = ({text, img, bgcolor, onMouseOver, onMouseOut}) => <div
     onMouseOver={onMouseOver}
     onMouseOut={onMouseOut}
     >
-    <div className="xc">
+    <div className="optionbutton_box_inner">
         {text}
-        <img src={smk} alt="smk" />
+     <img src={img}/> 
     </div>
 </div>
 
@@ -23,14 +23,14 @@ OptionButton.defaultProps = {
 }
 
 function MouseOver(){
-    document.querySelector(".startbutton_box").style.backgroundColor = "white";
-    document.querySelector(".startbutton_box").style.border = "2px solid #c8553D";
-    document.querySelector(".startbutton_box").style.color = "#c8553D";
+    document.querySelector(".optionbutton_box").style.backgroundColor = "white";
+    document.querySelector(".optionbutton_box").style.border = "2px solid #c8553D";
+    document.querySelector(".optionbutton_box").style.color = "#c8553D";
 }
 function MouseOut(){
-    document.querySelector(".startbutton_box").style.backgroundColor = "#c8553D";
-    document.querySelector(".startbutton_box").style.border = "none";
-    document.querySelector(".startbutton_box").style.color = "white";
+    document.querySelector(".optionbutton_box").style.backgroundColor = "#c8553D";
+    document.querySelector(".optionbutton_box").style.border = "none";
+    document.querySelector(".optionbutton_box").style.color = "white";
 }
 
 

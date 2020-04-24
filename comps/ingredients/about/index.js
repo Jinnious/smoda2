@@ -5,13 +5,21 @@ import BasicButton from '../../buttons/button1';
 const defaultImg = require('./ammonia.png');
 
 const IngredAbout = ({img,text}) => <div className="about">
+<<<<<<< HEAD
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
+=======
+
+>>>>>>> 90f1265d17953b951788e679f4dbbbbc90406a79
     <div className="about_inner">
     <div className="about_img"> <img src={img} /></div>
-    <div className="about_info">{text}</div>
-    <div className="backbutton">
-    <BasicButton text="Back" bgcolor="rgb(105,138,137)"/>
-    </div>
+    <div className="about_info">{text}
+   
+   </div>
+
+   <BasicButton text="Back" bgcolor="rgb(105,138,137)"/>
+  
+  
+
     </div>
 </div>;
 

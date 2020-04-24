@@ -1,0 +1,12 @@
+.languagebutton {
+
+display: inline-block;
+width: 120px;
+height: 35px;
+color: white;
+text-align: center;
+font-size: 26px;
+border-radius: 28px;
+margin: 20px;
+padding: 4px;
+}

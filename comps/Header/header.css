@@ -3,18 +3,37 @@
     cursor: pointer;
     background-color:;
     height:20%;
+align-items: center;
+justify-content: center;
 
 }
 
 
 .header_circle {
-    border-radius: 90%;
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
     position: relative;
-    margin-top: -180px;
+    margin-top: -100px;
+    justify-content: center;
+
 }
 
 .header_box {
     background-color: whitesmoke;
-    height:299px;
+    height:300px;
+    justify-content: center;
+
+}
+
+.header_img {
+max-width: 50%;
+background-color: whitesmoke;
+border-radius: 70%;
+justify-content: center;
+margin-left:200px;
+position: relative;
+margin-top:-180px;
+padding: 28px;
+}
+
+.navright {
 }
