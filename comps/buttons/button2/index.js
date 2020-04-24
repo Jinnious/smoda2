@@ -8,6 +8,7 @@ const StartButton = ({text,  bgcolor, onMouseOver, onMouseOut}) => <div
     onMouseOver={onMouseOver}
     onMouseOut={onMouseOut}
     >
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
     <div className="xc">
         {text}
        
@@ -15,7 +16,7 @@ const StartButton = ({text,  bgcolor, onMouseOver, onMouseOut}) => <div
 </div>
 
 StartButton.defaultProps = {
-    text:"Default Button",
+    text:"Default",
     
     bgcolor: "#c8553D",
     onMouseOver:MouseOver,

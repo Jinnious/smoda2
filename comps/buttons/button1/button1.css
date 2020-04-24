@@ -1,12 +1,15 @@
 .custom_button_box {
     display:inline-flex;
     border-radius:19px;
+    width: 100px;
     padding:10px;
+    justify-content: center;
     color: white;
     cursor: pointer;
     box-shadow: 1px 1px 5px #999;
     margin: 5px;
-
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
 }
 
 .custom_button_box_inner::selection {
