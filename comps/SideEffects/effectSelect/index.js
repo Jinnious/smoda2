@@ -11,8 +11,9 @@ const EffectSelect = () => <div>
     <div className="selectpage">
         <div><SubHeader text="Side-Effects" color="#588B8B"/></div>
         <div className="organ_select">
-            <div className="firstline"><TheOrgan text="Lung" img={lung}/> <TheOrgan text="Heart" img={heart}/></div>
-            <div><TheOrgan text="Mouth" img={mouth}/> <TheOrgan text="Brain" img={brain}/></div>
+            <div className="firstline">
+                <TheOrgan text="Lung" img={lung}/> <TheOrgan text="Heart" img={heart}/></div>
+            <div className="secondline"><TheOrgan text="Mouth" img={mouth}/> <TheOrgan text="Brain" img={brain}/></div>
         </div>
     </div>
 </div>;
