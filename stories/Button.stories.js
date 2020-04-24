@@ -3,6 +3,7 @@ import BasicButton from '../comps/buttons/button1';
 import StartButton from '../comps/buttons/button2';
 import OptionButton from '../comps/buttons/button3';
 import drk from '../comps/buttons/button3/beer.png';
+import LanguageButton from '../comps/buttons/button4';
 
 
 
@@ -53,5 +54,14 @@ export const Buttons3 = () => <div>
 </div>
 </div>
 
+
+
+export const DefaultButton4 = () => <LanguageButton />;
+
+export const Buttons4 = () => <div>
+<div>
+<LanguageButton text="Japanese"  />
+</div>
+</div>
 
 
