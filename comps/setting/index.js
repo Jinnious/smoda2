@@ -1,6 +1,6 @@
 import React from 'react';
 import SettingPage from './icons';
-import SubHeader from '../../comps/subheader';
+import SubHeader from '../subheader';
 import LanguageButton from '../buttons/button4';
 import './settingpage.css';
 
