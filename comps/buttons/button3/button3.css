@@ -18,14 +18,14 @@
 .optionbutton_box_inner
 {
     display: inline-block;
-    padding: 0px;
+    padding: 10px;
    
     
 }
 .optionbutton_box img {
     width: 50px;
     height: 100%;
-    margin-left: 20px;
+    
     left: 0;
 
 }

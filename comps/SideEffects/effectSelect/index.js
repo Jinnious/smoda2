@@ -6,16 +6,25 @@ import lung from '../../../img/good_lung.png';
 import heart from '../../../img/good_heart.png';
 import brain from '../../../img/brain_cover.png';
 import mouth from '../../../img/good_mouth.png';
+import Header from '../../Header';
+import {DefaultButton1} from '../../../stories/Button.stories';
+
 
 const EffectSelect = () => <div>
     <div className="selectpage">
-        <div><SubHeader text="Side-Effects" color="#588B8B"/></div>
+        <Header/>
+
+        <div id="sub"><SubHeader text="Side-Effects" color="#588B8B"/></div>
+
         <div className="organ_select">
             <div className="firstline">
                 <TheOrgan text="Lung" img={lung}/> <TheOrgan text="Heart" img={heart}/></div>
             <div className="secondline"><TheOrgan text="Mouth" img={mouth}/> <TheOrgan text="Brain" img={brain}/></div>
         </div>
+        <DefaultButton1/>
     </div>
+
+   
 </div>;
 
 export default EffectSelect;

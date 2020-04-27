@@ -1,20 +1,23 @@
 .selectpage {
     margin: 0;
     background-color: #FFF8E2;
-    width: 100vw;
-    height: 100vh;
-    
+    width: 375px;
+    height: 800px;
+    position: absolute;
+    display: block;
     
 }
 
 .organ_select {
     width:100%;
+    margin-top: 30px;
+    margin-bottom: 100px;
 }
 .firstline {
     display: flex;
 }
 
-
 .secondline {
     display: flex;
 }
+

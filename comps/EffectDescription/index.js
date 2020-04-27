@@ -20,7 +20,10 @@ const EffectDescription = ({text,img,img2}) => <div className="dsct">
         <div className="des_img"> <img src={img} /></div>
         
     </div>
+
     <Button1 />
+
+
 
     </div>
 </div>;

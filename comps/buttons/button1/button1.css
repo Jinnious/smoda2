@@ -2,7 +2,7 @@
 .custom_button_box {
     display:inline-flex;
     border-radius:19px;
-    width: 100px;
+    width: 110px;
     padding:5px;
     justify-content: center;
     color: white;
@@ -12,8 +12,8 @@
 
     font-family: 'Fredoka One', cursive;
     font-size: 24px;
-    margin:36px;
-    margin-left: 40px;
+    margin:30px;
+    margin-left: 30px;
 }
 
 .custom_button1_box_inner::selection {

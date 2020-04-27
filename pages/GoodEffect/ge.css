@@ -1,0 +1,36 @@
+
+.gepage {
+position: absolute;
+width: 375px;
+height:800px;
+background-color: lightyellow;
+align-items: center;
+justify-content: center;
+font-family: 'Fredoka One', cursive;
+
+}
+
+#ciga img {
+    display: flex;
+    margin-left: 14%;
+    width: 60%;
+    height: 50%;
+}
+#ciga p {
+    float: right;
+    margin-right: 30px;
+
+}
+#org img{
+
+    width: 90%;
+    height: 90%;
+}
+
+.bodycontents {
+margin-left: 20px;
+align-items: center;
+justify-content: center;
+margin-bottom: 30px;
+
+}
