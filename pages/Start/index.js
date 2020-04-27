@@ -19,8 +19,8 @@ const StartPage = ({Logo,Icon}) => <div id="startpage">
         <img src={Logo} />
 
 
-<StartButton text="Start"/>
-<SubHeader text="About us" color="#588B8B" fontSize={30}/>
+< StartButton text="Start" /> 
+<SubHeader text="About us" color="#588B8B" fontSize={20}/>
 
 </div>
 
