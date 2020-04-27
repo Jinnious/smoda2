@@ -14,6 +14,7 @@
 }
 
 .des_img img{
+
     left: 0;
     width:100%;
     justify-content: center;
@@ -23,10 +24,11 @@
 
 
 .des_img1 img {
+margin-top: -50px;
 width: 90%;
 height: 90%;
 margin-left: 5%;
-margin-bottom: 20px;
+margin-bottom: 10px;
 justify-content: center;
 align-items: center;
 align-content: center;
@@ -38,7 +40,7 @@ align-content: center;
 .dsct {
     position: absolute;
     width: 375px;
-    height:815px;
+    height:800px;
     background-color: lightyellow;
  
  
@@ -46,7 +48,10 @@ align-content: center;
 
 
 .bodycontents {
+
     justify-content: center;
     align-items: center;
     align-content: center;
 }
+
+
