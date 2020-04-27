@@ -1,0 +1,22 @@
+
+
+.stack {
+    margin-top: -150px;
+    width: 375px;
+    height: 100px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    
+
+}
+
+.stack_inner{
+    text-align: center;
+    position: relative;
+    align-self: center;
+    align-content: center;
+    bottom: -40px;
+   
+}

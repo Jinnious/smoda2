@@ -11,8 +11,8 @@ const OptionButton = ({text, img, bgcolor, onMouseOver, onMouseOut}) => <div
     <div className="optionbutton_box_inner">
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
         {text}
-     <img src={img}/> 
     </div>
+    <img src={img}/> 
 </div>;
 
 OptionButton.defaultProps = {
