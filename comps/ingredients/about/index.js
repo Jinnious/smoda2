@@ -1,6 +1,7 @@
 import React from 'react';
 import './about.css';
 import BasicButton from '../../buttons/button1';
+import Headers from '../../Header';
 
 const defaultImg = require('./ammonia.png');
 
@@ -8,6 +9,8 @@ const IngredAbout = ({img,text}) => <div className="about">
 
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
 
+    <div className="head"><Headers /></div>
+    <div></div>
     <div className="about_inner">
         <div className="about_img"> <img src={img} /></div>
         <div className="about_info">{text}</div>
