@@ -21,14 +21,16 @@ margin-left:30px;
 }
 
 
-.des_img1 {
-    width:500px;
-height:280px;
-padding-top:150px;
+.des_img1 img {
+width: 80%;
+height: 80%;
+margin-left: 10%;
+padding-top:50px;
+padding-bottom: 30px;
 justify-content: center;
 align-items: center;
 align-content: center;
-margin-left:-60px;
+
 
 
 }
@@ -37,9 +39,12 @@ margin-left:-60px;
     width: 375px;
     height:815px;
     background-color: lightyellow;
+ 
+}
+
+
+.bodycontents {
     justify-content: center;
     align-items: center;
     align-content: center;
-
 }
-
