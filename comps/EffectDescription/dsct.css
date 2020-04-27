@@ -25,7 +25,7 @@ margin-left:30px;
 width: 80%;
 height: 80%;
 margin-left: 10%;
-padding-top:150px;
+padding-top:50px;
 padding-bottom: 30px;
 justify-content: center;
 align-items: center;
@@ -39,9 +39,12 @@ align-content: center;
     width: 375px;
     height:815px;
     background-color: lightyellow;
+ 
+}
+
+
+.bodycontents {
     justify-content: center;
     align-items: center;
     align-content: center;
-
 }
-
