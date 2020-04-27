@@ -1,0 +1,13 @@
+.setting, img {
+    width: 50px;
+    position: absolute;
+    right: 10%;
+    margin-top: 20px;
+}
+
+.logo, img {
+    width: 50%;
+    display: block;
+    position: absolute;
+    right: 30%;
+}
