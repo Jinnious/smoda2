@@ -1,0 +1,28 @@
+
+#startpage {
+
+    position: relative;
+    display: flex;  
+   
+
+}
+
+
+#settingicon {
+
+   width: 30px;
+   height: 30px;
+  left: 50%;
+
+}
+
+
+
+.startpage_inner {
+    margin: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: block;
+
+}
