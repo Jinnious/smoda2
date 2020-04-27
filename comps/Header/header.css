@@ -2,11 +2,10 @@
     color:white;
     cursor: pointer;
     background-color:white;
-align-items: center;
-justify-content: center;
-width:375px;
-
-margin-bottom: 150px;
+    align-items: center;
+    justify-content: center;
+    width:375px;
+    margin-bottom: 150px;
 }
 
 
@@ -21,20 +20,21 @@ margin-bottom: 150px;
 }
 
 .header_box {
-    background-color: whitesmoke;
+    background-color: #FFF;
     height:100px;
     justify-content: center;
 
 }
 
 .header_img {
-max-width: 50%;
-background-color: whitesmoke;
+max-width: 30%;
+background-color: #FFF;
 border-radius: 100%;
 justify-content: center;
 position: relative;
-left:20%;
-padding:13px;
+left:24%;
+top: 0px;
+padding:27px;
 
 }
 
