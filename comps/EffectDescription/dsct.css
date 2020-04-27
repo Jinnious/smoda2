@@ -14,7 +14,7 @@
 
 }
 .effect_head {
-    height: 170px;
+    height: 130px;
 }
 
 .des_img img{
@@ -67,6 +67,16 @@ align-content: center;
 
 .effect_footer_button{
     position: relative;
-    top: -30px;
+    top: -32px;
     left: -7px;
+}
+
+.badorgan_name{
+    font-family: 'Fredoka One', cursive;
+    color: #707071;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    position: relative;
+    left: 35%;
 }

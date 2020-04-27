@@ -30,11 +30,19 @@
 
 }
 
+.answertext{
+  font-size: 20px;
+  padding-bottom: 50px;
+}
 .quizbuttons {
-  margin-top: 50px;
-    display:flex;
-   
+  margin-top: 80px;
+  display:flex;
 
+}
+
+.question_answer {
+  margin: 10px;
+  font-size: 20px;
 }
 
 .quizback {
@@ -49,8 +57,23 @@
  
 }
 
+.about_info{
+  position: relative;
+  left: 5px;
+  margin-top: -20px;
+}
 .about_info img{
 
   width: 70%;
   position: relative;
+}
+
+
+.subhead_quiz_answer {
+  color: #F28F3C;
+  font-size: 45px;
+  font-family: 'Fredoka One', cursive;
+  position: relative;
+  top: -60px;
+  left: 30%;
 }
