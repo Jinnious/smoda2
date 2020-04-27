@@ -2,12 +2,13 @@
     font-family: 'Fredoka One', cursive;
     display: inline-block;
     background-color: #FFF8E2;
-    margin: auto;
-    width: 100vw;
-    height: 100vh;
+
+    width: 375px;
+    height: 812px;
     align-content: center;
     justify-content: center;
-    padding: 10px;
+    position: absolute;
+
 }
 
 .ciga_title {
@@ -18,7 +19,6 @@
 
 .cigaImg {
     position: relative;
-    max-width: 70%;
     margin-top: 20%;
     left: 14%;
 }
