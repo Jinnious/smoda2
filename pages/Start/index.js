@@ -7,7 +7,7 @@ import './start.css';
 
 
 const defaultLogo = require('../../comps/logo/logo.png');
-const defaultIcon = require('../../comps/setting/icons/settings.png');
+const defaultIcon = require('../../comps/icons/settings.png');
 
 
 const StartPage = ({Logo,Icon,Aboutus}) => <div id="startpage">

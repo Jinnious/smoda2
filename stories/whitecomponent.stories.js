@@ -14,10 +14,14 @@ import { Mouthsubhead } from './subhead.stories';
 import { Brainsubhead } from './subhead.stories';
 
 
+
 export default {
     title: 'EffectDescription',
     componets: EffectDescription
 };
+
+
+
 
 
 export const LungD = () => <div><Lungsubhead /><EffectDescription img2={bad_lung} /></div>
@@ -26,6 +30,11 @@ export const LungD2 = () => <div><Lungsubhead /><EffectDescription text="Smoking
                                     </div>
 export const LungD3 = () => <div><Lungsubhead /><EffectDescription text="" img={lung} img2={bad_lung}/>
                                 </div>
+
+
+
+
+
 
 export const HeartD= () => <div><Heartsubhead /><EffectDescription img2={bad_heart} text="Smoking damages your heart and your blood circulation, increasing the risk of conditions such as coronary heart disease, heart attack, stroke." />
                         </div>

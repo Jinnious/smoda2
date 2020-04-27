@@ -6,15 +6,17 @@ align-items: center;
 justify-content: center;
 width:375px;
 
+margin-bottom: 150px;
 }
 
 
 .header_circle {
-    /* background-color: whitesmoke; */
+
     position: relative;
     /* margin-top: -100px; */
     justify-content: center;
     margin-top:0;
+    
 
 }
 
@@ -33,5 +35,16 @@ justify-content: center;
 position: relative;
 left:20%;
 padding:13px;
+
 }
 
+
+.hambur img{
+    top: 0;
+    width: 20%;
+    height: 30%;
+    float: right;
+    margin-top: 5px;
+   
+
+}

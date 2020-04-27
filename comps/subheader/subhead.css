@@ -1,10 +1,14 @@
 
 
-
 .subhead {
     font-family: 'Fredoka One', cursive;
-   padding-left:130px;
-   position: fixed;
-   padding-top:145px;
+    left: 17%;
+    position: absolute;
+    top: 20%;
+    padding-bottom: 20px;
+    z-index: 1;
+    text-align: center;
+
+
 }
 
