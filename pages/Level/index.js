@@ -1,7 +1,7 @@
 import React from 'react';
 import BasicButton from '../../comps/buttons/button2';
 import AdvancedButton from '../../comps/buttons/button2';
-import SubHeader from '../../comps/subheader';
+
 import './level.css';
 
 

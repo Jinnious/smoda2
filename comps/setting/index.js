@@ -1,5 +1,5 @@
 import React from 'react';
-import SettingPage from './icons';
+import SettingIcon from './icons';
 import SubHeader from '../subheader';
 import LanguageButton from '../buttons/button4';
 import './settingpage.css';
@@ -21,7 +21,7 @@ const SettingPage2 = ({}) =>
 
     <SubHeader text="Sound" color="#588B8B"/>
 
-    <SettingPage />
+    <SettingIcon />
 
     <SubHeader text="Language" color="#F28F3B"/>
     <div className="buttons">
