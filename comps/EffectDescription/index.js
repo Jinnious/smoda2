@@ -8,11 +8,13 @@ import SubHeader from '../../comps/subheader';
 
 
 
-const EffectDescription = ({text,img,img2}) => <div className="dsct">
+const EffectDescription = ({text,img,img2,organ_name}) => <div className="dsct">
      <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
 
-    <Header />
- 
+    <div className="effect_head"><Header /></div>
+    <div className="organ_name">{organ_name}</div>
+
+
     <div className="bodycontents">
     <div className="des_img1"> <img src={img2} /></div>
     <div className="dsct_inner">
@@ -31,7 +33,7 @@ const EffectDescription = ({text,img,img2}) => <div className="dsct">
 EffectDescription.defaultProps = {
 
     text: "Your lungs can be very badly affected by smoking. Coughs, colds, wheezing and asthma are just the start.",
-   
+    organ_name:"organ"
 }
 
 

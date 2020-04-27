@@ -22,7 +22,8 @@
     display: flex;
 }
 
-.back {
+.back_button {
     position: relative;
     left: 25%;
+    top: -60px;
 }
