@@ -10,7 +10,7 @@
 
 .quizicon img{
   display: block;
-  position: relative;
+  position: absolute;
   width: 40%;
   height: 40%;
   margin: 10px;
@@ -50,5 +50,7 @@
 }
 
 .about_info img{
+
   width: 70%;
+  position: relative;
 }

@@ -31,7 +31,7 @@ AboutPage.defaultProps = {
     name1:"About us",
     Icon:defaultIcon,
     text:
-    "Welcome to smoda which is an educational application about teaching Smoking and Drinking awareness"
+    "Welcome to smoda which is an educational application about teaching Smoking and Drinking awareness to Grade 2-7."
 }
 
 
