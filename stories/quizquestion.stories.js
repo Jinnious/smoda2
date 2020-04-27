@@ -4,7 +4,6 @@ import React from 'react';
 import Questions from '../comps/Quiz/Questions';
 import QuizSubHead1  from './subhead.stories';
 import SubHeader from '../comps/subheader';
-import QuestionAnswer from '../comps/Quiz/Questions';
 import {GoHome} from './Button.stories';
 
 
