@@ -12,10 +12,12 @@ const Questions = ({img1,img2,text}) => <div className="background">
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
     <div className="question_inner">
     <div className="about_info">{text}
+
     <div className="quizicon">
-    <div className="right"> <img src={img1} /></div>
-    <div className="wrong"> <img src={img2} /></div>
+ <img src={img1} />
+  <img src={img2} />
    </div>
+
    </div>
 <div className="quizbuttons">
 <Button1 />
