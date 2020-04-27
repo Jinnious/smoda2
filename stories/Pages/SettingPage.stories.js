@@ -1,9 +1,10 @@
 import React from 'react';
-import Setting from '../../pages/Setting';
+import SettingPage from '../../pages/Setting';
+
 
 export default {
     title: 'SettingPage',
   
 };
 
-export const MySettingPage = () => <Setting/>;
+export const MySettingPage = () => <SettingPage/>;
