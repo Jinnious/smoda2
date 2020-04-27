@@ -1,14 +1,36 @@
-#setting_inner{
-    display:flexbox;
-    border: solid 5px #C8553D;
-    border-radius: 10px;
-    width: 300px;
-    justify-content: center;
-    flex-direction: column;
-    align-content: center;
-    place-content: center;
+#settingpage{
+
+
+    position: absolute;;
+    display: block;  
+    width: 375px;
+    height: 800px;
+    font-family: 'Fredoka One', cursive;
+
 }
 
+#logo img{
+    margin-left: 50px;
+    width: 80%;
+    height: 80%;
+    margin-bottom: 10px;
+}
+
+
+#setting_inner{
+    display: inline;
+    border-radius: 10px;
+    margin: 20px;
+}
+#outline{
+
+   border: solid 5px #C8553D;
+   width: 330px;
+    height: 500px;
+   border-radius: 35px;
+   margin: 10px;
+   padding: 10px;
+}
 #setting {
     display: inline-flex;
     flex-direction: column;
@@ -16,5 +38,14 @@
     align-items: center;
 
 }
+.buttons{
+    margin-left: 10px;
+}
+.texts {
 
+    font-size: 47px;
+    text-align: center;
+    margin-bottom: 15px;
 
+}
+ 
