@@ -12,6 +12,11 @@
 
 .cigainfo {
     position: relative; 
+    top: -30px;
+}
+
+.subhead_ingred {
+    height: 0px;
 }
 
 .ingred_line_one {
@@ -66,3 +71,8 @@
 }
 
 
+.button_ingred {
+    position: relative;
+    left: 15px;
+    bottom: 30px;
+}

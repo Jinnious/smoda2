@@ -19,7 +19,7 @@ const SmokIngred = () => <div className="smoking">
     <div className="cigaImg"><SmokCiga /></div>
 
 
-    <div className="footerbutton"><Button1 /></div>
+    <div className="footerbutton_ingred"><Button1 /></div>
 </div>;
 
 
