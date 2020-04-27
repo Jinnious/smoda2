@@ -2,19 +2,22 @@
     text-align: justify;
     width:375px;
     height:812px;
+    background-color: #FFF8E2;
   
 }
 
+.head{
+    height: 170px;
+}
 .about_inner {
     display: inline-block;
-    background-color: #FFF8E2;
-    margin: auto;
+    margin-top: 40px;
     width: 300px;
     align-content: center;
     justify-content: center;
     align-items: center;
-    padding: 10px;
-    margin: 10px;
+    position: relative;
+    left: 14%;
 }
 
 .about_info {
@@ -23,20 +26,19 @@
     color: #707071;
     text-align: center;
     margin: 10px;
- 
+    position: relative;
+    left: -15px;
 }
 
 .about_img img{
-    margin: 10px;
     width:  270px;
     border-radius: 10px;
     height: auto;
-    left: 0;
 }
 
 
 
 .backbutton {
     position: relative;
-    left: 25%;
+    left: 17%;
 }
