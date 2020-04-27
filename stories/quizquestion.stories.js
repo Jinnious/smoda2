@@ -47,14 +47,14 @@ export const Quiz5 = () =>
 
 
 
-export const Result = () => 
+// export const Result = () => 
 
-<div>
-        <div><SubHeader text="Congrats!  You finished the Quiz"
+// <div>
+//         <div><SubHeader text="Congrats!  You finished the Quiz"
         
-        color="#F28F3C"/></div>
+//         color="#F28F3C"/></div>
 
-        <GoHome/>
+//         <GoHome/>
 
-</div>
+// </div>
 
