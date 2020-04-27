@@ -1,0 +1,17 @@
+
+
+#levelpage{
+width: 312px;
+height: 800px;
+position: absolute;
+font-family: 'Fredoka One', cursive;
+
+}
+
+.gradetext{
+
+    color: #707071;
+    margin: 15px;
+    align-items: center;
+    text-align: center;
+}
