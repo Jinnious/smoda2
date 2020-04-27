@@ -3,55 +3,56 @@
 }
 
 .ciga img{
-    max-width: 50%;
+    width: 70%;
+    height: 70%;
 }
 
 .dot_ben {
-    height: 8%;
-    width: 3%;
+   width: 20px;
+   height: 20px;
     background-color: #588B8B;
     position: absolute;
     border-radius: 50%;
     bottom: 30%;
-    left: 40%;
+    left: 25%;
 }
 
 .dot_but {
-    height: 8%;
-    width: 3%;
+    width: 20px;
+   height: 20px;
     background-color: #707071;
     border-radius: 50%;
     position: absolute;
     top: 67%;
-    left: 56%;
+    left: 50%;
 }
 
 .dot_tar {
-    height: 8%;
-    width: 3%;
+    width: 20px;
+   height: 20px;
     background-color: #4469E3;
     border-radius: 50%;
     position: absolute;
     bottom: 30%;
-    left: 62%;
+    left: 60%;
 }
 
 .dot_ammo {
-    height: 8%;
-    width: 3%;
+   width: 20px;
+   height: 20px;
     background-color: #F28F3C;
     border-radius: 50%;
     position: absolute;
     top: 72%;
-    left: 45%;
+    left: 35%;
 }
 
 .dot_nic {
-    height: 8%;
-    width: 3%;
+    width: 20px;
+    height: 20px;
     background-color: #C8553D;
     border-radius: 50%;
     position: absolute;
     top: 70%;
-    left: 30%;
+    left: 15%;
 }
