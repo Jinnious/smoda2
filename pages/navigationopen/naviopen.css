@@ -33,11 +33,11 @@
 .navbox {
     height:160px;
     width:375px;
-    background-color: #707071;
+    background-color:rgb(192, 68, 23) ;
     justify-content: center;
     align-items: center;
     align-content: center;
-
+margin-top:-480px;
 }
 
 
@@ -54,11 +54,15 @@
 }
 
 #firsttext {
-    top:325px;
+    top:10px;
+    position: relative;
+    margin-left:-200px;
 }
 
 #secondtext {
-    top:400px;
+    top:10px;
+    position: relative;
+    margin-left:-200px;
 }
 
 .navtextcontainer {
@@ -67,7 +71,7 @@
     align-items: center;
     height:140px;
     width:320px;
-    background-color: #bbbbbb;
+    background-color: rgb(226, 107, 86);
 margin-left:28px;
 padding-top:10px;
 }
