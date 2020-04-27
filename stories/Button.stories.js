@@ -15,6 +15,9 @@ export default {
 export const DefaultButton1 = () => <BasicButton 
 text="Back" bgcolor="rgb(105,138,137)"/>;
 
+export const GoHome = () => <BasicButton 
+text="Go home" />;
+
 export const Button1 = () => <div>
     <BasicButton text="Next" />
     <BasicButton text="Back" bgcolor="rgb(105,138,137)"/>
