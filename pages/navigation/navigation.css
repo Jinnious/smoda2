@@ -18,7 +18,7 @@
 .first img{
     width:50px;
     position: absolute;
-    margin-top:-60px;
+    margin-top:60px;
     margin-left:310px;
 }
 
@@ -26,6 +26,33 @@
 .second img{
     width:50px;
     position: absolute;
-    margin-top:-60px;
+    margin-top:160px;
     margin-left:310px;
+}
+
+.nav_bgcolor {
+    width:375px;
+    height:250px;
+    background-color: rgb(192, 68, 23);
+    margin-top:-160px;
+}
+
+.navtext1 {
+    font-family: 'Fredoka One', cursive;
+    left: 12%;
+    position: absolute;
+    top: 22%;
+    padding-bottom: 20px;
+    z-index: 1;
+    text-align: center;
+    font-size: 42px;
+    color:white;
+}
+
+#basicnav{
+margin-left:-100px;}
+
+#advancednav{
+    margin-left:-100px;
+margin-top:90px;
 }
