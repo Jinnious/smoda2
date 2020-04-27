@@ -12,6 +12,8 @@
 
     font-family: 'Fredoka One', cursive;
     font-size: 24px;
+    margin:36px;
+    margin-left: 40px;
 }
 
 .custom_button1_box_inner::selection {

@@ -1,10 +1,14 @@
-.dsct{
+.dsct_inner{
 
     border: solid 5px #707071;
     width:300px;
     border-radius: 20px;
     padding: 5px;
-   
+   background-color:white;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+margin-left:30px;
 
 }
 
@@ -15,3 +19,27 @@
     align-items: center;
     align-content: center;
 }
+
+
+.des_img1 {
+    width:500px;
+height:280px;
+padding-top:200px;
+justify-content: center;
+align-items: center;
+align-content: center;
+margin-left:-60px;
+
+
+}
+
+.dsct {
+    width: 375px;
+    height:815px;
+    background-color: lightyellow;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
