@@ -3,7 +3,7 @@ import './dsct.css';
 import BasicButton from '../buttons/button1';
 import { Button1 } from '../../stories/Button.stories';
 import Header from '../Header'
-
+import SubHeader from '../../comps/subheader';
 
 
 
@@ -12,7 +12,7 @@ const EffectDescription = ({text,img,img2}) => <div className="dsct">
      <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
 
     <Header />
-
+    
     <div className="bodycontents">
     <div className="des_img1"> <img src={img2} /></div>
     <div className="dsct_inner">

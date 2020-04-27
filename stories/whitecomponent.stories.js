@@ -14,6 +14,7 @@ import { Mouthsubhead } from './subhead.stories';
 import { Brainsubhead } from './subhead.stories';
 
 
+
 export default {
     title: 'EffectDescription',
     componets: EffectDescription
