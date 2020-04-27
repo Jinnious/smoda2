@@ -10,6 +10,18 @@ font-family: 'Fredoka One', cursive;
 
 }
 
+
+.subhead_organ {
+    color: #588B8B;
+    font-size: 45px;
+    position: relative;
+    left: 102px;
+    top: -20px;
+    margin-bottom: 40px;
+}
+
+
+
 #ciga img {
     display: flex;
     margin-left: 14%;
@@ -33,4 +45,9 @@ align-items: center;
 justify-content: center;
 margin-bottom: 30px;
 
+}
+
+.footbutton {
+    position: relative;
+    left: 15px;
 }

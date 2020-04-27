@@ -2,6 +2,7 @@
 
     border: solid 5px #707071;
     width:300px;
+    margin-top: -12px;
     border-radius: 20px;
     padding: 5px;
    background-color:white;
@@ -27,7 +28,6 @@
 margin-top: -30px;
 width: 90%;
 height: 90%;
-margin-left: 5%;
 margin-bottom: 10px;
 justify-content: center;
 align-items: center;
@@ -47,6 +47,12 @@ align-content: center;
  
 }
 
+.about_info_effect {
+    font-family: 'Fredoka One', cursive;
+    color: #707071;
+    margin: 12px;
+}
+
 
 .bodycontents {
 
@@ -56,3 +62,8 @@ align-content: center;
 }
 
 
+.effect_footer_button{
+    position: relative;
+    top: -30px;
+    left: -7px;
+}
