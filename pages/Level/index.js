@@ -9,7 +9,7 @@ import './level.css';
 
 const defaultLogo = require('../../comps/logo/logo.png');
 
-const LevelPage = ({Logo,GradeText,GradeText2}) => <div id="levelpage">
+const LevelPage = ({Logo,GradeText,GradeText2,Aboutus}) => <div id="levelpage">
     
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
 
@@ -28,7 +28,7 @@ const LevelPage = ({Logo,GradeText,GradeText2}) => <div id="levelpage">
     </div>
     </div>
 
-    <SubHeader text="Tutorial" color="#588B8B" fontSize={20}/>
+    <div id="aboutus">{Aboutus}</div>
 
     
 </div>
@@ -40,7 +40,7 @@ const LevelPage = ({Logo,GradeText,GradeText2}) => <div id="levelpage">
 
 
 LevelPage.defaultProps = {
-  
+    Aboutus:"Tutorial",
     Logo:defaultLogo,
     GradeText:"Grade 2-4",
     GradeText2:"Grade 5-7"

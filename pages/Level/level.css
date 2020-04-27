@@ -36,3 +36,13 @@ font-family: 'Fredoka One', cursive;
     margin-top: 0px;
     margin-bottom: 80px;
 }
+
+
+#tutorial {
+    margin: 15px;
+    align-items: center;
+    text-align: center;
+    color:#588B8B;
+    font-size: 20px;
+
+}
