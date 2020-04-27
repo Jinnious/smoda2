@@ -3,8 +3,7 @@
     align-content: center;
     justify-content: center;
     align-items: center;
-    padding-top:80px;
-    padding-bottom:80px;
+    padding-top:50px;
     width:375px;
 }
 
@@ -32,8 +31,9 @@
 
 .quizbuttons {
     display:flex;
-   
-
+    position: relative;
+    left: 12px;
+    bottom: 50px;
 }
 
 .quizback {
@@ -46,4 +46,23 @@
     height:812px;
     position: absolute;
  
+}
+
+.about_info_quiz{
+  font-family: 'Fredoka One', cursive;
+  color: #707071;
+  font-size: 23px;
+  text-align: center;
+  max-width: 300px;
+  position: relative;
+  left: 30px;
+}
+
+.subhead_quiz {
+  color: #F28F3C;
+  font-size: 45px;
+  font-family: 'Fredoka One', cursive;
+  position: relative;
+  top: -60px;
+  left: 30%;
 }

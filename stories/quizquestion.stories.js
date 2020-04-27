@@ -13,37 +13,18 @@ export default {
 };
 
 
-export const Quiz1 = () =><div>
-    <div><SubHeader text="Quiz 1" color="#F28F3C"/></div>
-    <div><Questions /></div>
+export const Quiz1 = () =>
+    <div><Questions subhead="Quiz 1"/></div>
   
 
-</div>
 
-export const Quiz2 = () => <div>
-    <div><SubHeader text="Quiz 2" color="#F28F3C"/></div>
-<div><Questions text="If you smoke, does your brain size increase?"/></div>
-</div>
+export const Quiz2 = () => <Questions text="If you smoke, does your brain size increase?" subhead="Quiz 2"/>
 
-export const Quiz3 = () => <div>
-        <div><SubHeader text="Quiz 3" color="#F28F3C"/></div>
 
-    <div><Questions text="You may have damaged sense of taste if you smoke." /></div>
-    </div>
+export const Quiz3 = () => <Questions text="You may have damaged sense of taste if you smoke." subhead="Quiz 3"/>
 
-export const Quiz4 = () => 
-<div>
-        <div><SubHeader text="Quiz 4" color="#F28F3C"/></div>
-
-    <div><Questions text="Smoking may give higher risks of lung cancer." /></div>
-</div>
-export const Quiz5 = () => 
-
-<div>
-        <div><SubHeader text="Quiz 5" color="#F28F3C"/></div>
-
-    <div><Questions text="Smoking is actually good for your heart, as it increases blood circulations." /></div>
-</div>
+export const Quiz4 = () => <Questions text="Smoking may give higher risks of lung cancer." subhead="Quiz 4"/>
+export const Quiz5 = () => <Questions text="Smoking is actually good for your heart, as it increases blood circulations." subhead="Quiz 5"/>
 
 
 

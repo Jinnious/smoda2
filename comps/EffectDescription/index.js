@@ -16,12 +16,12 @@ const EffectDescription = ({text,img,img2}) => <div className="dsct">
     <div className="bodycontents">
     <div className="des_img1"> <img src={img2} /></div>
     <div className="dsct_inner">
-        <div className="about_info">{text}</div>
+        <div className="about_info_effect">{text}</div>
         <div className="des_img"> <img src={img} /></div>
         
     </div>
 
-    <Button1 />
+    <div className="effect_footer_button"><Button1 /></div>
 
 
 
