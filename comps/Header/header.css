@@ -2,36 +2,49 @@
     color:white;
     cursor: pointer;
     background-color:white;
-    height:20%;
 align-items: center;
 justify-content: center;
+width:375px;
 
+margin-bottom: 150px;
 }
 
 
 .header_circle {
-    /* background-color: whitesmoke; */
+
     position: relative;
     /* margin-top: -100px; */
     justify-content: center;
+    margin-top:0;
+    
 
 }
 
 .header_box {
     background-color: whitesmoke;
-    height:300px;
+    height:100px;
     justify-content: center;
 
 }
 
 .header_img {
-max-width: 70%;
+max-width: 50%;
 background-color: whitesmoke;
-border-radius: 90%;
+border-radius: 100%;
 justify-content: center;
 position: relative;
-padding: 50px;
-left:10%;
-margin-top:-160px;
+left:20%;
+padding:13px;
+
 }
 
+
+.hambur img{
+    top: 0;
+    width: 20%;
+    height: 30%;
+    float: right;
+    margin-top: 5px;
+   
+
+}

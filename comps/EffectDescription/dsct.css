@@ -1,17 +1,58 @@
-.dsct{
+.dsct_inner{
 
     border: solid 5px #707071;
     width:300px;
     border-radius: 20px;
     padding: 5px;
-   
+   background-color:white;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+    /* margin-left:30px; */
+    margin-bottom: 20px;
 
 }
 
-.des_img {
+.des_img img{
+
     left: 0;
     width:100%;
     justify-content: center;
     align-items: center;
     align-content: center;
 }
+
+
+.des_img1 img {
+margin-top: -30px;
+width: 90%;
+height: 90%;
+margin-left: 5%;
+margin-bottom: 10px;
+justify-content: center;
+align-items: center;
+align-content: center;
+
+
+
+}
+
+.dsct {
+    position: absolute;
+    width: 375px;
+    height:800px;
+    background-color: lightyellow;
+
+ 
+ 
+}
+
+
+.bodycontents {
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+

@@ -19,20 +19,20 @@ StartButton.defaultProps = {
     text:"Default",
     
     bgcolor: "#c8553D",
-    onMouseOver:MouseOver,
-    onMouseOut:MouseOut
+    // onMouseOver:MouseOver,
+    // onMouseOut:MouseOut
 }
+///have to figure it out how to apply hovereffect on other buttons
+// function MouseOver(){
+//     document.querySelector(".startbutton_box").style.backgroundColor = "white";
+//     document.querySelector(".startbutton_box").style.border = "2px solid #c8553D";
+//     document.querySelector(".startbutton_box").style.color = "#c8553D";
+// }
+// function MouseOut(){
+//     document.querySelector(".startbutton_box").style.backgroundColor = "#c8553D";
+//     document.querySelector(".startbutton_box").style.border = "none";
+//     document.querySelector(".startbutton_box").style.color = "white";
+// }
 
-function MouseOver(){
-    document.querySelector(".startbutton_box").style.backgroundColor = "white";
-    document.querySelector(".startbutton_box").style.border = "2px solid #c8553D";
-    document.querySelector(".startbutton_box").style.color = "#c8553D";
-}
-function MouseOut(){
-    document.querySelector(".startbutton_box").style.backgroundColor = "#c8553D";
-    document.querySelector(".startbutton_box").style.border = "none";
-    document.querySelector(".startbutton_box").style.color = "white";
-}
-
-
+//
 export default StartButton;

@@ -1,0 +1,49 @@
+
+#startpage {
+
+    position: absolute;;
+    display: block;  
+    width: 375px;
+    height: 812px;
+    font-family: 'Fredoka One', cursive;
+   
+
+}
+
+
+#settingicon {
+
+   width: 30px;
+   height: 30px;
+    margin-left: 90%;
+    margin-top: 20px;
+
+}
+
+.startpage_inner img {
+
+    margin-bottom: 200px;
+    margin-left: 20px;
+    
+}
+
+
+
+.startpage_inner {
+    margin: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: block;
+
+}
+
+
+#aboutus {
+    margin: 15px;
+    align-items: center;
+    text-align: center;
+    color:#588B8B;
+    font-size: 20px;
+
+}

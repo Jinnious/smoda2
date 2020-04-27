@@ -1,0 +1,48 @@
+
+
+#levelpage{
+width: 375px;
+height: 800px;
+position: absolute;
+font-family: 'Fredoka One', cursive;
+
+}
+
+.gradetext{
+
+    color: #707071;
+    margin: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+.levelpage_inner img {
+
+    margin-bottom: 100px;
+    margin-left: 20px;
+}
+
+.levelpage_inner {
+    margin: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: block;
+
+}
+
+.levelpage_inner_option{
+
+    margin-top: 0px;
+    margin-bottom: 80px;
+}
+
+
+#tutorial {
+    margin: 15px;
+    align-items: center;
+    text-align: center;
+    color:#588B8B;
+    font-size: 20px;
+
+}

@@ -1,7 +1,6 @@
 .hamburger_img {
+position: absolute;
+top:-50px;
+max-width:30px;
 
-    align-self: flex-end;
-    float: right;
-    width:450px;
-    margin-left:20px;
 }

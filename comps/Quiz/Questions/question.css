@@ -4,8 +4,19 @@
     justify-content: center;
     align-items: center;
     padding-top:80px;
-    padding-bottom:120px;
-margin-left: -320px;}
+    padding-bottom:80px;
+    width:375px;
+}
+
+.quizicon img{
+  display: block;
+  position: relative;
+  width: 40%;
+  height: 40%;
+  margin: 10px;
+  
+  
+}
 /* 
 .right {
   max-width: px;
@@ -13,26 +24,26 @@ margin-left: -320px;}
 
 .question_inner {
     display: inline-block;
-    background-color: #FFF8E2;
     margin: auto;
-    width: 100%;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    margin: 10px;
+    width: 95%;
+    margin-top:0px;
+
 }
 
 .quizbuttons {
     display:flex;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+   
+
 }
 
 .quizback {
-    padding:100px;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+  margin-left:-30px;
+}
+
+.background {
+    background-color: lightyellow;
+    width:375px;
+    height:812px;
+    position: absolute;
+ 
 }

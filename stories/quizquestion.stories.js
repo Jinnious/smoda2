@@ -4,7 +4,7 @@ import React from 'react';
 import Questions from '../comps/Quiz/Questions';
 import QuizSubHead1  from './subhead.stories';
 import SubHeader from '../comps/subheader';
-import QuestionAnswer from '../comps/Quiz/Questions';
+import {GoHome} from './Button.stories';
 
 
 export default {
@@ -44,3 +44,17 @@ export const Quiz5 = () =>
 
     <div><Questions text="Smoking is actually good for your heart, as it increases blood circulations." /></div>
 </div>
+
+
+
+export const Result = () => 
+
+<div>
+        <div><SubHeader text="Congrats!  You finished the Quiz"
+        
+        color="#F28F3C"/></div>
+
+        <GoHome/>
+
+</div>
+
