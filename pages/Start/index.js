@@ -1,6 +1,6 @@
 import React from 'react';
 import StartButton from '../../comps/buttons/button2';
-import SubHeader from '../../comps/subheader';
+
 
 
 import './start.css';
@@ -10,8 +10,8 @@ const defaultLogo = require('../../comps/logo/logo.png');
 const defaultIcon = require('../../comps/setting/icons/settings.png');
 
 
-const StartPage = ({Logo,Icon}) => <div id="startpage">
-
+const StartPage = ({Logo,Icon,Aboutus}) => <div id="startpage">
+ <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
 
  <img src={Icon} id="settingicon"/> 
 
@@ -20,7 +20,7 @@ const StartPage = ({Logo,Icon}) => <div id="startpage">
 
 
 < StartButton text="Start" /> 
-<SubHeader text="About us" color="#588B8B" fontSize={20}/>
+ <div id="aboutus">{Aboutus}</div>
 
 </div>
 
@@ -29,7 +29,7 @@ const StartPage = ({Logo,Icon}) => <div id="startpage">
 
 
 StartPage.defaultProps = {
-  
+    Aboutus:"About us",
     Logo:defaultLogo,
     Icon:defaultIcon
 }
