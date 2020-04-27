@@ -1,0 +1,31 @@
+#buttons {
+
+    margin-left: 30px;
+}
+
+
+#optionpage {
+
+    width: 375px;
+    height: 812px;
+}
+
+.second {
+ margin-top:150px;
+ 
+}
+
+.first img{
+    width:50px;
+    position: fixed;
+    margin-top:-60px;
+    margin-left:310px;
+}
+
+
+.second img{
+    width:50px;
+    position: fixed;
+    margin-top:-60px;
+    margin-left:310px;
+}
