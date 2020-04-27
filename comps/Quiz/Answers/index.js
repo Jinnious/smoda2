@@ -1,39 +1,38 @@
 import React from 'react';
 import './answer.css';
 import BasicButton from '../../buttons/button1';
-
+import { Button1 } from '../../../stories/Button.stories';
+import Header from '../../Header';
 const defaultImg = require('./circle.png');
-const defaultImg2 = require('./wrong.png');
 
 
-const QuestionAnswer = ({img1,img2,text1,text2}) => <div className="about">
-
+const QuestionsAnswer1 = ({img1,text,text2}) => <div className="background">
+<Header />
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
     <div className="question_inner">
-    <div className="about_info">{text1}
-    <div className="quizicon">
-    <div className="right"> <img src={img1} /></div>
-    <div className="wrong"> <img src={img2} /></div>
+    <div className="about_info">{text}
 
+    <div className="quiziconanswer">
+ <img src={img1} />
    </div>
+<div className="answertext">{text2}</div>
    </div>
-
- <p className="quizbuttons">
-     <div className="quizback"><BasicButton text="Back" bgcolor="rgb(105,138,137)"/></div>
- <div className="quiznext"><BasicButton text="Next" bgcolor="rgb(99,77,55)"/></div></p>
-
+<div className="quizbuttons">
+<Button1 />
+</div>
   
   
 
     </div>
 </div>;
 
-QuestionAnswer.defaultProps = {
+QuestionsAnswer1.defaultProps = {
     img1:defaultImg,
-    img2:defaultImg2,
-    text1: "Is nicotine an ingredient of cigarette?",
-    text2: "Yes. Nicotine is an ingredient of cigaretteh."
+    text: "Is nicotine an ingredient of cigarette?",
+    text2: "Yes, nicontine is an ingredient of cigarette.",
+
+
 }
 
 
-export default QuestionAnswer;
+export default QuestionsAnswer1;
