@@ -24,20 +24,16 @@ export default {
 
 
 export const GoodEffectHeart = () => <div>
-    <Heartsubhead />
-    <GoodEffectPage geimg={good_heart}/> </div>
+    <GoodEffectPage geimg={good_heart} text="Heart"/> </div>
 
 export const GoodEffectLung = () => <div>
-    <Lungsubhead />
-    <GoodEffectPage geimg={good_lung}/>
+    <GoodEffectPage geimg={good_lung} text="Lung"/>
     </div>
 export const GoodEffectMouth = () => <div>
-    <Mouthsubhead />
-    <GoodEffectPage geimg={good_mouth}/></div>
+    <GoodEffectPage geimg={good_mouth} text="Mouth"/></div>
 
 export const GoodEffectBrain = () => <div>
-    <Brainsubhead />
-    <GoodEffectPage geimg={good_brain}/></div>
+    <GoodEffectPage geimg={good_brain} text=" Brain"/></div>
 
 
 

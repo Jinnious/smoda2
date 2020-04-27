@@ -11,8 +11,11 @@
 
 }
 
+
 .ciga_title {
     font-size: 29px;
+    position: relative;
+    top: 10px;
     color: #707071;
     text-align: center;
 }
@@ -20,6 +23,13 @@
 .cigaImg {
     position: relative;
     margin-top: 20%;
+    top: 30px;
     left: 14%;
     margin-bottom: 140px;
+}
+
+.footerbutton_ingred {
+    position: relative;
+    top: 100px;
+    left: 12px;
 }

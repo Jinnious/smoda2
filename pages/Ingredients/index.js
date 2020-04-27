@@ -13,7 +13,7 @@ const IngredPage = () => <div className="ingredpg">
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
     <Header />
 
-    <SubHeader text="Ingredients" color="#C8553D"/>
+    <div className="subhead_ingred"><SubHeader text="Ingredients" color="#C8553D"/></div>
 
     <div className="cigainfo">
         <div className="ingred_line_one">
@@ -29,7 +29,7 @@ const IngredPage = () => <div className="ingredpg">
         </div>
     </div>
 
-    <Button1 />
+    <div className="button_ingred"><Button1 /></div>
 </div>;
 
 
