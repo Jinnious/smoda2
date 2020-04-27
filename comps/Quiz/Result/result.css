@@ -1,49 +1,28 @@
-/* .quizicon {
-    display:flex;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    padding-top:80px;
-    padding-bottom:80px;
-    width:375px;
-}
-
-.quizicon img{
-  display: block;
-  position: relative;
-  width: 40%;
-  height: 40%;
-  margin: 10px;
-  
-  
-}
-/* 
-.right {
-  max-width: px;
-} */
-
-/* .question_inner {
-    display: inline-block;
-    margin: auto;
-    width: 95%;
-    margin-top:0px;
-
-}
-
-.quizbuttons {
-    display:flex;
-   
-
-}
-
-.quizback {
-  margin-left:-30px;
-} */ */
 
 .resultsbackg {
-    background-color: lightyellow;
-    width:375px;
-    height:812px;
-  
+  background-color: lightyellow;
+  width:375px;
+  height:812px;
+  position: absolute;
+  display: block;
+
+
+}
+
+
+#rinner {
  
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+  
+  
+
+
+}
+
+
+
+#button {
+ margin-top: 90%;
+ margin-left: 25%;
 }
