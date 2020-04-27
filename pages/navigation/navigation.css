@@ -17,7 +17,7 @@
 
 .first img{
     width:50px;
-    position: fixed;
+    position: absolute;
     margin-top:-60px;
     margin-left:310px;
 }
@@ -25,7 +25,7 @@
 
 .second img{
     width:50px;
-    position: fixed;
+    position: absolute;
     margin-top:-60px;
     margin-left:310px;
 }

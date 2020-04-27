@@ -1,0 +1,73 @@
+#buttons {
+
+    margin-left: 30px;
+}
+
+
+#optionpage {
+
+    width: 375px;
+    height: 812px;
+}
+
+.second {
+ margin-top:150px;
+ 
+}
+
+.first img{
+    width:50px;
+    position: absolute;
+    margin-top:-60px;
+    margin-left:310px;
+}
+
+
+.second img{
+    width:50px;
+    position: absolute;
+    margin-top:-60px;
+    margin-left:310px;
+}
+
+.navbox {
+    height:160px;
+    width:375px;
+    background-color: #707071;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+
+.navtext {
+    font-family: 'Fredoka One', cursive;
+    left: 12%;
+    position: absolute;
+    top: 22%;
+    padding-bottom: 20px;
+    z-index: 1;
+    text-align: center;
+    font-size: 35px;
+    color:white;
+}
+
+#firsttext {
+    top:325px;
+}
+
+#secondtext {
+    top:400px;
+}
+
+.navtextcontainer {
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height:140px;
+    width:320px;
+    background-color: #bbbbbb;
+margin-left:28px;
+padding-top:10px;
+}
