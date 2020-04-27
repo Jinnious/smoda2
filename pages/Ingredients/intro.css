@@ -9,3 +9,60 @@
     justify-content: center;
     position: absolute;
 }
+
+.cigainfo {
+    position: relative; 
+}
+
+.ingred_line_one {
+    display: flex;
+    position: relative;
+    margin: 0;
+}
+
+
+.benzene {
+    position: relative;
+    left: -10px;
+    bottom: -150px;
+    z-index: 1;
+
+}
+
+.butane {
+    position: relative;
+    left: -60px;
+    bottom: -125px;
+    z-index: 1;
+}
+
+.tar {
+    position: relative;
+    right: 100px;
+    bottom: -150px;
+    z-index: 1;
+}
+
+
+.annmo {
+    position: relative;
+    right: -170px;
+    top: -40px;
+}
+
+.nico {
+    position: relative;
+    right: 200px;
+    top: -50px;
+}
+.cigaImg {
+    position: relative;
+    margin: 0;
+}
+
+.ingred_line_two {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+
