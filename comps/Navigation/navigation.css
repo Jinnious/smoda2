@@ -1,10 +1,6 @@
 .hamburger_img {
-
-    align-self: flex-end;
-    float: right;
-    width:450px;
-    margin-left:20px;
-    position: fixed;
-    top:-50px;
-    right:-80px;
+top:-17px;
+margin-right:100px;
+position: absolute;
+right:-150px;
 }

@@ -12,10 +12,9 @@ const Header = ({img}) => <div className="header">
         <div className="header_circle">
     <div className="header_img"> 
     <img src={img} />
+    </div>
     <div className="navright">
                         <Navigation /></div>
-                        </div>
-    
     </div>
     
     </div>

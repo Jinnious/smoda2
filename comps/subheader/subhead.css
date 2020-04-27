@@ -3,9 +3,8 @@
 
 .subhead {
     font-family: 'Fredoka One', cursive;
-    padding: 20px;
-    text-align: center;
-   
-
+   padding-left:130px;
+   position: fixed;
+   padding-top:145px;
 }
 
