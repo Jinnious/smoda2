@@ -1,7 +1,7 @@
 
 
 #levelpage{
-width: 312px;
+width: 375px;
 height: 800px;
 position: absolute;
 font-family: 'Fredoka One', cursive;
@@ -14,4 +14,25 @@ font-family: 'Fredoka One', cursive;
     margin: 15px;
     align-items: center;
     text-align: center;
+}
+
+.levelpage_inner img {
+
+    margin-bottom: 100px;
+    margin-left: 20px;
+}
+
+.levelpage_inner {
+    margin: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: block;
+
+}
+
+.levelpage_inner_option{
+
+    margin-top: 0px;
+    margin-bottom: 80px;
 }
