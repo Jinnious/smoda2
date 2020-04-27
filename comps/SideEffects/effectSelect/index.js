@@ -21,7 +21,7 @@ const EffectSelect = () => <div>
                 <TheOrgan text="Lung" img={lung}/> <TheOrgan text="Heart" img={heart}/></div>
             <div className="secondline"><TheOrgan text="Mouth" img={mouth}/> <TheOrgan text="Brain" img={brain}/></div>
         </div>
-        <DefaultButton1/>
+        <div className="back"><DefaultButton1/></div>
     </div>
 
    
