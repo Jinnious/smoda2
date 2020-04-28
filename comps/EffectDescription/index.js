@@ -12,7 +12,7 @@ const EffectDescription = ({text,img,img2,organ_name}) => <div className="dsct">
      <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
 
     <div className="effect_head"><Header /></div>
-    <div className="organ_name">{organ_name}</div>
+    <div className="badorgan_name">{organ_name}</div>
 
 
     <div className="bodycontents">
