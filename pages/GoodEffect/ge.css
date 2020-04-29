@@ -22,16 +22,20 @@ font-family: 'Fredoka One', cursive;
 }
 
 
-
 #ciga img {
     display: flex;
+    position: relative;
     margin-left: 14%;
     width: 60%;
     height: 50%;
+    top: -120px;
 }
 #ciga p {
     float: right;
-    margin-right: 30px;
+    right: -100px;
+    position: relative;
+    color:#707070;
+
 
 }
 #org img{
@@ -49,6 +53,18 @@ margin-bottom: 30px;
 }
 
 .footbutton {
+    top: -100px;
     position: relative;
     left: 15px;
+}
+
+
+#gif img{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    float: right;
+    top: -70px;
+    right:20px;
+
 }
