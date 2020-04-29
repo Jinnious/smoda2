@@ -1,13 +1,16 @@
 #topicpage{
 
     width: 375px;
-    height: 800px;
+    height: 816px;
+    margin: -8px;
 }
 
 
 #buttons{
-
+    position: relative;
     margin-top: 200px;
+    left: -15px;
+
 
 }
 

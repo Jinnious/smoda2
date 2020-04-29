@@ -12,6 +12,7 @@
     /* margin-left:30px; */
     margin-bottom: 20px;
 
+
 }
 .effect_head {
     height: 130px;
@@ -43,8 +44,9 @@ align-content: center;
 .dsct {
     position: absolute;
     width: 375px;
-    height:800px;
+    height:816px;
     background-color: #FFF8E2;
+    margin: -10px;
 
  
  
@@ -53,7 +55,8 @@ align-content: center;
 .about_info_effect {
     font-family: 'Fredoka One', cursive;
     color: #707071;
-    margin: 12px;
+    margin: 20px;
+    text-align: center;
 }
 
 
@@ -67,7 +70,7 @@ align-content: center;
 
 .effect_footer_button{
     position: relative;
-    top: -32px;
+    top: -30px;
     left: -7px;
 }
 
@@ -79,4 +82,9 @@ align-content: center;
     margin-bottom: 50px;
     position: relative;
     left: 35%;
+}
+
+#sub{
+    position: relative;
+    top:40px;
 }

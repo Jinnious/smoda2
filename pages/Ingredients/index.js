@@ -8,7 +8,7 @@ import IngName from '../../comps/ingredients/name';
 
 import {Button1} from '../../stories/Button.stories';
 
-const IngredPage = () => <div className="ingredpg">
+const IngredPage = ({}) => <div className="ingredpg">
 
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
     <Header />
@@ -24,11 +24,12 @@ const IngredPage = () => <div className="ingredpg">
 
             <div className="cigaImg"><SmokCiga /></div>
         <div className="ingred_line_two">
-            <div className="annmo"><IngName text="Annmonia" color="#F28F3C" border="#F28F3C 3px solid"/></div>
+            <div className="annmo"><IngName text="Ammonia" color="#F28F3C" border="#F28F3C 3px solid"/></div>
             <div className="nico"><IngName text="Nicotine" color="#C8553D" border="#C8553D 3px solid"/></div>   
         </div>
-    </div>
 
+    </div>
+    <p id="click">Tap each dots!</p>
     <div className="button_ingred"><Button1 /></div>
 </div>;
 

@@ -1,11 +1,12 @@
 #buttons {
 
     margin-left: 30px;
+
 }
 
 
 #optionpage {
-
+    margin: -8px;
     width: 375px;
-    height: 812px;
+    height: 816px;
 }
