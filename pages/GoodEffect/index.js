@@ -4,6 +4,7 @@ import './ge.css';
 import { Button1 } from '../../stories/Button.stories';
 import Header from '../../comps/Header';
 import cigarret from '../../img/smoking.png';
+import arrow3 from './arrow3.gif';
 
 
 
@@ -25,7 +26,7 @@ const GoodEffectPage= ({geimg,cigarret,text,arrow}) => <div className="gepage">
 
 
     <div id="ciga">
-        {/* <img src={arrow}></img> */}
+      <div id="gif"><img src={arrow3}></img></div>  
     <p>Drag me!</p>
     <img src={cigarret}/>
     </div>
@@ -45,7 +46,7 @@ GoodEffectPage.defaultProps = {
 
     cigarret:cigarret,
     text: "organ",
-    // arrow:arrow
+    arrow3:arrow3
  
 }
 
