@@ -4,7 +4,8 @@
     position: absolute;;
     display: block;  
     width: 375px;
-    height: 812px;
+    height: 816px;
+    margin: -10px;
     font-family: 'Fredoka One', cursive;
 
 }

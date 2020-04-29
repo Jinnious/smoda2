@@ -1,7 +1,7 @@
 #aboutpage {
 
     width: 375px;
-    height: 812px;
+    height: 816px;
     font-family: 'Fredoka One', cursive;
     position: absolute;
     color: #588B8B;
@@ -12,14 +12,14 @@
     width: 30px;
     height: 30px;
     float: right;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 #text{
     padding: 20px;
     border: 5px solid  #707071;
-    width: 330px;
-    height: 600px;
+    width: 310px;
+    height: 500px;
     border-radius: 20px;
     margin-top: 50px;
     text-align: center;

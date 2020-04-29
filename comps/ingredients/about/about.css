@@ -1,4 +1,6 @@
 .about {
+
+    margin: -10px;
     text-align: justify;
     width:375px;
     height:812px;
@@ -11,34 +13,39 @@
 }
 .about_inner {
     display: inline-block;
-    margin-top: 40px;
+    margin-top: 25x;
     width: 300px;
     align-content: center;
     justify-content: center;
     align-items: center;
     position: relative;
     left: 14%;
+    
 }
+
 
 .about_info {
     font-family: 'Fredoka One', cursive;
     font-size: 18px;
     color: #707071;
     text-align: center;
-    margin: 10px;
-    position: relative;
-    left: -15px;
+    padding: 20px;
+    position: absolute;
+   margin-left: -30px;
+
 }
 
 .about_img img{
     width:  270px;
     border-radius: 10px;
     height: auto;
+    margin-bottom: 10px;
 }
 
 
 
 .backbutton {
     position: relative;
-    left: 17%;
+    left: 27%;
+    margin-top: -10px;
 }

@@ -8,21 +8,24 @@ import cigarret from '../../img/smoking.png';
 
 
 
-const GoodEffectPage= ({geimg,cigarret,text}) => <div className="gepage">
+
+const GoodEffectPage= ({geimg,cigarret,text,arrow}) => <div className="gepage">
 
 <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
 
 
 <div className="head"> <Header /></div>
 <div className="bodycontents">
-   
+
     <div className="subhead_organ">{text}</div>
    
     <div id="org">
     <img src={geimg}/>
     </div>
 
+
     <div id="ciga">
+        {/* <img src={arrow}></img> */}
     <p>Drag me!</p>
     <img src={cigarret}/>
     </div>
@@ -41,7 +44,8 @@ const GoodEffectPage= ({geimg,cigarret,text}) => <div className="gepage">
 GoodEffectPage.defaultProps = {
 
     cigarret:cigarret,
-    text: "organ"
+    text: "organ",
+    // arrow:arrow
  
 }
 

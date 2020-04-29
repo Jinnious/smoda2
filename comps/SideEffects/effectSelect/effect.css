@@ -1,8 +1,8 @@
 .selectpage {
-    margin: 0;
+    margin: -10px;
     background-color: #FFF8E2;
     width: 375px;
-    height: 800px;
+    height: 816px;
     position: absolute;
     display: block;
     

@@ -1,8 +1,9 @@
 
 .gepage {
+margin: -10px;
 position: absolute;
 width: 375px;
-height:800px;
+height:816px;
 background-color: #FFF8E2;
 align-items: center;
 justify-content: center;

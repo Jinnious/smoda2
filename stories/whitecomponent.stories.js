@@ -21,7 +21,7 @@ export default {
 
 
 
-export const LungD = () => <div><EffectDescription img2={bad_lung} organ_name="Lung"/></div>
+export const LungD = () => <div><EffectDescription img2={bad_lung} /></div>
 
 export const LungD2 = () => <div><EffectDescription text="Smoking puts you at a significantly higher risk of developing lung cancer." img2={bad_lung}/>
                                     </div>
