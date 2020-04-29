@@ -9,8 +9,9 @@
    justify-content: center;
    align-items: center;
    align-content: center;
-    /* margin-left:30px; */
+    margin-left:8px;
     margin-bottom: 20px;
+    margin-top:2px;
 
 
 }
@@ -36,7 +37,7 @@ margin-bottom: 10px;
 justify-content: center;
 align-items: center;
 align-content: center;
-
+margin-left:6px;
 
 
 }
