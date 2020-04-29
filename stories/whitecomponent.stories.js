@@ -47,7 +47,7 @@ export const YellowD2 = () => <div><EffectDescription title="Mouth"img2={bad_mou
 export const YellowD3 = () => <div><EffectDescription title="Mouth"img2={bad_mouth} text="" img={teeth} />
 </div>
 
-export const BrainD = () => <div><EffectDescription title="Brain"img2={bad_brain} text="Smoking causes loss of memory, loss of brain volume. You will also lose control over emotions." />
+export const BrainD = () => <div><EffectDescription title="Brain"img2={bad_brain} text="* M means Memory *  Smoking causes loss of memory, loss of brain volume. You will also lose control over emotions." />
 </div>
 export const BrainD2 = () => <div><EffectDescription title="Brain"img2={bad_brain} text="Increases risk of having a stroke by at least 50%, which can cause brain damage and death." />
 </div>
