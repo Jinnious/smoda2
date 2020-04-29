@@ -10,7 +10,7 @@ import arrow3 from './arrow3.gif';
 
 
 
-const GoodEffectPage= ({geimg,cigarret,text,arrow}) => <div className="gepage">
+const GoodEffectPage= ({geimg,cigarret,text,memory}) => <div className="gepage">
 
 <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
 
@@ -28,6 +28,7 @@ const GoodEffectPage= ({geimg,cigarret,text,arrow}) => <div className="gepage">
     <div id="ciga">
       <div id="gif"><img src={arrow3}></img></div>  
     <p>Drag me!</p>
+    
     <img src={cigarret}/>
     </div>
 
@@ -46,7 +47,8 @@ GoodEffectPage.defaultProps = {
 
     cigarret:cigarret,
     text: "organ",
-    arrow3:arrow3
+    arrow3:arrow3,
+    memory:"M=memory"
  
 }
 
