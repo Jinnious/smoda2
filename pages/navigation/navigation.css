@@ -32,9 +32,10 @@
 
 .nav_bgcolor {
     width:375px;
-    height:250px;
+    height:400px;
     background-color: rgb(192, 68, 23);
     margin-top:-160px;
+    
 }
 
 .navtext1 {
@@ -60,4 +61,46 @@ position: relative;
     top:-65px;
 position: relative;
 
+}
+
+
+.plus img{ width:55px;
+    margin-left:160px;
+}
+
+.plus_1 img{ width:55px;
+    margin-left:65px;
+}
+
+.basic_nav {
+    font-family: 'Fredoka One', cursive;
+    /* position: absolute; */
+    z-index: 1;
+    font-size: 42px;
+    color:white;
+    display:flex;
+margin-left:30px;
+padding-top:60px;
+}
+
+.advanced_nav {
+    font-family: 'Fredoka One', cursive;
+    /* position: absolute; */
+    z-index: 1;
+    font-size: 42px;
+    color:white;
+    display:flex;
+    margin-left:30px;
+margin-top:15px;
+}
+
+.tutorial_nav {
+    font-family: 'Fredoka One', cursive;
+    /* position: absolute; */
+    z-index: 1;
+    font-size: 42px;
+    color:white;
+    display:flex;
+    margin-left:30px;
+margin-top:30px;
 }

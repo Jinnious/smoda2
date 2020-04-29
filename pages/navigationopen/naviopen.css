@@ -30,16 +30,20 @@
     margin-left:310px;
 }
 
-.navbox {
-    height:160px;
+#navbox {
+    height:350px;
     width:375px;
     background-color:rgb(192, 68, 23) ;
     justify-content: center;
     align-items: center;
     align-content: center;
-margin-top:-480px;
+margin-top:-px;
 }
-
+.navsecondbox {
+    height:180px;
+    width:375px;
+    background-color:rgb(192, 68, 23) ;
+}
 
 .navtext {
     font-family: 'Fredoka One', cursive;
