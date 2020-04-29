@@ -33,22 +33,22 @@ export const LungD3 = () => <div><EffectDescription text="" img={lung} img2={bad
 
 
 
-export const HeartD= () => <div><EffectDescription img2={bad_heart} text="Smoking damages your heart and your blood circulation, increasing the risk of conditions such as coronary heart disease, heart attack, stroke." />
+export const HeartD= () => <div><EffectDescription title="Heart"img2={bad_heart} text="Smoking damages your heart and your blood circulation, increasing the risk of conditions such as coronary heart disease, heart attack, stroke." />
                         </div>
-export const HeartD2 = () => <div><EffectDescription img2={bad_heart} text="Both people who smoke and those who are regularly exposed to secondhand smoke are at higher risk for heart attacks." />
+export const HeartD2 = () => <div><EffectDescription title="Heart"img2={bad_heart} text="Both people who smoke and those who are regularly exposed to secondhand smoke are at higher risk for heart attacks." />
 </div>
-export const HeartD3 = () => <div><EffectDescription img2={bad_heart} text="" img={heart} />
-</div>
-
-export const YellowD = () => <div><EffectDescription img2={bad_mouth} text="Yellowish or brownish stains on the teeth are telltale signs of long-term smoking. It also causes a bad breath." />
-</div>
-export const YellowD2 = () => <div><EffectDescription img2={bad_mouth} text="Your sense of smell and taste can be dulled by smoking, which can decrease your appetite." />
-</div>
-export const YellowD3 = () => <div><EffectDescription img2={bad_mouth} text="" img={teeth} />
+export const HeartD3 = () => <div><EffectDescription title="Heart"img2={bad_heart} text="" img={heart} />
 </div>
 
-export const BrainD = () => <div><EffectDescription img2={bad_brain} text="Smoking causes loss of memory, loss of brain volume. You will also lose control over emotions." />
+export const YellowD = () => <div><EffectDescription title="Mouth"img2={bad_mouth} text="Yellowish or brownish stains on the teeth are telltale signs of long-term smoking. It also causes a bad breath." />
 </div>
-export const BrainD2 = () => <div><EffectDescription img2={bad_brain} text="Increases risk of having a stroke by at least 50%, which can cause brain damage and death." />
+export const YellowD2 = () => <div><EffectDescription title="Mouth"img2={bad_mouth} text="Your sense of smell and taste can be dulled by smoking, which can decrease your appetite." />
 </div>
-export const BrainD3 = () => <div><EffectDescription img2={bad_brain} text="" img={brain}/></div>
+export const YellowD3 = () => <div><EffectDescription title="Mouth"img2={bad_mouth} text="" img={teeth} />
+</div>
+
+export const BrainD = () => <div><EffectDescription title="Brain"img2={bad_brain} text="Smoking causes loss of memory, loss of brain volume. You will also lose control over emotions." />
+</div>
+export const BrainD2 = () => <div><EffectDescription title="Brain"img2={bad_brain} text="Increases risk of having a stroke by at least 50%, which can cause brain damage and death." />
+</div>
+export const BrainD3 = () => <div><EffectDescription title="Brain"img2={bad_brain} text="" img={brain}/></div>
