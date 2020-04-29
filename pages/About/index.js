@@ -31,7 +31,7 @@ AboutPage.defaultProps = {
     name1:"About us",
     Icon:defaultIcon,
     text:
-    "Welcome to smoda which is an educational application about teaching Smoking and Drinking awareness to Grade 2-7."
+    "Welcome to smoda which is an educational application about teaching Smoking and Drinking awareness to Grade 2-7. Our app is specifically designed to target the Asian countries, as culturally they are aware of teaching awareness of smoking and drinking to younger children. Our final goal is to give children correct knowledge, so when they become adults they would make their own choices to smoke and drink."
 }
 
 
