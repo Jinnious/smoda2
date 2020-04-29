@@ -33,7 +33,7 @@ export const GoodEffectMouth = () => <div>
     <GoodEffectPage geimg={good_mouth} text="Mouth"/></div>
 
 export const GoodEffectBrain = () => <div>
-    <GoodEffectPage geimg={good_brain} text=" Brain"/></div>
+    <GoodEffectPage geimg={good_brain} text=" Brain" /></div>
 
 
 
