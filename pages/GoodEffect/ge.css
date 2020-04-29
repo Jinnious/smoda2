@@ -35,13 +35,15 @@ font-family: 'Fredoka One', cursive;
     right: -100px;
     position: relative;
     color:#707070;
+     top: 10px;;
 
 
 }
 #org img{
-
+    position: relative;
     width: 90%;
     height: 90%;
+    top: -45px;
 }
 
 .bodycontents {
@@ -64,7 +66,7 @@ margin-bottom: 30px;
     width: 100px;
     height: 100px;
     float: right;
-    top: -70px;
-    right:20px;
+    top: -55px;
+    right:15px;
 
 }
