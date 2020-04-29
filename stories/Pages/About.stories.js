@@ -22,9 +22,9 @@ text="There are two of levels which are basic and advanced.
 The basic level is for grade 2-4 that compose with easy an explanation and illustration. 
 The Advanced level is for grade 5-7 that compose with 
 realistic images with more detailed explanations require a higher level of understanding than basic level.
-
+Each topics will show three sections: Ingredients, Effects, Quiz.
 After choosing the level,
-We have two topics smoking and drinking.  
+we have two topics smoking and drinking.  
 You can choose a topic to educate your children according to the situation."
 
 name1="Tutorial"
