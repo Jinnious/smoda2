@@ -1,8 +1,8 @@
 import React from 'react';
 import './about.css';
 import { MyAboutPage } from '../../stories/Pages/About.stories';
-import Subheader from '../../comps/subheader';
-import SubHeader from '../../comps/subheader';
+
+import Link from 'next/link';
 
 const defaultIcon = require('./xicon.png');
 
@@ -11,7 +11,8 @@ const defaultIcon = require('./xicon.png');
 const AboutPage = ({name1,Icon,text}) => <div id="aboutpage">
  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
 
-<div><img src={Icon} id="xicon"/> </div>
+<Link href="/Start"><div><img src={Icon} id="xicon"/> </div></Link>
+
 
 
 <div id="name"> {name1}</div>
