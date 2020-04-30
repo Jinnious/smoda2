@@ -15,11 +15,6 @@
 }
 
 
-/* .startbutton_box:hover {
-    background-color: white;
-    border: 2px solid #c8553D;
-    color: #c8553D;
-} */
 
 .startbutton_box_inner::selection {
     background: none;

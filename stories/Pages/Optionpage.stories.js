@@ -5,11 +5,6 @@ import OptionPage from '../../pages/Option';
 
 
 
-
-
-
-
-
 export default {
     title: 'OptionPage',
   

@@ -1,13 +1,21 @@
 import React from 'react';
 import StartButton from '../../comps/buttons/button2';
-
+import Link from 'next/link';
+import Router from 'next/router';
 
 
 import './start.css';
 
+import '../../app.css';
+
 
 const defaultLogo = require('../../comps/logo/logo.png');
 const defaultIcon = require('../../comps/icons/settings.png');
+
+
+
+
+
 
 
 const StartPage = ({Logo,Icon,Aboutus}) => <div id="startpage">
@@ -18,11 +26,15 @@ const StartPage = ({Logo,Icon,Aboutus}) => <div id="startpage">
 <div className="startpage_inner">
         <img src={Logo} />
 
+<Link href="/Topic"><a 
+>
+< StartButton text="Start" /> </a>
+</Link>
+    
 
-< StartButton text="Start" /> 
  <div id="aboutus">{Aboutus}</div>
 
-</div>
+</div>  
 
 </div>;
 
@@ -38,3 +50,5 @@ StartPage.defaultProps = {
 
 
 export default StartPage;
+
+
