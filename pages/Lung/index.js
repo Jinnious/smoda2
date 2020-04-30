@@ -1,17 +1,16 @@
 import React from 'react';
-import './ge.css';
+import '../GoodEffect/ge.css';
 
 import BasicButton from '../../comps/buttons/button1';
 import Header from '../../comps/Header';
 import cigarret from '../../img/smoking.png';
-import arrow3 from './arrow3.gif';
+import arrow3 from '../GoodEffect/arrow3.gif';
 import Link from 'next/link';
 
+import lungImg from '../../img/good_lung.png';
 
 
-
-
-const GoodEffectPage= ({geimg,cigarret,text,memory}) => <div className="gepage">
+const GoodEffectPage= ({cigarret,memory}) => <div className="gepage">
 
 <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
 
@@ -19,10 +18,10 @@ const GoodEffectPage= ({geimg,cigarret,text,memory}) => <div className="gepage">
 <div className="head"> <Header /></div>
 <div className="bodycontents">
 
-    <div className="subhead_organ">{text}</div>
+    <div className="subhead_organ">Lung</div>
    
     <div id="org">
-    <img src={geimg}/>
+    <img src={lungImg}/>
     </div>
 
 
@@ -35,13 +34,13 @@ const GoodEffectPage= ({geimg,cigarret,text,memory}) => <div className="gepage">
 
 
 
+
 </div>
 
 
 <div className="footbutton">
-  
-  <BasicButton text="Back" bgcolor="#588B8B"/>
-  <BasicButton text="Next" bgcolor="#F28F3C"/>
+    <Link href="/EffectSelect"><a><BasicButton text="Back" bgcolor="#588B8B"/> </a></Link>  
+  <Link href="/Bad-lung"><a><BasicButton text="Next" bgcolor="#F28F3C"/> </a></Link>
 </div>
 
 
@@ -50,7 +49,6 @@ const GoodEffectPage= ({geimg,cigarret,text,memory}) => <div className="gepage">
 GoodEffectPage.defaultProps = {
 
     cigarret:cigarret,
-    text: "organ",
     arrow3:arrow3,
     memory:"M=memory"
  
