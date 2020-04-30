@@ -6,17 +6,14 @@ import Router from 'next/router';
 
 import './start.css';
 
+import '../../app.css';
+
 
 const defaultLogo = require('../../comps/logo/logo.png');
 const defaultIcon = require('../../comps/icons/settings.png');
 
 
 
-function Start () {
-
-    document.querySelector("#start");
-    Router.push("/Topic");
-}
 
 
 
