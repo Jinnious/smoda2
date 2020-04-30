@@ -18,14 +18,11 @@ const SettingPage = ({Logo,Icon,text1,text2,text3}) =>
     
     <Link href="/Start"><a>
     <img src={Icon} id="settingicon"/> 
-    </a>
-    </Link>
+    </a> </Link>
 
 
     <div id="logo"> <img src={Logo} /></div>
 
-
-   
 
     <div className="texts" 
     style={{color:"#C8553D"}}>{text1}</div> 

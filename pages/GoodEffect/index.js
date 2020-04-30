@@ -35,7 +35,6 @@ const GoodEffectPage= ({geimg,cigarret,text,memory}) => <div className="gepage">
 
 
 
-
 </div>
 
 

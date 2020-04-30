@@ -2,7 +2,7 @@
     font-family: 'Fredoka One', cursive;
     display: inline-block;
     background-color: #FFF8E2;
-    margin: -10px;
+   
     width: 375px;
     height: 816px;
     align-content: center;
@@ -30,7 +30,6 @@
 
 .footerbutton_ingred {
     position: relative;
-  
     top: 100px;
     left: 12px;
 }

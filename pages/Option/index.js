@@ -5,6 +5,7 @@ import Stack from '../../comps/Stack';
 import './option.css';
 import Link from 'next/link';
 
+
 const OptionPage = ({}) => <div id="optionpage">
 
 <Header/>
