@@ -4,6 +4,8 @@ import SettingIcon from '../../comps/icons';
 import LanguageButton from '../../comps/buttons/button4';
 import './setting.css';
 
+import Link from 'next/link';
+
 
 const defaultLogo = require('../../comps/logo/logo.png');
 const defaultIcon = require('../../comps/icons/settings.png');
@@ -13,8 +15,13 @@ const SettingPage = ({Logo,Icon,text1,text2,text3}) =>
     
 
     <div id="settingpage">
+    
+    <Link href="/Start"><a>
+    <img src={Icon} id="settingicon"/> 
+    </a>
+    </Link>
 
-     <img src={Icon} id="settingicon"/> 
+
     <div id="logo"> <img src={Logo} /></div>
 
 
