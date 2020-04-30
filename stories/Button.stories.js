@@ -30,10 +30,10 @@ export const Button1 = () => <div>
 export const DefaultButton2 = () => <StartButton />;
 export const Buttons2 = () => <div>
     <div>
-    <StartButton text="Start" bgcolor="#c8553D" onMouseOver={MouseOver} onMouseOut={MouseOut}/>
+    <StartButton text="Start" bgcolor="#c8553D"/>
     </div>
     <div>
-    <StartButton text="Basic" bgcolor="#F28F3c" onMouseOver={MouseOverYellow} onMouseOut={MouseOutYellow} /> 
+    <StartButton text="Basic" bgcolor="#F28F3c"/> 
     </div>
     <div>
     <StartButton text="Advanced" bgcolor="#707070" />
@@ -46,28 +46,7 @@ export const Buttons2 = () => <div>
     </div>
 </div>
 
-function MouseOver(){
-    document.querySelector(".startbutton_box").style.backgroundColor = "white";
-    document.querySelector(".startbutton_box").style.border = "2px solid #c8553D";
-    document.querySelector(".startbutton_box").style.color = "#c8553D";
-}
-function MouseOut(){
-    document.querySelector(".startbutton_box").style.backgroundColor = "#c8553D";
-    document.querySelector(".startbutton_box").style.border = "none";
-    document.querySelector(".startbutton_box").style.color = "white";
-}
 
-
-function MouseOverYellow(){
-    document.querySelector(".startbutton_box").style.backgroundColor = "white";
-    document.querySelector(".startbutton_box").style.border = "2px solid #F28F3c";
-    document.querySelector(".startbutton_box").style.color = "#F28F3c";
-}
-function MouseOutYellow(){
-    document.querySelector(".startbutton_box").style.backgroundColor = "#c8553D";
-    document.querySelector(".startbutton_box").style.border = "none";
-    document.querySelector(".startbutton_box").style.color = "white";
-}
 
 
 export const DefaultButton3 = () => <OptionButton />;

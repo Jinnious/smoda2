@@ -19,9 +19,3 @@
     color:none;
 }
 
-.custom_button1_box:hover {
-    background-color: white;
-    color: rgb(242,143,60);
-    border: 3px solid rgb(242,143,60);
-    padding: 7px;
-}

@@ -2,11 +2,10 @@ import React from 'react';
 import './button2.css';
 
 
-const StartButton = ({text,  bgcolor, onMouseOver, onMouseOut}) => <div 
+const StartButton = ({text,  bgcolor}) => <div 
     style={{backgroundColor:bgcolor}}
     className="startbutton_box"
-    onMouseOver={onMouseOver}
-    onMouseOut={onMouseOut}
+  
     >
         <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
     <div className="xc">
@@ -16,9 +15,9 @@ const StartButton = ({text,  bgcolor, onMouseOver, onMouseOut}) => <div
 </div>
 
 StartButton.defaultProps = {
-    text:"Default",
+    text:"Default"
     
-    bgcolor: "#c8553D",
+   
     // onMouseOver:MouseOver,
     // onMouseOut:MouseOut
 }

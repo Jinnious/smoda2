@@ -3,7 +3,7 @@ import './dsct.css';
 import BasicButton from '../buttons/button1';
 import { Button1 } from '../../stories/Button.stories';
 import Header from '../Header'
-import SubHeader from '../../comps/subheader';
+import SubHeader from '../subheader';
 // import { LungFirst } from '../../stories/description.stories';
 
 
