@@ -26,9 +26,9 @@ const StartPage = ({Logo,Icon,Aboutus}) => <div id="startpage">
 <div className="startpage_inner">
         <img src={Logo} />
 
-<Link href="/Topic"><a>
-< StartButton text="Start" /> 
-</a>
+<Link href="/Topic"><a 
+>
+< StartButton text="Start" /> </a>
 </Link>
     
 
