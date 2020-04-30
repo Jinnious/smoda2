@@ -4,14 +4,15 @@
     position: absolute;;
     display: block;  
     width: 375px;
-    height: 816px;
-    margin: -10px;
+    height: 812px;
+    margin-left: -10px;
     font-family: 'Fredoka One', cursive;
 
 }
 
 #logo img{
-    margin-left: 50px;
+  
+    margin-left: 35px;
     width: 80%;
     height: 80%;
     margin-bottom: 10px;
@@ -22,15 +23,17 @@
     display: inline;
     border-radius: 10px;
     margin: 20px;
+    
 }
 #outline{
 
    border: solid 5px #C8553D;
    width: 330px;
-    height: 500px;
+    height: 490px;
    border-radius: 35px;
    margin: 10px;
    padding: 10px;
+ 
 }
 #setting {
     display: inline-flex;
