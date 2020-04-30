@@ -7,12 +7,7 @@ import GoodEffectPage from '../../pages/GoodEffect';
 import good_heart from '../../img/good_heart.png';
 import good_lung from '../../img/good_lung.png';
 import good_mouth from '../../img/good_mouth.png';
-import good_brain from '../../img/good_barin.png';
-
-import { Lungsubhead } from '../subhead.stories';
-import { Heartsubhead } from '../subhead.stories';
-import { Mouthsubhead } from '../subhead.stories';
-import { Brainsubhead } from '../subhead.stories';
+import good_brain from '../../img/good_brain.png';
 
 
 
