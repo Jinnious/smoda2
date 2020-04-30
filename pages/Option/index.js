@@ -3,7 +3,7 @@ import StartButton from '../../comps/buttons/button2';
 import Header from '../../comps/Header';
 import Stack from '../../comps/Stack';
 import './option.css';
-
+import Link from 'next/link';
 
 const OptionPage = ({}) => <div id="optionpage">
 
@@ -17,7 +17,7 @@ const OptionPage = ({}) => <div id="optionpage">
     <StartButton text="Ingredients" bgcolor="#C8553D" />
     </div>
     <div>
-    <StartButton text="Side-Effects" bgcolor="#588B8B" />
+    <Link href="/EffectSelect"><a><StartButton text="Side-Effects" bgcolor="#588B8B" /></a></Link>
     </div>
 
 </div>
