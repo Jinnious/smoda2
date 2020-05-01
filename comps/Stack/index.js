@@ -6,7 +6,7 @@ import './stack.css';
 
 const Stack = ({text,backgroundColor}) => <div 
 style={{backgroundColor:backgroundColor}}
-className="stack">
+className="stack" >
 
 <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
 

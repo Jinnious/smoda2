@@ -4,14 +4,15 @@ import Header from '../../comps/Header';
 import Stack from '../../comps/Stack';
 import './option.css';
 import Link from 'next/link';
+import Router from 'next/router';
 
 const OptionPage = ({}) => <div id="optionpage">
 
 <Header/>
 
 <div className='stack'>
-    <Stack/>
-    <Stack text="Smoking" backgroundColor="#C8553D"/>
+    <Link href="/Level"><a><Stack /></a></Link>
+    <Link href="/Topic"><a><Stack text="Smoking" backgroundColor="#C8553D" /></a></Link>
 </div>
 
 

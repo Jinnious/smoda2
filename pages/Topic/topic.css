@@ -1,7 +1,7 @@
 #topicpage{
-    margin: -8px;
     width: 375px;
     height: 816px;
+    position: absolute;
 }
 
 
@@ -13,5 +13,5 @@
 
 .topic_stack{
     position: relative;
-    top: -90px;
+    top: -80px;
 }
