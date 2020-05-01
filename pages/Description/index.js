@@ -1,5 +1,5 @@
 import React from 'react';
-import './description.css';
+// import './description.css';
 import Button1 from '../../stories/Button.stories';
 import LungD from '../../stories/whitecomponent.stories';
 
@@ -18,7 +18,7 @@ const Lungpage1 = ({img}) => <div className="about">
 </div>;
 
 Lungpage1.defaultProps = {
-    img:defaultLung,
+    img:defaultLung
 }
 
 
