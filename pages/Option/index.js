@@ -6,6 +6,7 @@ import './option.css';
 import Link from 'next/link';
 import Router from 'next/router';
 
+
 const OptionPage = ({}) => <div id="optionpage">
 
 <Header/>
