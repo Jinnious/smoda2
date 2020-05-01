@@ -44,7 +44,12 @@ const EffectDescription = ({}) => {
             </div>
 
             <div className="effect_footer_button">
-                <Link href="/Lung"><a><BasicButton text="Back" bgcolor="#588B8B"/></a></Link>
+                <BasicButton text="Back" bgcolor="#588B8B" onClick={()=>{
+                    if(ind<=0){
+                        Router.push("/Lung");
+                    }
+                    else{setInfo(ind-1);}
+                }}/>
                 <BasicButton text="Next" bgcolor="#F28F3C" onClick={()=>{
                     if(ind >= 2){
                         Router.push("/EffectSelect");

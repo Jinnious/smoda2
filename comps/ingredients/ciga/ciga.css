@@ -9,51 +9,103 @@
 }
 
 .dot_ben {
-   width: 20px;
-   height: 20px;
+   width: 30px;
+   height: 30px;
     background-color: #588B8B;
     position: absolute;
     border-radius: 50%;
     bottom: 30%;
-    left: 25%;
+    left: 23%;
 }
 
 .dot_but {
-    width: 20px;
-   height: 20px;
+    width: 30px;
+   height: 30px;
     background-color: #707071;
     border-radius: 50%;
     position: absolute;
     top: 67%;
-    left: 50%;
+    left: 47%;
 }
 
 .dot_tar {
-    width: 20px;
-   height: 20px;
+    width: 30px;
+   height: 30px;
     background-color: #4469E3;
     border-radius: 50%;
     position: absolute;
     bottom: 30%;
-    left: 60%;
+    left: 58%;
 }
 
 .dot_ammo {
-   width: 20px;
-   height: 20px;
+    width: 30px;
+    height: 30px;
     background-color: #F28F3C;
     border-radius: 50%;
     position: absolute;
     top: 72%;
-    left: 35%;
+    left: 33%;
 }
 
 .dot_nic {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+   height: 30px;
     background-color: #C8553D;
     border-radius: 50%;
     position: absolute;
     top: 70%;
-    left: 15%;
+    left: 13%;
+}
+
+.ingred_line_one {
+    display: flex;
+    position: relative;
+    margin: 0;
+}
+
+
+.benzene {
+    display:none;
+    position: absolute;
+    left: -10px;
+    bottom: -160px;
+    z-index: 1;
+
+}
+
+.butane {
+    display: none;
+    position: absolute;
+    left: 120px;
+    bottom: -185px;
+    z-index: 1;
+}
+
+.tar {
+    display: none;
+    position: absolute;
+    right: 125px;
+    bottom: -170px;
+    z-index: 1;
+}
+
+
+.annmo {
+    display: none;
+    position: absolute;
+    right: 130px;
+    top: 210px;
+}
+
+.nico {
+    display: none;
+    position: absolute;
+    right: 310px;
+    top: 210px;
+}
+
+.ingred_line_two {
+    display: flex;
+    margin-bottom: 100px;
 }
