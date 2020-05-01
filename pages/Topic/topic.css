@@ -1,16 +1,17 @@
 #topicpage{
-
     width: 375px;
     height: 816px;
-    margin: -8px;
+    position: absolute;
 }
 
 
-#buttons{
+#topic_buttons{
     position: relative;
-    margin-top: 200px;
-    margin-left: 20px;
-
+    left: 20px;
 
 }
 
+.topic_stack{
+    position: relative;
+    top: -80px;
+}

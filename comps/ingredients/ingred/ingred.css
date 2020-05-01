@@ -1,6 +1,5 @@
 .smoking {
     font-family: 'Fredoka One', cursive;
-    display: inline-block;
     background-color: #FFF8E2;
     margin: -10px;
     width: 375px;
@@ -15,17 +14,17 @@
 .ciga_title {
     font-size: 29px;
     position: relative;
-    top: 10px;
+    top: -50px;
     color: #707071;
     text-align: center;
 }
 
 .cigaImg {
+    width: 500px;
+    height: 200px;
     position: relative;
-    margin-top: 20%;
-    top: 30px;
-    left: 14%;
-    margin-bottom: 140px;
+    top: -10px;
+    left: 3%;
 }
 
 .footerbutton_ingred {
@@ -34,3 +33,23 @@
     top: 100px;
     left: 12px;
 }
+
+#click {
+    position: relative;
+    left: 130px;
+    bottom: -100px;
+    color: #707071;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+.subhead_ing{
+    position: relative;
+    top: -30px;
+}
+
+
+

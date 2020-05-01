@@ -3,27 +3,63 @@ import './ingred.css';
 import SubHeader from '../../subheader';
 import SmokCiga from '../ciga';
 import Header from '../../Header';
+import Link from 'next/link';
 
-import { Button1 } from '../../../stories/Button.stories';
-import BasicButton from '../../comps/buttons/button1';
+import BasicButton from '../../buttons/button1';
 
+
+<<<<<<< HEAD
+const SmokIngred = () => {
+    return<div className="smoking">
+            <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
+=======
 
 const SmokIngred = () => <div className="smoking">
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
+>>>>>>> d5f01d82e0d2c7f41fd88827b18ba7bc8f95b1fb
 
 
 
-    <Header/>
+            <Header/>
 
-    <SubHeader text="Ingredients" color="#C8553D"/>
-    <div className="ciga_title">What is in a cigarette?</div>
-    <div className="cigaImg"><SmokCiga /></div>
+            <div className='subhead_ing'><SubHeader text="Ingredients" color="#C8553D"/></div>
+            <div className="ciga_title">What is in a cigarette?</div>
+            
+            <div className="cigaImg"><SmokCiga /></div>
 
-       
+<<<<<<< HEAD
+            
+
+
+            <p id="click">Tap each dots!</p>
+            <div className="footerbutton_ingred">
+                <Link href="Option"><a><BasicButton text="Back" bgcolor="#588B8B"/></a></Link>
+                <BasicButton text="Next" bgcolor="#F28F3C" onClick={()=>{
+                    ShowName();
+                }}/>
+            </div>
+        </div>
+}
+=======
+
+
+
+    <p id="click">Tap each dots!</p>
     <div className="footerbutton_ingred">
-        <BasicButton />
-        <Button1 /></div>
+        <Link href="Option"><a><BasicButton text="Back" bgcolor="#588B8B"/></a></Link>
+        <Link href="/Ingredients"><a><BasicButton text="Next" bgcolor="#F28F3C"/></a></Link>
+    </div>
+
 </div>;
+>>>>>>> d5f01d82e0d2c7f41fd88827b18ba7bc8f95b1fb
 
 
 export default SmokIngred;
+
+function ShowName(){
+    document.querySelector(".benzene").style.display = "block";
+    document.querySelector(".butane").style.display = "block";
+    document.querySelector(".tar").style.display = "block";
+    document.querySelector(".annmo").style.display = "block";
+    document.querySelector(".nico").style.display = "block";
+}

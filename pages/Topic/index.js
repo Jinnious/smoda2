@@ -8,18 +8,15 @@ import Link from 'next/link';
 
 
 
-
-
 const TopicPage = ({drk}) => <div id="topicpage">
 
 <Header/>
 
-<Stack/>
+<div className='topic_stack'><Stack/></div>
 
-<div id="buttons">
-<Link href="/Level">
-    <a><OptionButton text="Smoking" bgcolor="#c8553D" />
-        </a></Link>
+
+<div id="topic_buttons">
+<Link href="/Option"><a><OptionButton text="Smoking" bgcolor="#c8553D" /></a></Link>
 
 <p></p>
 
