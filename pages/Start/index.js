@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 import './start.css';
 
-import '../../app.css';
+import '../app.css';
 
 
 const defaultLogo = require('../../comps/logo/logo.png');
