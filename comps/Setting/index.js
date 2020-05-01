@@ -1,7 +1,7 @@
 import React from 'react';
-import SettingIcon from '../../comps/icons';
+import SettingIcon from '../icons';
 
-import LanguageButton from '../../comps/buttons/button4';
+import LanguageButton from '../buttons/button4';
 import './setting.css';
 
 import Link from 'next/link';
