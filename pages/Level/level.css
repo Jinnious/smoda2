@@ -4,11 +4,16 @@
 
 width: 375px;
 height: 816px;
-position: absolute;
 font-family: 'Fredoka One', cursive;
 
 }
 
+a:link{
+
+
+    text-decoration: none;
+
+}
 .gradetext{
 
     color: #707071;
@@ -39,14 +44,15 @@ font-family: 'Fredoka One', cursive;
 }
 
 
-#tutorial {
-    margin: 15px;
+#aboutus {
+    margin: 11px;
     align-items: center;
     text-align: center;
     color:#588B8B;
     font-size: 20px;
 
 }
+
 
 a:link {
     text-decoration: none;

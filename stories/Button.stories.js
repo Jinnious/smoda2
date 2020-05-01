@@ -20,7 +20,6 @@ text="Go home" />;
 
 export const Button1 = () => <div>
  
-    <BasicButton text="Back" bgcolor="rgb(105,138,137)"/>
     <BasicButton text="Next" />
 </div>
 

@@ -7,16 +7,28 @@ import Stack from '../../comps/Stack';
 import Link from 'next/link';
 
 
+
 const TopicPage = ({drk}) => <div id="topicpage">
 
 <Header/>
 
 <div className='topic_stack'><Stack/></div>
 
+
 <div id="topic_buttons">
 <Link href="/Option"><a><OptionButton text="Smoking" bgcolor="#c8553D" /></a></Link>
+
 <p></p>
-<OptionButton text="Drinking" bgcolor="#588B8B" img={drk} />
+
+<Link href="/Level">
+    <a><OptionButton text="Drinking" bgcolor="#588B8B" img={drk} />
+        </a></Link>
+
+
+    
+
+
+
 </div>
 
 </div>;
