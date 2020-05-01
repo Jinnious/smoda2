@@ -66,7 +66,7 @@
 
 
 .benzene {
-    display:none;
+    display: none;
     position: absolute;
     left: -10px;
     bottom: -160px;
@@ -108,4 +108,8 @@
 .ingred_line_two {
     display: flex;
     margin-bottom: 100px;
+}
+
+a:link{
+    text-decoration: none;
 }
