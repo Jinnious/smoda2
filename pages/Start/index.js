@@ -30,7 +30,7 @@ const StartPage = ({Logo,Icon,Aboutus}) => <div id="startpage">
 <div className="startpage_inner">
         <img src={Logo} />
 
-<Link href="/Topic"><a>
+<Link href="/Level"><a>
 < StartButton text="Start" />
 </a>
 </Link>

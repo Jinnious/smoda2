@@ -4,17 +4,27 @@ import BasicButton from '../../comps/buttons/button1';
 import Bad_Heart from '../../comps/EffectDescription/bad_heart.png';
 import '../../comps/EffectDescription/dsct.css';
 import Link from 'next/link';
+import Router from 'next/router';
 
+const heartText =[
+    {
+        text:"Smoking damages your heart and your blood circulation, increasing the risk of conditions such as coronary heart disease, heart attack, stroke.",
+        imgheart:''
+    },
+    {
+        text:"Both people who smoke and those who are regularly exposed to secondhand smoke are at higher risk for heart attacks.",
+        imgheart:''
+    },
+    {
+        text:"",
+        imgheart:require("../../comps/EffectDescription/heart.png")
+    },
+]
 
-
-const EffectDescription = ({img}) => {
-    const [heart_info, changeInfo] = useState("Smoking damages your heart and your blood circulation, increasing the risk of conditions such as coronary heart disease, heart attack, stroke.")
+const EffectDescription = ({}) => {
     
     
-    
-    
-    
-    
+    const [ind, setInfo] = useState(0);
     
     return  <div className="dsct">
                 <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
@@ -25,15 +35,25 @@ const EffectDescription = ({img}) => {
                 <div className="bodycontents">
                 <div className="des_img1"> <img src={Bad_Heart} /></div>
                 <div className="dsct_inner">
-                    <div className="about_info_effect">{heart_info}</div>
-                    <div className="des_img"> <img src={img} /></div>
+                    <div className="about_info_effect">{heartText[ind].text}</div>
+                    <div className="des_img"> {
+                        (heartText[ind].imglung !== "") ? <img src = {heartText[ind].imgheart} /> : null
+                    }</div>
                     
                 </div>
 
                 <div className="effect_footer_button">
-                    <Link href="/Heart"><a><BasicButton text="Back" bgcolor="#588B8B"/></a></Link>
+                    <BasicButton text="Back" bgcolor="#588B8B" onClick={()=>{
+                        if(ind<=0){
+                            Router.push("/Heart");
+                        }
+                        else{setInfo(ind-1);}
+                    }}/>
                     <BasicButton text="Next" bgcolor="#F28F3C" onClick={()=>{
-                        changeInfo("Both people who smoke and those who are regularly exposed to secondhand smoke are at higher risk for heart attacks.");
+                        if(ind>=2){
+                            Router.push("/EffectSelect");
+                        }
+                        else{setInfo(ind+1);}
                     }}/>
                 </div>
 

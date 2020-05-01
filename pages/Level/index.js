@@ -1,7 +1,7 @@
 import React from 'react';
 import BasicButton from '../../comps/buttons/button2';
 import AdvancedButton from '../../comps/buttons/button2';
-
+import Link from 'next/link';
 import './level.css';
 import Link from 'next/link';
 
@@ -28,7 +28,8 @@ const LevelPage = ({Logo,GradeText,GradeText2,Aboutus}) => <div id="levelpage">
    <div className="gradetext">{GradeText}</div> 
 
 
-    <AdvancedButton  text="Advanced" bgcolor="#707070" />
+    <Link href="/Topic"><a><AdvancedButton  text="Advanced" bgcolor="#707070" /></a></Link>
+
     <div className="gradetext">{GradeText2}</div> 
 
     </div>
