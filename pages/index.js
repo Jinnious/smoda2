@@ -7,6 +7,7 @@ import Router from 'next/router';
 const Index =() => <div id="mainapp">
 
 
+<Link href="/Start"></Link>
     
 </div>
 
