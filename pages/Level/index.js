@@ -3,7 +3,6 @@ import BasicButton from '../../comps/buttons/button2';
 import AdvancedButton from '../../comps/buttons/button2';
 import Link from 'next/link';
 import './level.css';
-import Link from 'next/link';
 
 
 
