@@ -1,5 +1,6 @@
 
 .gepage {
+    display: block;
 margin: -10px;
 position: absolute;
 width: 375px;

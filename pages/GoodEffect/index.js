@@ -7,6 +7,7 @@ import cigarret from '../../img/smoking.png';
 import arrow3 from './arrow3.gif';
 import Link from 'next/link';
 
+import '../app.css';
 
 
 
