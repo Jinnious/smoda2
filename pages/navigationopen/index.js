@@ -3,6 +3,7 @@ import StartButton from '../../comps/buttons/button2';
 import Header from '../../comps/Header';
 import './naviopen.css';
 import NavigationPage from '../navigation';
+import Link from 'next/link';
 
 const Plus = require('./plus.png');
 const NavigationOpenPage = ({img1,img2,text1,text2,text3,text4,text5,text6}) => <div id="optionpage">
@@ -15,13 +16,18 @@ const NavigationOpenPage = ({img1,img2,text1,text2,text3,text4,text5,text6}) => 
 <div className="plus"> <img src={img1} /></div>
 </div>
 <div className="advanced_nav"> <div>{text2}</div>
-<div className="plus_1">< img src={img2} /></div>
+
+         <Link href='/navigation'> <div className="plus_1">< img src={img2} /></div></Link>     
 </div>
 <div className="navbox">
+
+
     <div className="navtextcontainer">
 <div className="navtext" id="firsttext">{text5}</div>
 <div className="navtext" id="secondtext">{text6}</div>
 </div>
+
+
 </div>
 
 
