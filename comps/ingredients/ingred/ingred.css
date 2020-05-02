@@ -29,15 +29,14 @@
 
 .footerbutton_ingred {
     position: relative;
-  
-    top: 100px;
     left: 12px;
+    bottom: -200px;
 }
 
 #click {
     position: relative;
     left: 130px;
-    bottom: -100px;
+    bottom: -240px;
     color: #707071;
 }
 
