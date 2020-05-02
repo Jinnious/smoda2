@@ -1,8 +1,10 @@
 import React from 'react';
-import StartButton from '../../comps/buttons/button2';
+
 import Header from '../../comps/Header';
 import './naviopen.css';
-import NavigationPage from '../navigation';
+
+
+import Link from 'next/link';
 
 const Plus = require('./plus.png');
 const NavigationOpenPage = ({img1,img2,text1,text2,text3,text4,text5,text6}) => <div id="optionpage">
@@ -14,12 +16,19 @@ const NavigationOpenPage = ({img1,img2,text1,text2,text3,text4,text5,text6}) => 
 <div className="basic_nav"> <div>{text1}</div>
 <div className="plus"> <img src={img1} /></div>
 </div>
+
+
 <div className="advanced_nav"> <div>{text2}</div>
 <div className="plus_1">< img src={img2} /></div>
 </div>
+
+
+
 <div className="navbox">
     <div className="navtextcontainer">
-<div className="navtext" id="firsttext">{text5}</div>
+        
+        <Link href="/Ciga"><div className="navtext" id="firsttext">{text5}</div></Link>
+
 <div className="navtext" id="secondtext">{text6}</div>
 </div>
 </div>
@@ -27,11 +36,15 @@ const NavigationOpenPage = ({img1,img2,text1,text2,text3,text4,text5,text6}) => 
 
 
 <div className="navsecondbox">
-<div className="advanced_nav"> <div>{text3}</div>
+    <Link href="/About">
+    <div className="advanced_nav"> <div>{text3}</div>
 </div>
+    </Link>
 
+<Link href="/Tutorial"> 
 <div className="tutorial_nav"> <div>{text4}</div>
-</div>
+</div></Link>
+
 
 </div>
 </div>
