@@ -25,10 +25,12 @@ const OptionPage = ({}) => <div id="optionpage">
     <div>
     <Link href="/EffectSelect"><a><StartButton text="Side-Effects" bgcolor="#588B8B" /></a></Link>
     </div>
+    <Link href="/EffectSelect"><a><StartButton text="Quiz" bgcolor="#F28F3C" /></a></Link>
+    </div>
 
 </div>
 
-</div>
+
 
 OptionPage.defaultProps = {
 
