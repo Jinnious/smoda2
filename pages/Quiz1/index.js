@@ -6,10 +6,14 @@ import Link from 'next/link';
 const defaultImg = require('../../comps/Quiz/Questions/circle.png');
 const defaultImg2 = require('../../comps/Quiz/Questions/wrong.png');
 import Router from 'next/router';
+import {data, ChangeData} from '../data';
+
+
 
 
 
 const Questions = ({img1,img2}) => {
+    console.log(data);
 
     return<div className="background">
         <Header />
@@ -21,10 +25,16 @@ const Questions = ({img1,img2}) => {
                 <div className="about_info_quiz">Is nicotine an ingredient of cigarette?</div>
 
                 <div className="quizicon">
-                        <img src={img1} onClick={()=> {
+                        <img src={img1} onClick={()=>{
+                            ChangeData({
+                                lastaction:"Select O"
+                            })
                             Router.push("/Answer");
                         }}/>
-                        <img src={img2} onClick={()=> {
+                        <img src={img2} onClick={()=>{
+                            ChangeData({
+                                lastaction:"Select X"
+                            })
                             Router.push("/Answer");
                         }}/>
                 </div>
