@@ -4,9 +4,6 @@ import Header from '../../comps/Header';
 
 import './navigation.css';
 
-import Link from 'next/link';
-import Router from 'next/router';
-
 const Plus = require('./plus.png');
 const NavigationPage = ({img1,img2,text1,text2,text3,text4}) => <div id="optionpage">
 

@@ -54,8 +54,6 @@ const NavigationOpenPage = ({img1,img2,text1,text2,text3,text4,text5,text6}) => 
 
 
 
-
-
 NavigationOpenPage.defaultProps = {
 img1:Plus,
 img2:Plus,
