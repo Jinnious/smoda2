@@ -19,11 +19,9 @@ const LevelPage = ({Logo,GradeText,GradeText2,Aboutus}) => <div id="levelpage">
     <img src={Logo} />
 
     <div className="levelpage_inner_option">
-    <Link href='/Ciga'>
-    <a>
+   
     <BasicButton text="Basic" bgcolor="#F28F3c" /> 
-    </a>
-    </Link>
+
    <div className="gradetext">{GradeText}</div> 
 
 
