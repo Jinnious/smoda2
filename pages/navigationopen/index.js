@@ -41,9 +41,10 @@ const NavigationOpenPage = ({img1,img2,text1,text2,text3,text4,text5,text6}) => 
 </div>
     </Link>
 
-<Link href="/Tutorial"> 
+{/* <Link href="/Tutorial">  */}
 <div className="tutorial_nav"> <div>{text4}</div>
-</div></Link>
+</div>
+{/* </Link> */}
 
 
 </div>
