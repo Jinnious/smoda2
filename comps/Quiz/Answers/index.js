@@ -1,9 +1,10 @@
-import React from 'react';
+import {useState, useEffect} from 'react';
 import './answer.css';
 import BasicButton from '../../buttons/button1';
 import { Button1 } from '../../../stories/Button.stories';
 import Header from '../../Header';
 const defaultImg = require('./circle.png');
+import Link from 'next/link';
 
 
 const QuestionsAnswer1 = ({img1,text,text2,text3}) => <div className="background">
@@ -21,7 +22,7 @@ const QuestionsAnswer1 = ({img1,text,text2,text3}) => <div className="background
         </div>
 
         <div className="quizbuttons">
-            <Button1 />
+            <Link href='/Quiz'><a><Button1 /></a></Link>
         </div>
 
     </div>
