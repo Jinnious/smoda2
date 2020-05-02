@@ -32,8 +32,7 @@ const LevelPage = ({Logo,GradeText,GradeText2,Aboutus}) => <div id="levelpage">
     </div>
     </div>
 
-    <div id="aboutus">{Aboutus}</div>
-
+    <Link href="/Tutorial"><div id="aboutus">{Aboutus}</div></Link>         
     
 </div>
 

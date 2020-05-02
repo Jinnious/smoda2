@@ -1,8 +1,11 @@
 import React from 'react';
-import StartButton from '../../comps/buttons/button2';
+
 import Header from '../../comps/Header';
 import Stack from '../../comps/Stack';
 import './navigation.css';
+
+import Link from 'next/link';
+import Router from 'next/router';
 
 const Plus = require('./plus.png');
 const NavigationPage = ({img1,img2,text1,text2,text3,text4}) => <div id="optionpage">
@@ -10,27 +13,33 @@ const NavigationPage = ({img1,img2,text1,text2,text3,text4}) => <div id="optionp
 <Header/>
 
 <div className="nav_bgcolor">
+
 <div className="basic_nav"> <div>{text1}</div>
 <div className="plus"> <img src={img1} /></div>
 </div>
-<div className="advanced_nav"> <div>{text2}</div>
+
+<Link href="/navigationopen">
+<div className="advanced_nav"> 
+<div>{text2}</div>
 <div className="plus_1">< img src={img2} /></div>
 </div>
+</Link>
 
+<Link href="/About">
 <div className="advanced_nav"> <div>{text3}</div>
 </div>
+</Link>
 
+<Link href="/Tutorial">
 <div className="tutorial_nav"> <div>{text4}</div>
 </div>
+</Link>
+
 
 
 </div>
 
 </div>
-
-
-
-
 
 
 
