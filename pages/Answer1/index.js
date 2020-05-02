@@ -6,6 +6,7 @@ import '../../comps/Quiz/Answers/answer.css';
 import BasicButton from '../../comps/buttons/button1';
 import Header from '../../comps/Header';
 
+import Router from 'next/router';
 console.log(data);
 
 
@@ -41,8 +42,10 @@ const AnswerPage = ({text,text2,text3})=> {
                     <div className="answertext">{answer}</div>
                 </div>
 
-                <div className="quizbuttons">
-                    <BasicButton text="Next" bgcolor="#588B8B"/>
+                <div className="quizbuttons" onClick={()=>{
+                    Router.push("/Quiz2")
+                }}>
+                    <BasicButton text="Next" bgcolor="#588B8B" />
                 </div>
 
             </div>

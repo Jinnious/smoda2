@@ -29,13 +29,13 @@ const Questions = ({img1,img2}) => {
                             ChangeData({
                                 lastaction:"Select O"
                             })
-                            Router.push("/Answer");
+                            Router.push("/Answer1");
                         }}/>
                         <img src={img2} onClick={()=>{
                             ChangeData({
                                 lastaction:"Select X"
                             })
-                            Router.push("/Answer");
+                            Router.push("/Answer1");
                         }}/>
                 </div>
                 <div className="quizbuttons"><BasicButton text='Back' bgcolor='#588B8B' onClick={()=>{
