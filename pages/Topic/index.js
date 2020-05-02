@@ -16,11 +16,11 @@ const TopicPage = ({drk}) => <div id="topicpage">
 
 
 <div id="topic_buttons">
-<Link href="/Option"><a><OptionButton text="Smoking" bgcolor="#c8553D" /></a></Link>
+<Link href='/Option'><a><OptionButton text="Smoking" bgcolor="#c8553D" /></a></Link>
 
 <p></p>
 
-<Link href="/Level">
+<Link href='/Level'>
     <a><OptionButton text="Drinking" bgcolor="#588B8B" img={drk} />
         </a></Link>
 

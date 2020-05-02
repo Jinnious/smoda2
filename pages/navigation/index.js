@@ -16,13 +16,13 @@ const NavigationPage = ({img1,img2,text1,text2,text3,text4}) => <div id="optionp
 <div className="plus"> <img src={img1} /></div>
 </div>
 
-<Link href="/navigationopen">
+<Link href='/navigationopen'>
 <div className="advanced_nav"> <div>{text2}</div>
 <div className="plus_1">< img src={img2} /></div>
 </div>
 </Link>
 
-<Link href="/About">
+<Link href='/About'>
 <div className="advanced_nav"> <div>{text3}</div>
 </div>
 </Link>
