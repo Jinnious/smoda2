@@ -7,7 +7,7 @@ const defaultIcon = require('./xicon.png');
 
 
 
-const TutorialPage = ({name1,Icon,text}) => <div id="tutorialpage">
+const TutorialPage = ({name2,Icon1,text}) => <div id="tutorialpage">
  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
 
 <Link href="/Start"><div><img src={Icon1} id="xicon"/> </div></Link>
