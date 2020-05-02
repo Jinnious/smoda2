@@ -17,7 +17,7 @@ const NavigationOpenPage = ({img1,img2,text1,text2,text3,text4,text5,text6}) => 
 </div>
 <div className="advanced_nav"> <div>{text2}</div>
 
-         <Link href='/navigation'> <div className="plus_1">< img src={img2} /></div></Link>     
+         <div className="plus_1">< img src={img2} /></div>
 </div>
 <div className="navbox">
 
