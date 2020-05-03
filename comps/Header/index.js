@@ -64,7 +64,6 @@ const Header = ({img,hamburg1,text1,text2,text3,text4,plusicon}) => <div classNa
 Header.defaultProps = {
     img:defaultImg,
     hamburg1:hamburg1,
-    plusicon:plusicon,
     text1: "Basic",
     text2:"Advanced",
     text3:"About Us",
@@ -75,6 +74,29 @@ Header.defaultProps = {
 
 export default Header;
 
+
+
+
+var menu_state = false;
+
 function Shownav() {
-    document.querySelector(".navigation").style.right = 0;
+
+    if(menu_state === false) {
+        MeunOpen();
+    } else {
+        MenuClose();
+    }
+    }
+
+function MeunOpen() {
+    
+    document.querySelector(".navigation").style.right = "0%";
+    menu_state = true;
+    
+}
+
+function MenuClose() {
+
+    document.querySelector(".navigation").style.right = "-100%";
+    menu_state = false;
 }
