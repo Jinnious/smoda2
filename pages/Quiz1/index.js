@@ -2,7 +2,6 @@ import React from 'react';
 import '../../comps/Quiz/Questions/question.css';
 import BasicButton from '../../comps/buttons/button1';
 import Header from '../../comps/Header';
-import Link from 'next/link';
 const defaultImg = require('../../comps/Quiz/Questions/circle.png');
 const defaultImg2 = require('../../comps/Quiz/Questions/wrong.png');
 import Router from 'next/router';
@@ -39,7 +38,7 @@ const Questions = ({img1,img2}) => {
                         }}/>
                 </div>
                 <div className="quizbuttons"><BasicButton text='Back' bgcolor='#588B8B' onClick={()=>{
-                    Router.push("/Answer")
+                    Router.push("/Option")
                 }}/></div>
         
             </div>

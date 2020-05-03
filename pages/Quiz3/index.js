@@ -2,32 +2,46 @@ import React from 'react';
 import '../../comps/Quiz/Questions/question.css';
 import BasicButton from '../../comps/buttons/button1';
 import Header from '../../comps/Header';
-import Link from 'next/link';
 const defaultImg = require('../../comps/Quiz/Questions/circle.png');
 const defaultImg2 = require('../../comps/Quiz/Questions/wrong.png');
+import Router from 'next/router';
+import {data, ChangeData} from '../data';
 
 
 
-const Questions = ({img1,img2}) => 
+const Questions = ({img1,img2}) => {
+    console.log(data);
 
-    <div className="background">
+    return<div className="background">
         <Header />
             <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
-            <div className="subhead_quiz">Quiz 3</div>
+            <div className="subhead_quiz">Quiz 2</div>
 
             <div className="question_inner">
 
-                <div className="about_info_quiz">You may have damaged sense of taste if you smoke.</div>
+                <div className="about_info_quiz">If you smoke, does your brain size increase?</div>
 
                 <div className="quizicon">
-                        <Link href='/Answer'><a><img src={img1} /></a></Link>
-                        <Link href='/Answer'><a><img src={img2} /></a></Link>
+                        <img src={img1} onClick={()=>{
+                            ChangeData({
+                                lastaction:"Select O"
+                            })
+                            Router.push("/Answer1");
+                        }}/>
+                        <img src={img2} onClick={()=>{
+                            ChangeData({
+                                lastaction:"Select X"
+                            })
+                            Router.push("/Answer1");
+                        }}/>
                 </div>
-                <div className="quizbuttons"><BasicButton text='Back' bgcolor='#588B8B'/></div>
+                <div className="quizbuttons"><BasicButton text='Back' bgcolor='#588B8B' onClick={()=>{
+                    Router.push("/Quiz1")
+                }}/></div>
         
             </div>
-    </div>;
-
+    </div>
+}
 
 Questions.defaultProps = {
     img1:defaultImg,
