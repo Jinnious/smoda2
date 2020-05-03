@@ -5,6 +5,7 @@
     align-items: center;
     padding-top:50px;
     width:375px;
+    flex-direction: row !important;
 }
 
 .quizicon img {
