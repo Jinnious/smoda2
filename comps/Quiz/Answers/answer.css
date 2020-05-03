@@ -64,7 +64,7 @@ body {
 
 .about_info{
   width: 90%;
-  display: flex;
+  display: inline-block;
   margin-top: -50px;
   margin-left: -20px;
   text-align: center;
