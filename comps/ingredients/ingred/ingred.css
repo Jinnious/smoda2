@@ -30,14 +30,14 @@
     display: flex;
  
     left: 12px;
-    bottom: -100px;
+    bottom: 100px;
 }
 
 #click {
     display: flex;
   
     left: 130px;
-    bottom: -60px;
+    bottom: 60px;
     color: #707071;
 }
 
