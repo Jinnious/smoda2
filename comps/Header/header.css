@@ -43,7 +43,7 @@
     transition: right 1s;
     right: -100%;
     position: relative;
-    height:290px;
+    height:500px;
     font-size:40px;
     padding-left:20px;
     padding-top:20px;
@@ -53,23 +53,23 @@
 /* .drsm {
 
     display: inline-block;
-    text-align: center;
     height:150px;
-    width:250px;
+    width:288px;
 
     background-color: #CC7967;
     font-family: 'Fredoka One', cursive;
     left: 12%;
     position: absolute;
-    top: 45%;
+    top: 26%;
     right: 20%;
     z-index: 1;
-    text-align: center;
     font-size: 35px;
     color:white;
     margin-right: 20px;
-    padding: 20px;
-} */
+    padding: 15px;
+    margin-left:-20px;
+    margin-top:20px;
+}
 
 
 
@@ -99,6 +99,7 @@ padding:10px;
 
 .nav_about {
     padding:10px;
+    padding-top:185px;
 }
 
 .nav_tut{

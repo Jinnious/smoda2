@@ -52,7 +52,7 @@
 }
 
 
-.navigation {
+.navigation_open {
 
     display: inline-block;
     background-color: rgb(192, 68, 23);
@@ -60,14 +60,14 @@
     transition: right 1s;
     right: -100%;
     position: relative;
-    height:290px;
+    height:800px;
     font-size:40px;
     padding-left:20px;
     padding-top:20px;
     z-index : 1;
 }
 
-.drsm {
+.nav_inside_nav {
 
     display: inline-block;
     text-align: center;
@@ -85,7 +85,7 @@
     font-size: 35px;
     color:white;
     margin-right: 20px;
-    padding: 20px;
+    padding: 10px;
 }
 
 
@@ -121,6 +121,7 @@ padding:10px;
 
 .nav_tut{
     padding:10px;
+    padding-bottom:500px;
 
 }
 
