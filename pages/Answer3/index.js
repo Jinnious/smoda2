@@ -1,5 +1,5 @@
 import React from 'react';
-import {data, ChangeData} from '../data';
+import {data, ChangeData} from '../data.js';
 import '../../comps/Quiz/Answers/answer.css';
 import BasicButton from '../../comps/buttons/button1';
 import Header from '../../comps/Header';
