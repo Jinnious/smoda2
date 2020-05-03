@@ -31,6 +31,7 @@
     text-align: center;
     padding: 20px;
     position: absolute;
+    bottom: -220px;
    margin-left: -30px;
 
 }
@@ -48,4 +49,8 @@
     position: relative;
     left: 27%;
     bottom: -200px;
+}
+
+a:link{
+    text-decoration: none;
 }
