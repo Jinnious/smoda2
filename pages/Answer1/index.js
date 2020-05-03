@@ -1,5 +1,5 @@
 import React from 'react';
-import {data, ChangeData} from '../data.js';
+import {data, ChangeData} from '../../data';
 import wrong from '../../comps/Quiz/Answers/wrong.png';
 import right from '../../comps/Quiz/Answers/circle.png';
 import '../../comps/Quiz/Answers/answer.css';
