@@ -14,7 +14,7 @@ const Header = ({img,hamburg1,text1,text2,text3,text4,plusicon,text5,text6}) => 
 
       
     <div id="circle">
-    <div id="logo"><img src={img} /></div>
+    <div className="logo"><img src={img} /></div>
          
          <div>
 
@@ -40,13 +40,13 @@ const Header = ({img,hamburg1,text1,text2,text3,text4,plusicon,text5,text6}) => 
             >
                {text2}
 
-                {/* <div className="drsm">
+                {<div className="drsm">
 
                     {text5}
                     <p></p>
                     {text6}
                    
-                    </div> */}
+                    </div> }
 
                 <img src={plusicon}/>
             </div>
