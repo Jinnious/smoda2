@@ -53,11 +53,11 @@ const Header = ({img,hamburg1,text1,text2,text3,text4,plusicon,text5,text6}) => 
         
 
 
-            <div className="nav_about">
+            <div className="Abu">
                 {text3}
             </div>
 
-            <div className="nav_tut">
+            <div className="tt">
                 {text4}
             </div>
 
