@@ -21,7 +21,7 @@ const IngredAbout = ({}) => <div className="about">
     <div className="backbutton_about"><BasicButton text="Back" bgcolor="rgb(105,138,137)" onClick={()=>{
         Router.push('/Butane');
     }}/><BasicButton text="Next" onClick={()=>{
-        Router.push('/Benzene');
+        Router.push('/Ingred');
     }} /></div>
 </div>;
 
