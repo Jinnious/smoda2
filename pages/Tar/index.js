@@ -17,7 +17,11 @@ const IngredAbout = ({}) => <div className="about">
         <div className="about_info">{"Tar is the word for the solid particles suspended in tobacco smoke. The particles contain chemicals, including cancer-causing substances. Tar is sticky and brown, and stains teeth, fingernails."}</div>
 
     </div>
-    <div className="backbutton_about"><Link href="/Ingred"><a><BasicButton text="Back" bgcolor="rgb(105,138,137)" /></a></Link></div>
+    <div className="backbutton_about"><BasicButton text="Back" bgcolor="rgb(105,138,137)" onClick={()=>{
+        Router.push('/Butane');
+    }}/><BasicButton text="Next" onClick={()=>{
+        Router.push('/Benzene');
+    }} /></div>
 </div>;
 
 
