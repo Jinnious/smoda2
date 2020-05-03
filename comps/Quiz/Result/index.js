@@ -20,7 +20,7 @@ const Result = ({text}) => <div className="resultsbackg">
 
         </div>
 
-        <div id="button">
+        <div id="button" >
        <GoHome/>
         </div>
 

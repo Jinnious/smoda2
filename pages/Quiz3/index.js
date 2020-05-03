@@ -15,28 +15,28 @@ const Questions = ({img1,img2}) => {
     return<div className="background">
         <Header />
             <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
-            <div className="subhead_quiz">Quiz 2</div>
+            <div className="subhead_quiz">Quiz 3</div>
 
             <div className="question_inner">
 
-                <div className="about_info_quiz">If you smoke, does your brain size increase?</div>
+                <div className="about_info_quiz">You may have damaged sense of taste if you smoke.</div>
 
                 <div className="quizicon">
                         <img src={img1} onClick={()=>{
                             ChangeData({
-                                lastaction:"Select O"
+                                lastaction:"Select O_quiz3"
                             })
-                            Router.push("/Answer1");
+                            Router.push("/Answer3");
                         }}/>
                         <img src={img2} onClick={()=>{
                             ChangeData({
-                                lastaction:"Select X"
+                                lastaction:"Select X_quiz3"
                             })
-                            Router.push("/Answer1");
+                            Router.push("/Answer3");
                         }}/>
                 </div>
                 <div className="quizbuttons"><BasicButton text='Back' bgcolor='#588B8B' onClick={()=>{
-                    Router.push("/Quiz1")
+                    Router.push("/Quiz2")
                 }}/></div>
         
             </div>

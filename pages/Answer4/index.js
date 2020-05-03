@@ -15,16 +15,16 @@ const AnswerPage = ({})=> {
     var quest
     var answer
     var img
-    if(data.lastaction === "Select X_quiz2"){
-        subhead="Quiz 2",
-        quest="If you smoke, does your brain size increase?",
-        answer="Yes. It becomes smaller.",
+    if(data.lastaction === "Select O_quiz4"){
+        subhead="Quiz 4",
+        quest="Smoking may give higher risks of lung cancer.",
+        answer="Yes, smoking gives higher risks of lung cancer and even other lung diseases.",
         img=require('../../comps/Quiz/Answers/circle.png')
     } 
     else{
-        subhead="Quiz 2",
-        quest="If you smoke, does your brain size increase?",
-        answer="No. It becomes smaller instead.",
+        subhead="Quiz 4",
+        quest="Smoking may give higher risks of lung cancer.",
+        answer="No, smoking gives higher risks of lung cancer and even other lung diseases.",
         img=require('../../comps/Quiz/Answers/wrong.png')
     }
 
@@ -43,7 +43,7 @@ const AnswerPage = ({})=> {
                 </div>
 
                 <div className="quizbuttons" onClick={()=>{
-                    Router.push("/Quiz3")
+                    Router.push("/Quiz5")
                 }}>
                     <BasicButton text="Next" bgcolor="#F28F3C" />
                 </div>
