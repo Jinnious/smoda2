@@ -3,6 +3,7 @@ import '../../comps/ingredients/about/about.css';
 import BasicButton from '../../comps/buttons/button1';
 import Headers from '../../comps/Header';
 import Link from 'next/link';
+import Router from 'next/router';
 
 import ben from '../../comps/ingredients/about/benzene.png';
 
@@ -14,7 +15,7 @@ const IngredAbout = ({}) => <div className="about">
     <div></div>
     <div className="about_inner">
         <div className="about_img"> <img src={ben} /></div>
-        <div className="about_info">{"Ammonia is a strong, colorless gas. If the gas is dissolved in water, it is called liquid ammonia. Poisoning may occur if you breathe in ammonia or if you swallow or touch products that contain very large amounts of ammonia."}</div>
+        <div className="about_info">{"Benzene causes harmful effects on the bone marrow and can cause a decrease in red blood cells. It can also cause a lot of bleeding and can affect the immune system, increasing the chance for infection."}</div>
 
     </div>
     <div className="backbutton_about"><BasicButton text="Back" bgcolor="rgb(105,138,137)" onClick={()=>{
