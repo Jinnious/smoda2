@@ -22,7 +22,7 @@
 } */
 
 .question_inner {
-  display: inline-block;
+  display: flex;
     width: 100%;
     margin-top:-260px;
     padding: 25px;
@@ -56,20 +56,19 @@ margin-left: 20px;
     width:375px;
     height:812px;
     color: #707071;
-    
- 
 }
 
 body {
   margin: 0px;
 }
 
+
 .answer_info{
   width: 90%;
   display: inline-block;
   margin-top: -300px;
-  margin-left: -20px;
-  text-align: center;
+
+
   
 }
 .about_info img{
