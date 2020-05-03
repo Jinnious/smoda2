@@ -17,7 +17,11 @@ const IngredAbout = ({}) => <div className="about">
         <div className="about_info">{"Butane slows down the activity of the brain, affecting physical and mental responses. When butane is inhaled, the fumes are absorbed rapidly through the lungs into the bloodstream."}</div>
 
     </div>
-    <div className="backbutton_about"><Link href="/Ingred"><a><BasicButton text="Back" bgcolor="rgb(105,138,137)" /></a></Link></div>
+    <div className="backbutton_about"><BasicButton text="Back" bgcolor="rgb(105,138,137)" onClick={()=>{
+        Router.push('/Ammonia');
+    }}/><BasicButton text="Next" onClick={()=>{
+        Router.push('/Tar');
+    }} /></div>
 </div>;
 
 

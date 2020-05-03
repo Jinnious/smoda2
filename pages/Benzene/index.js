@@ -17,7 +17,11 @@ const IngredAbout = ({}) => <div className="about">
         <div className="about_info">{"Ammonia is a strong, colorless gas. If the gas is dissolved in water, it is called liquid ammonia. Poisoning may occur if you breathe in ammonia or if you swallow or touch products that contain very large amounts of ammonia."}</div>
 
     </div>
-    <div className="backbutton_about"><Link href="/Ingred"><a><BasicButton text="Back" bgcolor="rgb(105,138,137)" /></a></Link></div>
+    <div className="backbutton_about"><BasicButton text="Back" bgcolor="rgb(105,138,137)" onClick={()=>{
+        Router.push('/Nicotine');
+    }}/><BasicButton text="Next" onClick={()=>{
+        Router.push('/Ammonia');
+    }} /></div>
 </div>;
 
 
