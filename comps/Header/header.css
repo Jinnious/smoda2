@@ -60,7 +60,11 @@
     transition: right 1s;
     right: -100%;
     position: relative;
-
+    height:290px;
+    font-size:40px;
+    padding-left:20px;
+    padding-top:20px;
+    z-index : 1;
 }
 
 
@@ -68,13 +72,32 @@
     width: 20%;
     height: 30%;
     float: right;
-    margin-top: 5px;
-
+    margin-top: -10px;
+margin-right:20px;
 }
 .nav_advan img {
     width: 20%;
     height: 30%;
     float: right;
-    margin-top: 5px;
+    margin-top: -10px;
+    margin-right:20px;
+
+}
+
+.nav_basic {
+padding:10px;
+}
+
+.nav_advan {
+    padding:10px;
+}
+
+.nav_about {
+    padding:10px;
+
+}
+
+.nav_tut{
+    padding:10px;
 
 }
