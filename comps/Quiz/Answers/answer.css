@@ -22,7 +22,7 @@
 } */
 
 .question_inner {
-  display: inline-block;
+  display: flex;
     width: 100%;
     margin-top:50px;
     padding: 25px;
@@ -56,8 +56,6 @@ margin-left: 20px;
     width:375px;
     height:812px;
     color: #707071;
-    
- 
 }
 
 body {
@@ -66,7 +64,7 @@ body {
 
 .about_info{
   width: 90%;
-  display: inline-block;
+  display: flex;
   margin-top: -50px;
   margin-left: -20px;
   text-align: center;
