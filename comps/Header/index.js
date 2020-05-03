@@ -65,7 +65,7 @@ Header.defaultProps = {
     img:defaultImg,
     hamburg1:hamburg1,
     plusicon:plusicon,
-  
+    text1:"Basic",
     text2:"Advanced",
     text3:"About Us",
     text4:"Tutorial"
