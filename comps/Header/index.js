@@ -65,6 +65,7 @@ Header.defaultProps = {
     img:defaultImg,
     hamburg1:hamburg1,
     plusicon:plusicon,
+  
     text2:"Advanced",
     text3:"About Us",
     text4:"Tutorial"
@@ -74,6 +75,29 @@ Header.defaultProps = {
 
 export default Header;
 
+
+
+
+var menu_state = false;
+
 function Shownav() {
-    document.querySelector(".navigation").style.right = 0;
+
+    if(menu_state === false) {
+        MeunOpen();
+    } else {
+        MenuClose();
+    }
+    }
+
+function MeunOpen() {
+    
+    document.querySelector(".navigation").style.right = "0%";
+    menu_state = true;
+    
+}
+
+function MenuClose() {
+
+    document.querySelector(".navigation").style.right = "-100%";
+    menu_state = false;
 }
