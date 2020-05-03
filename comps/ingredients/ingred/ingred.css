@@ -27,12 +27,14 @@
 }
 
 .footerbutton_ingred {
+    display: flex;
     position: relative;
     left: 12px;
     bottom: -100px;
 }
 
 #click {
+    display: flex;
     position: relative;
     left: 130px;
     bottom: -60px;
