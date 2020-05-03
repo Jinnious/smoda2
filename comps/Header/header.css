@@ -13,10 +13,10 @@
 }
 
 
-#logo img {
-    width: 30%;
-    margin-left: 130px;
-    display: flex;
+.logo img {
+   
+    width: 95%;
+     display: flex;
     z-index: -1;
     
 
