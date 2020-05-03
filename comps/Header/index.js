@@ -12,11 +12,11 @@ const plusicon = require('./plus.png');
 
 const Header = ({img,hamburg1,text1,text2,text3,text4,plusicon,text5,text6}) => <div className="header">
 
-        <div className="header_box">
-{/* 
-        <div className="header_circle">
-        <div className="header_img"> 
-         <img src={img} /> */}
+      
+    <div id="circle">
+    <div id="logo"><img src={img} /></div>
+         
+         <div>
 
        
        
@@ -40,13 +40,13 @@ const Header = ({img,hamburg1,text1,text2,text3,text4,plusicon,text5,text6}) => 
             >
                {text2}
 
-                <div className="nav_plus">
+                {/* <div className="drsm">
 
                     {text5}
                     <p></p>
                     {text6}
                    
-                    </div>
+                    </div> */}
 
                 <img src={plusicon}/>
             </div>
@@ -68,7 +68,7 @@ const Header = ({img,hamburg1,text1,text2,text3,text4,plusicon,text5,text6}) => 
   
     </div>
     
-    </div>
+
     
     // </div>
   
