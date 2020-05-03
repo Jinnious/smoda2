@@ -1,9 +1,8 @@
 .selectpage {
-    margin: -10px;
+
     background-color: #FFF8E2;
     width: 375px;
     height: 816px;
-    position: absolute;
     display: block;
     
 }
@@ -26,4 +25,9 @@
     position: relative;
     left: 25%;
     top: -60px;
+}
+
+
+body {
+    margin: 0px;
 }
