@@ -1,5 +1,5 @@
 export var data = {
-    lastaction:" "
+    lastaction:"gotoquiz"
 }
 
 export function ChangeData(d){
