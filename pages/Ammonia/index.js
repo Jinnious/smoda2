@@ -3,6 +3,7 @@ import '../../comps/ingredients/about/about.css';
 import BasicButton from '../../comps/buttons/button1';
 import Headers from '../../comps/Header';
 import Link from 'next/link';
+import Router from 'next/router';
 
 import amm from '../../comps/ingredients/about/ammonia.png';
 
