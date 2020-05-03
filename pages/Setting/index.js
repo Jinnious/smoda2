@@ -59,7 +59,6 @@ const SettingPage = ({Logo,Icon,text1,text2,text3}) =>
 
 SettingPage.defaultProps ={
     text1:"Setting",
-
     text2:"Sound",
     text3:"Language",
     Logo:defaultLogo,

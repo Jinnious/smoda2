@@ -6,6 +6,8 @@ import Link from 'next/link';
 
 const defaultImg = require('./logo.svg');
 const hamburg1 = require('./hamburger.png');
+
+
 const Header = ({img,hamburg1}) => <div className="header">
 
         <div className="header_box">
