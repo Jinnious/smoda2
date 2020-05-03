@@ -57,7 +57,12 @@ margin-left: 54px;
     width:375px;
     height:812px;
     color: #707071;
+    
  
+}
+
+body {
+  margin: 0px;
 }
 
 .about_info{
