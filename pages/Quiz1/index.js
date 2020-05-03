@@ -54,3 +54,14 @@ Questions.defaultProps = {
 
 
 export default Questions;
+
+
+
+
+export var data = {
+    lastaction:""
+}
+
+export function ChangeData(d){
+    data = d;
+}
