@@ -25,7 +25,8 @@
 .optionbutton_box img {
     width: 50px;
     height: 100%;
-    
-    left: 0;
+    position: relative;
+    left: 5px;
+    top: 5px;
 
 }

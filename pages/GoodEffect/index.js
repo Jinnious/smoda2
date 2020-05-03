@@ -1,11 +1,13 @@
 import React from 'react';
 import './ge.css';
 
-import { Button1 } from '../../stories/Button.stories';
+import BasicButton from '../../comps/buttons/button1';
 import Header from '../../comps/Header';
 import cigarret from '../../img/smoking.png';
 import arrow3 from './arrow3.gif';
+import Link from 'next/link';
 
+import '../app.css';
 
 
 
@@ -34,11 +36,14 @@ const GoodEffectPage= ({geimg,cigarret,text,memory}) => <div className="gepage">
 
 
 
-
 </div>
 
 
-<div className="footbutton"><Button1 /></div>
+<div className="footbutton">
+  
+  <BasicButton text="Back" bgcolor="#588B8B"/>
+  <BasicButton text="Next" bgcolor="#F28F3C"/>
+</div>
 
 
 </div>

@@ -1,9 +1,9 @@
 
 .gepage {
-margin: -10px;
-position: absolute;
+display: block;
+margin-left: -10px;
 width: 375px;
-height:816px;
+height:812px;
 background-color: #FFF8E2;
 align-items: center;
 justify-content: center;
@@ -17,8 +17,8 @@ font-family: 'Fredoka One', cursive;
     font-size: 45px;
     position: relative;
     left: 102px;
-    top: -20px;
-    margin-bottom: 40px;
+    top: -50px;
+    margin-bottom: -20px;
 }
 
 
@@ -43,7 +43,7 @@ font-family: 'Fredoka One', cursive;
     position: relative;
     width: 90%;
     height: 90%;
-    top: -45px;
+    top: -30px;
 }
 
 .bodycontents {
@@ -55,7 +55,7 @@ margin-bottom: 30px;
 }
 
 .footbutton {
-    top: -100px;
+    top: -50px;
     position: relative;
     left: 15px;
 }
@@ -66,7 +66,11 @@ margin-bottom: 30px;
     width: 100px;
     height: 100px;
     float: right;
-    top: -55px;
+    top: -48px;
     right:15px;
 
+}
+
+a:link {
+    text-decoration: none;
 }

@@ -1,7 +1,8 @@
-#buttons {
+#buttons_option {
 
-    margin-left: 30px;
-
+    margin-left: 40px;
+    position: relative;
+    top: -30px;
 }
 
 
@@ -9,4 +10,13 @@
     margin: -8px;
     width: 375px;
     height: 816px;
+}
+
+.second_stack{
+    position: relative;
+    top: 100px;
+}
+
+a:link{
+    text-decoration: none;
 }

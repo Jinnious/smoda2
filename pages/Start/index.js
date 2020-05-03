@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 import './start.css';
 
-import '../../app.css';
+import '../app.css';
 
 
 const defaultLogo = require('../../comps/logo/logo.png');
@@ -16,21 +16,21 @@ const defaultIcon = require('../../comps/icons/settings.png');
 
 
 
-
-
 const StartPage = ({Logo,Icon,Aboutus}) => <div id="startpage">
  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
 
- <Link href="/Setting"><a>
+<Link href="/Setting">
+<a>
 <img src={Icon} id="settingicon"/> 
 </a>
+
 </Link>
 
 
 <div className="startpage_inner">
         <img src={Logo} />
 
-<Link href="/Topic"><a>
+<Link href="/Level"><a>
 < StartButton text="Start" />
 </a>
 </Link>

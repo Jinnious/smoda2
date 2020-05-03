@@ -44,8 +44,8 @@
 
 
 
-.backbutton {
+.backbutton_about {
     position: relative;
     left: 27%;
-    margin-top: -10px;
+    bottom: -200px;
 }

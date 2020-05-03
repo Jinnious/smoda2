@@ -1,0 +1,33 @@
+.selectpage {
+    margin: -10px;
+    background-color: #FFF8E2;
+    width: 375px;
+    height: 816px;
+
+    display: block;
+    
+}
+
+
+.organ_select {
+    width:100%;
+    margin-top: -30px;
+    margin-bottom: 100px;
+}
+.firstline {
+    display: flex;
+}
+
+.secondline {
+    display: flex;
+}
+
+.back_button {
+    position: relative;
+    left: 25%;
+    top: -60px;
+}
+
+a:link {
+    text-decoration: none;
+}
