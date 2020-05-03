@@ -1,30 +1,30 @@
 import React from 'react';
 import {data, ChangeData} from '../data';
-import wrong from '../../comps/Quiz/Answers/wrong.png';
-import right from '../../comps/Quiz/Answers/circle.png';
 import '../../comps/Quiz/Answers/answer.css';
 import BasicButton from '../../comps/buttons/button1';
 import Header from '../../comps/Header';
 
 import Router from 'next/router';
-console.log(data);
+
 
 
 const AnswerPage = ({})=> {
+    console.log(data);
+    
     var subhead
     var quest
     var answer
     var img
-    if(data.lastaction === "Select O"){
-        subhead="Quiz 1",
-        quest="Is nicotine an ingredient of cigarette?",
-        answer="Yes, nicontine is an ingredient of cigarette.",
+    if(data.lastaction === "Select X_quiz2"){
+        subhead="Quiz 2",
+        quest="If you smoke, does your brain size increase?",
+        answer="No. It becomes smaller instead.",
         img=require('../../comps/Quiz/Answers/circle.png')
     } 
     else{
-        subhead="Quiz 1",
-        quest="Is nicotine an ingredient of cigarette?",
-        answer="Yes, nicontine is an ingredient of cigarette.",
+        subhead="Quiz 2",
+        quest="If you smoke, does your brain size increase?",
+        answer="No. It becomes smaller instead.",
         img=require('../../comps/Quiz/Answers/wrong.png')
     }
 
@@ -43,7 +43,7 @@ const AnswerPage = ({})=> {
                 </div>
 
                 <div className="quizbuttons" onClick={()=>{
-                    Router.push("/Quiz2")
+                    Router.push("/Quiz3")
                 }}>
                     <BasicButton text="Next" bgcolor="#F28F3C" />
                 </div>
@@ -53,11 +53,5 @@ const AnswerPage = ({})=> {
 }
 
 
-
-AnswerPage.defaultProps = {
-    text: "Is nicotine an ingredient of cigarette?",
-    text2: "Yes, nicontine is an ingredient of cigarette.",
-    text3: "Quiz"
-}
 
 export default AnswerPage;
