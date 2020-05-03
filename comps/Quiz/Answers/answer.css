@@ -24,7 +24,7 @@
 .question_inner {
   display: flex;
     width: 100%;
-    margin-top:-240px;
+    margin-top:-260px;
     padding: 25px;
 
 }
@@ -62,11 +62,14 @@ body {
   margin: 0px;
 }
 
-.about_info{
-  margin-top: -100px;
+
+.answer_info{
   width: 90%;
-  margin-left: -20px;
-  text-align: center;
+  display: inline-block;
+  margin-top: -300px;
+
+
+  
 }
 .about_info img{
 

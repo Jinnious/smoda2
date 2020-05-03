@@ -13,7 +13,7 @@ const QuestionsAnswer1 = ({img1,text,text2,text3}) => <div className="background
     <div className="subhead_quiz_answer">{text3}</div>
 
     <div className="question_inner">
-        <div className="about_info">
+        <div className="answer_info">
             <div className="question_answer">{text}</div>
     
             <img src={img1} />
