@@ -4,7 +4,7 @@ import './header.css';
 import Link from 'next/link';
 import BasicButton from '../buttons/button1';
 
-const defaultImg = require('./logo.png');
+const defaultImg = require('./Logo.png');
 const hamburg1 = require('./hamburger.png');
 const plusicon = require('./plus.png');
 
