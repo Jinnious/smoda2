@@ -24,7 +24,9 @@
 .question_inner {
   display: inline-block;
     width: 100%;
-    margin-left: 40px;
+    margin-top:50px;
+ padding-left:17px;
+
 }
 
 .answertext{
