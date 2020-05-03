@@ -1,7 +1,6 @@
 
 import React from 'react';
 import './header.css';
-import Navigation from '../Navigation';
 import Link from 'next/link';
 
 const defaultImg = require('./logo.svg');
