@@ -9,6 +9,7 @@ const hamburg1 = require('./hamburger.png');
 const plusicon = require('./plus.png');
 
 
+
 const Header = ({img,hamburg1,text1,text2,text3,text4,plusicon}) => <div className="header">
 
         <div className="header_box">
@@ -31,10 +32,13 @@ const Header = ({img,hamburg1,text1,text2,text3,text4,plusicon}) => <div classNa
                 <img src={plusicon}/>
             </div>
 
+         
             <div className="nav_advan">
                 {text2}
                 <img src={plusicon}/>
             </div>
+        
+
 
             <div className="Abu">
                 {text3}
