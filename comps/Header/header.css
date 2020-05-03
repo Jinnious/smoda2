@@ -7,19 +7,20 @@
     width:375px;
     margin-bottom: 150px;
     font-family: 'Fredoka One', cursive;
+
   
 }
 
 
-.header_circle {
+/* .header_circle {
 
     position: relative;
-    /* margin-top: -100px; */
+
     justify-content: center;
     margin-top:0;
     
 
-}
+} */
 
 .header_box {
     background-color: #FFF;
@@ -28,7 +29,7 @@
 
 }
 
-.header_img {
+/* .header_img {
     max-width: 30%;
     background-color: #FFF;
     border-radius: 100%;
@@ -38,7 +39,7 @@
     top: 0px;
     padding:27px;
 
-}
+} */
 
 
 .hambur img{
@@ -47,6 +48,33 @@
     height: 30%;
     float: right;
     margin-top: 5px;
-   
+
+}
+
+
+.navigation {
+
+    display: inline-block;
+    background-color: rgb(192, 68, 23);
+    font-family: 'Fredoka One', cursive;
+    transition: right 1s;
+    right: -100%;;
+    position: relative;
+
+}
+
+
+.nav_basic img{
+    width: 20%;
+    height: 30%;
+    float: right;
+    margin-top: 5px;
+
+}
+.nav_advan img {
+    width: 20%;
+    height: 30%;
+    float: right;
+    margin-top: 5px;
 
 }
