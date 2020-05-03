@@ -27,7 +27,7 @@
 .quizbuttons {
     display:flex;
     position: absolute;
-    left: 90px;
+    left: 60px;
     bottom: 30px;
 }
 
