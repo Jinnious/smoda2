@@ -24,8 +24,8 @@ body {
 .cigaImg {
     width: 500px;
     height: 200px;
-    position: relative;
-    top: -10px;
+    position: relative; 
+    top: -40px;
     left: 4%;
 }
 
@@ -38,7 +38,7 @@ body {
 #click {
     position: relative;
     left: 130px;
-    bottom: -40px;
+    bottom: -30px;
     color: #707071;
 }
 

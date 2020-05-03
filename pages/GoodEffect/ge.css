@@ -1,7 +1,7 @@
 
 .gepage {
 display: block;
-margin-left: -10px;
+
 width: 375px;
 height:812px;
 background-color: #FFF8E2;
@@ -12,12 +12,13 @@ font-family: 'Fredoka One', cursive;
 }
 
 
+
 .subhead_organ {
     color: #588B8B;
     font-size: 45px;
     position: relative;
     left: 102px;
-    top: -50px;
+    top: -90px;
     margin-bottom: -20px;
 }
 
@@ -55,11 +56,16 @@ margin-bottom: 30px;
 }
 
 .footbutton {
-    top: -50px;
+    bottom: 120px;
     position: relative;
     left: 15px;
 }
 
+
+
+body{
+    margin: 0px;
+}
 
 #gif img{
     position: relative;
