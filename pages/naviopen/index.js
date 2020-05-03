@@ -1,6 +1,6 @@
 
 import React from 'react';
-import './header.css';
+import './naviopen.css';
 import Link from 'next/link';
 import BasicButton from '../buttons/button1';
 
@@ -25,7 +25,7 @@ const Header = ({img,hamburg1,text1,text2,text3,text4,plusicon,text5,text6}) => 
         }}><img src={hamburg1} /></div>
 
 
-        <div className="navigation">
+        <div className="navigation_open">
 
             <div className="nav_basic">
                 {text1}
@@ -40,7 +40,7 @@ const Header = ({img,hamburg1,text1,text2,text3,text4,plusicon,text5,text6}) => 
             >
                {text2}
 
-                <div className="drsm">
+                <div className="nav_inside_nav">
 
                     {text5}
                     <p></p>
@@ -53,11 +53,11 @@ const Header = ({img,hamburg1,text1,text2,text3,text4,plusicon,text5,text6}) => 
         
 
 
-            <div className="Abu">
+            <div className="nav_about">
                 {text3}
             </div>
 
-            <div className="tt">
+            <div className="nav_tut">
                 {text4}
             </div>
 

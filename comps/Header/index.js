@@ -40,7 +40,7 @@ const Header = ({img,hamburg1,text1,text2,text3,text4,plusicon,text5,text6}) => 
             >
                {text2}
 
-                <div className="drsm">
+                <div className="nav_plus">
 
                     {text5}
                     <p></p>
