@@ -113,6 +113,6 @@ function MeunOpen() {
 
 function MenuClose() {
 
-    document.querySelector(".navigation").style.right = "-100%";
+    document.querySelector(".navigation").style.right = "-130%";
     menu_state = false;
 }
