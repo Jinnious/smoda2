@@ -1,7 +1,7 @@
 
 .gepage {
 display: block;
-margin-left: -10px;
+
 width: 375px;
 height:812px;
 background-color: #FFF8E2;
@@ -55,7 +55,7 @@ margin-bottom: 30px;
 }
 
 .footbutton {
-    top: -50px;
+    top: -90px;
     position: relative;
     left: 15px;
 }
@@ -73,4 +73,8 @@ margin-bottom: 30px;
 
 a:link {
     text-decoration: none;
+}
+
+body {
+    margin: 0px;
 }
