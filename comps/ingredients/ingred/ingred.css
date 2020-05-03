@@ -1,8 +1,7 @@
 .smoking {
     font-family: 'Fredoka One', cursive;
     background-color: #FFF8E2;
-    margin-left: -10px;
-    width: 375px;
+  
     height: 812px;
     align-content: center;
     justify-content: center;
@@ -30,13 +29,13 @@
 .footerbutton_ingred {
     position: relative;
     left: 12px;
-    bottom: -200px;
+    bottom: -50px;
 }
 
 #click {
     position: relative;
     left: 130px;
-    bottom: -240px;
+    bottom: -40px;
     color: #707071;
 }
 

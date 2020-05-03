@@ -1,7 +1,7 @@
 import React from 'react';
-import SettingIcon from '../icons';
+import SettingIcon from '../../comps/icons';
 
-import LanguageButton from '../buttons/button4';
+import LanguageButton from '../../comps/buttons/button4';
 import './setting.css';
 
 import Link from 'next/link';
@@ -59,7 +59,6 @@ const SettingPage = ({Logo,Icon,text1,text2,text3}) =>
 
 SettingPage.defaultProps ={
     text1:"Setting",
-
     text2:"Sound",
     text3:"Language",
     Logo:defaultLogo,
