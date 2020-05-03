@@ -1,3 +1,7 @@
+import React from React;
+
+
+
 export var data = {
     lastaction:"gotoquiz"
 }
