@@ -1,6 +1,6 @@
 .about {
 
-    
+    margin: -10px;
     text-align: justify;
     width:375px;
     height:812px;
@@ -8,10 +8,6 @@
   
 }
 
-
-body {
-    margin: 0px;
-}
 .head{
     height: 170px;
 }
@@ -51,5 +47,5 @@ body {
 .backbutton_about {
     position: relative;
     left: 27%;
-    bottom: -180px;
+    bottom: -200px;
 }
