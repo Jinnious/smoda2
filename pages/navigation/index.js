@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import StartButton from '../../comps/buttons/button2';
 import Header from '../../comps/Header';
 import Stack from '../../comps/Stack';
@@ -8,11 +8,17 @@ import Link from 'next/link';
 const Plus = require('./plus.png');
 const NavigationPage = ({img1,img2,text1,text2,text3,text4}) => <div id="optionpage">
 
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
+
+
+
+
 <Header/>
 
 <div className="nav_bgcolor">
 
-<div className="basic_nav"> <div>{text1}</div>
+<div className="basic_nav"> 
+<div>{text1}</div>
 <div className="plus"> <img src={img1} /></div>
 </div>
 
