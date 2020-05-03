@@ -63,9 +63,8 @@ body {
 }
 
 .about_info{
+  margin-top: -100px;
   width: 90%;
-  display: flex;
-  margin-top: -50px;
   margin-left: -20px;
   text-align: center;
 }
