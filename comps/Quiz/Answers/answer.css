@@ -10,7 +10,7 @@
 
 .quizicon img{
   display: block;
-  position: absolute;
+  position: relative;
   width: 40%;
   height: 40%;
   margin: 10px;
@@ -21,18 +21,15 @@
 } */
 
 .question_inner {
-    display: inline-block;
-    margin: auto;
+  display: inline-block;
     width: 100%;
-    margin-top:50px;
-
+    margin-left: 40px;
 }
 
 .answertext{
   font-size: 20px;
   padding-bottom: 50px;
 }
-
 
 
 .quizbuttons {
@@ -54,15 +51,14 @@
   background-color: #FFF8E2;
     width:375px;
     height:812px;
-    position: absolute;
     color: #707071;
  
 }
 
 .about_info{
-  position: relative;
-  left: 5px;
-  margin-top: -20px;
+  display: inline-block;
+  margin-top: -50px;
+  margin-left: 5px;
 }
 .about_info img{
 
@@ -76,7 +72,7 @@
   font-size: 45px;
   font-family: 'Fredoka One', cursive;
   position: relative;
-  top: -60px;
+  top: -90px;
   left: 30%;
 }
 
