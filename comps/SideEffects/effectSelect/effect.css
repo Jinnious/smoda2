@@ -1,5 +1,5 @@
 .selectpage {
-    margin: -10px;
+  
     background-color: #FFF8E2;
     width: 375px;
     height: 816px;
@@ -8,7 +8,9 @@
     
 }
 
-
+body {
+    margin: 0px;
+}
 .organ_select {
     width:100%;
     margin-top: 30px;
