@@ -5,9 +5,12 @@
 
 
 #optionpage {
-
+    position: relative;
     width: 375px;
     height: 812px;
+    /* right: -100%; */
+    transition: right 1s;
+    
 }
 
 .second {
@@ -35,6 +38,8 @@
     height:400px;
     background-color: rgb(192, 68, 23);
     margin-top:-160px;
+    font-family: 'Fredoka One', cursive;
+
     
 }
 
