@@ -1,5 +1,6 @@
 import React from 'react';
 import '../GoodEffect/ge.css';
+import Router from 'next/router';
 
 import BasicButton from '../../comps/buttons/button1';
 import Header from '../../comps/Header';
@@ -29,7 +30,9 @@ const GoodEffectPage= ({cigarret,memory}) => <div className="gepage">
       <div id="gif"><img src={arrow3}></img></div>  
     <p>Drag me!</p>
     
-    <img src={cigarret}/>
+    <img src={cigarret} onClick={()=>{
+      Router.push("/Bad-brain");
+    }}/>
     </div>
 
 
