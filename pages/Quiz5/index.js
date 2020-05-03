@@ -5,7 +5,7 @@ import Header from '../../comps/Header';
 const defaultImg = require('../../comps/Quiz/Questions/circle.png');
 const defaultImg2 = require('../../comps/Quiz/Questions/wrong.png');
 import Router from 'next/router';
-import {data, ChangeData} from '../data';
+import {data, ChangeData} from '../data.js';
 
 
 
