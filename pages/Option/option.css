@@ -7,9 +7,11 @@
 
 
 #optionpage {
-    margin: -8px;
-    width: 375px;
-    height: 816px;
+    margin-left: -8px;
+    position: absolute;
+    display: block;  
+    width: 100vw;
+    height: 812px;
 }
 
 .second_stack{
