@@ -26,7 +26,7 @@
 
 
 .hambur img{
-    margin-top: -60px;
+    margin-top: -80px;
     width: 20%;
     height: 30%;
     float: right;
@@ -50,7 +50,7 @@
     z-index : 1;
 }
 
-/* .drsm {
+.drsm {
 
     display: inline-block;
     height:150px;
@@ -109,4 +109,24 @@ padding:10px;
 
 /* body{
     margin: 0px;
-}  */
+
+}
+/* 
+#circle {
+    border-radius: 80%;
+    color:white;
+    background-color: white;
+} */
+
+.logo {
+    border-radius: 90%;
+    background-color: white;
+    width:100px;
+    margin-left:123px;
+    padding-top:20px;
+    padding:20px;
+margin-bottom:-20px;
+}
+
+}  
+
