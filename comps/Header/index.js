@@ -40,11 +40,11 @@ const Header = ({img,hamburg1,text1,text2,text3,text4,plusicon}) => <div classNa
         
 
 
-            <div className="Abu">
+            <div className="nav_about">
                 {text3}
             </div>
 
-            <div className="tt">
+            <div className="nav_tut">
                 {text4}
             </div>
 
