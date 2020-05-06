@@ -94,12 +94,12 @@ a:link {
 .color_answer {
   position: absolute;
   top: 120px;
-  left: 31%;
+  left: 50px;
   font-size: 50px;
   z-index: 1;
 }
 
 .about_info{
   position: absolute;
-  top: 100px;
+  top: 250px;
 }
