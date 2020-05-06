@@ -30,7 +30,7 @@
 }
 
 .answertext{
-  font-size: 20px;
+  font-size: 28px;
   padding-bottom: 50px;
 }
 
@@ -94,7 +94,7 @@ a:link {
 .color_answer {
   position: absolute;
   top: 120px;
-  left: 50px;
+  left: 40px;
   font-size: 50px;
   z-index: 1;
 }
