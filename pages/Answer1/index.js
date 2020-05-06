@@ -13,17 +13,20 @@ const AnswerPage = ({})=> {
     var quest
     var answer
     var img
+    var answer_color
     if(data.lastaction === "Select O"){
         subhead="Quiz 1",
         quest="Is nicotine an ingredient of cigarette?",
         answer="Yes, nicontine is an ingredient of cigarette.",
-        img=require('../../img/correct_a.png')
+        img=require('../../img/correct_a.png'),
+        answer_color="You are Right!"
     } 
     else{
         subhead="Quiz 1",
         quest="Is nicotine an ingredient of cigarette?",
         answer="Yes, nicontine is an ingredient of cigarette.",
-        img=require('../../img/wrong_a.png')
+        img=require('../../img/wrong_a.png'),
+        answer_color="You are Wrong!"
     }
 
     return<div className="background">
@@ -34,7 +37,7 @@ const AnswerPage = ({})=> {
             <div className="question_inner">
                 <div className="about_info">
                     <div className="question_answer">{quest}</div>
-            
+                    <div className="color_answer">{answer_color}</div>
                     <img src={img} />
             
                     <div className="answertext">{answer}</div>
