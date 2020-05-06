@@ -29,7 +29,8 @@ const AnswerPage = ({color})=> {
         quest="Is nicotine an ingredient of cigarette?",
         answer="Yes, nicontine is an ingredient of cigarette.",
         img=require('../../img/wrong_a.png'),
-        answer_color="You are Wrong!"
+        answer_color="You are Wrong!",
+        color = "#8B0000"
     }
 
     return<div className="background">
@@ -40,10 +41,10 @@ const AnswerPage = ({color})=> {
             <div className="question_inner">
                 <div className="about_info">
                     <div className="question_answer">{quest}</div>
-                    <div className="color_answer">{answer_color}</div>
+                    <div className="color_answer" style={{color:color}}>{answer_color}</div>
                     <img src={img} />
             
-                    <div className="answertext" style={{color:color}}>{answer}</div>
+                    <div className="answertext" >{answer}</div>
                 </div>
 
                 <div className="quizbuttons" onClick={()=>{
