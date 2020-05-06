@@ -8,11 +8,9 @@ import Router from 'next/router';
 console.log(data);
 
 
-function setColor(){
-    document.getElementsByClassName("color_answer").style.color = "	#008000";
-}
 
-const AnswerPage = ({})=> {
+
+const AnswerPage = ({color})=> {
     var subhead
     var quest
     var answer
@@ -24,7 +22,7 @@ const AnswerPage = ({})=> {
         answer="Yes, nicontine is an ingredient of cigarette.",
         img=require('../../img/correct_a.png'),
         answer_color="You are Right!",
-        setColor();
+        color = "#008000"
     } 
     else{
         subhead="Quiz 1",
@@ -45,7 +43,7 @@ const AnswerPage = ({})=> {
                     <div className="color_answer">{answer_color}</div>
                     <img src={img} />
             
-                    <div className="answertext">{answer}</div>
+                    <div className="answertext" style={{color:color}}>{answer}</div>
                 </div>
 
                 <div className="quizbuttons" onClick={()=>{
