@@ -19,8 +19,7 @@ const AnswerPage = ({})=> {
         quest="Is nicotine an ingredient of cigarette?",
         answer="Yes, nicontine is an ingredient of cigarette.",
         img=require('../../img/correct_a.png'),
-        answer_color="You are Right!",
-        document.querySelector("answer_color").style.color = '#037f51';
+        answer_color="You are Right!"
     } 
     else{
         subhead="Quiz 1",
