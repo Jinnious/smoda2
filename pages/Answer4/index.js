@@ -15,6 +15,7 @@ const AnswerPage = ({color})=> {
     var quest
     var answer
     var img
+    var answer_color
     if(data.lastaction === "Select O_quiz4"){
         subhead="Quiz 4",
         quest="Smoking may give higher risks of lung cancer.",

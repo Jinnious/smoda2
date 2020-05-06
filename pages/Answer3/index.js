@@ -15,6 +15,7 @@ const AnswerPage = ({color})=> {
     var quest
     var answer
     var img
+    var answer_color
     if(data.lastaction === "Select O_quiz3"){
         subhead="Quiz 3",
         quest="You may have damaged sense of taste if you smoke.",

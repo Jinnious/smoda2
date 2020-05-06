@@ -15,6 +15,7 @@ const AnswerPage = ({color})=> {
     var quest
     var answer
     var img
+    var answer_color
     if(data.lastaction === "Select O_quiz5"){
         subhead="Quiz 5",
         quest="Smoking is actually good for your heart, as it increases blood circulations.",

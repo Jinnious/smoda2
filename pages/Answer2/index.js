@@ -15,6 +15,7 @@ const AnswerPage = ({color})=> {
     var quest
     var answer
     var img
+    var answer_color
     if(data.lastaction === "Select X_quiz2"){
         subhead="Quiz 2",
         quest="If you smoke, does your brain size increase?",
