@@ -93,8 +93,8 @@ a:link {
 
 .color_answer {
   position: absolute;
-  top: 120px;
-  left: 40px;
+  top: 130px;
+  left: 20px;
   font-size: 50px;
   z-index: 1;
 }
