@@ -36,7 +36,7 @@
 
 
 .quizbuttons {
-  margin-top: 70px;
+  margin-top: 80px;
 margin-left: 32px;
   
 
@@ -89,7 +89,7 @@ body {
   font-family: 'Fredoka One', cursive;
   position: absolute;
   top: 150px;
-  left: 95px;
+  left: 100px;
   margin-bottom: 0px;
 }
 
@@ -99,7 +99,7 @@ a:link {
 
 .color_answer {
   position: absolute;
-  top: 150px;
+  top: 120px;
   left: 90px;
   font-size: 50px;
   z-index: 1;
