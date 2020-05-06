@@ -8,6 +8,10 @@ import Router from 'next/router';
 console.log(data);
 
 
+function setColor(){
+    document.getElementsByClassName("color_answer").style.color = "	#008000";
+}
+
 const AnswerPage = ({})=> {
     var subhead
     var quest
@@ -19,7 +23,8 @@ const AnswerPage = ({})=> {
         quest="Is nicotine an ingredient of cigarette?",
         answer="Yes, nicontine is an ingredient of cigarette.",
         img=require('../../img/correct_a.png'),
-        answer_color="You are Right!"
+        answer_color="You are Right!",
+        setColor();
     } 
     else{
         subhead="Quiz 1",
