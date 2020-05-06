@@ -76,7 +76,7 @@ body {
   width: 50%;
   position: relative;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 
@@ -95,9 +95,9 @@ a:link {
 
 .color_answer {
   position: absolute;
-  top: 130px;
-  left: 18px;
-  font-size: 60px;
+  top: 150px;
+  left: 15px;
+  font-size: 50px;
   z-index: 1;
 }
 
