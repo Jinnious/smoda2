@@ -8,7 +8,7 @@ import Router from 'next/router';
 
 
 
-const AnswerPage = ({})=> {
+const AnswerPage = ({color})=> {
     console.log(data);
     
     var subhead
@@ -19,13 +19,17 @@ const AnswerPage = ({})=> {
         subhead="Quiz 3",
         quest="You may have damaged sense of taste if you smoke.",
         answer="Yes, smoking affects in your sense of taste.",
-        img=require('../../comps/Quiz/Answers/circle.png')
+        img=require('../../img/correct_a.png'),
+        answer_color="You are Right!",
+        color = "#008000"
     } 
     else{
         subhead="Quiz 3",
         quest="You may have damaged sense of taste if you smoke.",
-        answer="No, smoking affects in your sense of taste.",
-        img=require('../../comps/Quiz/Answers/wrong.png')
+        answer="Yes, smoking affects in your sense of taste.",
+        img=require('../../img/wrong_a.png'),
+        answer_color="You are Wrong!",
+        color = "#8B0000"
     }
 
     return<div className="background">
@@ -36,7 +40,7 @@ const AnswerPage = ({})=> {
             <div className="question_inner">
                 <div className="about_info">
                     <div className="question_answer">{quest}</div>
-            
+                    <div className="color_answer" style={{color:color}}>{answer_color}</div>
                     <img src={img} />
             
                     <div className="answertext">{answer}</div>
