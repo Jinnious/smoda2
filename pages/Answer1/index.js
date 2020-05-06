@@ -19,14 +19,16 @@ const AnswerPage = ({})=> {
         quest="Is nicotine an ingredient of cigarette?",
         answer="Yes, nicontine is an ingredient of cigarette.",
         img=require('../../img/correct_a.png'),
-        answer_color="You are Right!"
+        answer_color="You are Right!",
+        setColor();
     } 
     else{
         subhead="Quiz 1",
         quest="Is nicotine an ingredient of cigarette?",
         answer="Yes, nicontine is an ingredient of cigarette.",
         img=require('../../img/wrong_a.png'),
-        answer_color="You are Wrong!"
+        answer_color="You are Wrong!",
+        setColor();
     }
 
     return<div className="background">
@@ -59,6 +61,15 @@ AnswerPage.defaultProps = {
     text: "Is nicotine an ingredient of cigarette?",
     text2: "Yes, nicontine is an ingredient of cigarette.",
     text3: "Quiz"
+}
+
+function setColor(){
+    if(data.lastaction === "Select O"){
+        document.querySelector(".color_answer").style.color = "#037f51";
+    }
+    else{
+        document.querySelector(".color_answer").style.color = "#cc0000";
+    }
 }
 
 export default AnswerPage;
