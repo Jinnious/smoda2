@@ -90,3 +90,10 @@ body {
 a:link {
   text-decoration: none;
 }
+
+.color_answer {
+  position: absolute;
+  top: -100px;
+  left: 30%;
+
+}
