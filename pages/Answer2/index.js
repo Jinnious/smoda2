@@ -22,7 +22,7 @@ const AnswerPage = ({color})=> {
         answer="No. It becomes smaller instead.",
         img=require('../../img/correct_a.png'),
         answer_color="You are Right !",
-        color = "#8B0000"
+        color = "#008000"
     } 
     else{
         subhead="Quiz 2",
