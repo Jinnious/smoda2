@@ -1,7 +1,5 @@
 import React from 'react';
 import {data, ChangeData} from '../../data';
-import wrong from '../../comps/Quiz/Answers/wrong.png';
-import right from '../../comps/Quiz/Answers/circle.png';
 import '../../comps/Quiz/Answers/answer.css';
 import BasicButton from '../../comps/buttons/button1';
 import Header from '../../comps/Header';
@@ -19,13 +17,13 @@ const AnswerPage = ({})=> {
         subhead="Quiz 1",
         quest="Is nicotine an ingredient of cigarette?",
         answer="Yes, nicontine is an ingredient of cigarette.",
-        img=require('../../comps/Quiz/Answers/circle.png')
+        img=require('../../img/correct_a.png')
     } 
     else{
         subhead="Quiz 1",
         quest="Is nicotine an ingredient of cigarette?",
         answer="Yes, nicontine is an ingredient of cigarette.",
-        img=require('../../comps/Quiz/Answers/wrong.png')
+        img=require('../../img/wrong_a.png')
     }
 
     return<div className="background">
