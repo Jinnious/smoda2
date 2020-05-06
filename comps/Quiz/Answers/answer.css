@@ -44,7 +44,7 @@ margin-left: 32px;
 
 .question_answer {
   margin: 10px;
-  font-size: 20px;
+  font-size: 28px;
 }
 
 .quizback {
@@ -73,7 +73,7 @@ body {
 }
 .about_info img{
 
-  width: 70%;
+  width: 50%;
   position: relative;
 }
 
@@ -94,10 +94,11 @@ a:link {
 .color_answer {
   position: absolute;
   top: 130px;
-  left: 20px;
+  left: 18px;
   font-size: 60px;
   z-index: 1;
 }
+
 
 .about_info{
   position: absolute;
