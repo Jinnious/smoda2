@@ -21,7 +21,7 @@ const AnswerPage = ({color})=> {
         quest="If you smoke, does your brain size increase?",
         answer="No. It becomes smaller instead.",
         img=require('../../img/correct_a.png'),
-        answer_color="You are Right!",
+        answer_color="You are Right !",
         color = "#8B0000"
     } 
     else{
@@ -29,7 +29,7 @@ const AnswerPage = ({color})=> {
         quest="If you smoke, does your brain size increase?",
         answer="No. It becomes smaller instead.",
         img=require('../../img/wrong_a.png'),
-        answer_color="You are Wrong!",
+        answer_color="You are Wrong !",
         color = "#8B0000"
     }
 

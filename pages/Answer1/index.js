@@ -21,7 +21,7 @@ const AnswerPage = ({color})=> {
         quest="Is nicotine an ingredient of cigarette?",
         answer="Yes, nicontine is an ingredient of cigarette.",
         img=require('../../img/correct_a.png'),
-        answer_color="You are Right!",
+        answer_color="You are Right !",
         color = "#008000"
     } 
     else{
@@ -29,7 +29,7 @@ const AnswerPage = ({color})=> {
         quest="Is nicotine an ingredient of cigarette?",
         answer="Yes, nicontine is an ingredient of cigarette.",
         img=require('../../img/wrong_a.png'),
-        answer_color="You are Wrong!",
+        answer_color="You are Wrong !",
         color = "#8B0000"
     }
 
