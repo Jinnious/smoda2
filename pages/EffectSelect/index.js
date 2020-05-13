@@ -10,9 +10,11 @@ import Header from '../../comps/Header';
 import {DefaultButton1} from '../../stories/Button.stories';
 import Link from 'next/link';
 import Router from 'next/router';
+import {stage, ChangeStage} from '../../data';
 
-
+console.log(stage);
 const EffectSelect = () => <div>
+
     <div className="selectpage">
         <div className="effectselect_head"><Header/></div>
 

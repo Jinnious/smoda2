@@ -8,8 +8,8 @@ import Link from 'next/link';
 import BasicButton from '../../buttons/button1';
 
 
-
 const SmokIngred = () => <div className="smoking">
+
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
 
 
