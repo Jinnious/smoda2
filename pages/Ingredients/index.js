@@ -4,6 +4,7 @@ import SubHeader from '../../comps/subheader';
 import SmokCiga from '../../comps/ingredients/ciga';
 import Header from '../../comps/Header';
 import Link from 'next/link';
+import {stage, ChangeStage} from '../../data';
 
 import BasicButton from '../../comps/buttons/button1';
 
