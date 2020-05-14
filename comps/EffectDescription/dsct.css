@@ -9,7 +9,7 @@
    justify-content: center;
    align-items: center;
    align-content: center;
-    margin-left:10px;
+    margin-left:30px;
     margin-bottom: 20px;
     margin-top:2px;
 
@@ -66,6 +66,8 @@ margin-left:6px;
     justify-content: center;
     align-items: center;
     align-content: center;
+    margin-left:0;
+    text-align: center;
 }
 
 
