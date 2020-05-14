@@ -46,9 +46,10 @@
 
 
 .backbutton_about {
-    position: relative;
+    /* position: relative;
     left: 5%;
-    bottom: -200px;
+    bottom: -200px; */
+    text-align: center;
 }
 
 a:link{
