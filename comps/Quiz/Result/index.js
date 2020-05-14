@@ -14,16 +14,7 @@ import {data, ChangeData} from '../../../data';
 const Result = ({}) => {
     console.log(data);
 
-    var text = "";
 
-    switch (data.right){
-        case 0:
-            text +="0/5";
-            break;
-        case 1:
-            text ="1/5";
-            break;    
-    }
 
     return<div className="resultsbackg">
         <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
@@ -34,15 +25,12 @@ const Result = ({}) => {
             <div id="rinner"
             style={{color:"#F28F3C", fontSize:(40)}}>
 
-                <div>
+                
                     Congrats!
-                </div>
-                <div>
+                
+                
                     You finished the Quiz :)
-                </div>
-                <div>
-                    Your score is {text}
-                </div>
+                
 
             </div>
 

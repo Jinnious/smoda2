@@ -6,7 +6,7 @@ export var data = {
     quizselection:"gotoquiz",
     lastaction:"smoda",
     numClicks:0,
-    right:0
+    numAnswer:0
 }
 
 // if(process.browser){
