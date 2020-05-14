@@ -29,12 +29,12 @@ const StartPage = ({Logo,Icon,Aboutus}) => <div id="startpage">
 
 <div className="startpage_inner">
         <img src={Logo} />
-
+<div className="starbutton">
 <Link href="/Level"><a>
 < StartButton text="Start" />
 </a>
 </Link>
-    
+    </div>
 
 <Link href ="/About">
 <div id="aboutus">{Aboutus}</div>

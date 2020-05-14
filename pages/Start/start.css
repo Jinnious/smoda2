@@ -1,10 +1,10 @@
 
 #startpage {
 
-    position: absolute;
+    /* position: absolute; */
     display: block;  
-    width: 375px;
-    height: 812px;
+    /* width: 375px;
+    height: 812px; */
     font-family: 'Fredoka One', cursive;
    
 
@@ -31,9 +31,8 @@ a:link{
 }
 
 
-
 .startpage_inner {
-    margin: 30px;
+    margin: 15px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -51,5 +50,5 @@ a:link{
 
 }
 body {
-    margin-left:25px;
+    /* margin-left:25px; */
 }
