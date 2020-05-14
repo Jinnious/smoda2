@@ -27,8 +27,16 @@ const Header = ({img,hamburg1,text1,text2,text3,text4,plusicon,text5,text6}) => 
 
         <div className="navigation">
 
-            <div className="nav_basic">
+            <div className="nav_basic"   onClick={()=> {Showsub();}}>
                 {text1}
+
+                {<div className="drsm">
+
+                            {text5}
+                            <p></p>
+                            {text6}
+
+                            </div> }
                 <img src={plusicon}/>
             </div>
 
@@ -37,9 +45,9 @@ const Header = ({img,hamburg1,text1,text2,text3,text4,plusicon,text5,text6}) => 
             <div className="nav_advan"
             // onClick ={() => {
             //     Showsub(); }}
+            onClick={()=> {Showsub();}}
             >
                {text2}
-
                 {<div className="drsm">
 
                     {text5}
@@ -51,6 +59,7 @@ const Header = ({img,hamburg1,text1,text2,text3,text4,plusicon,text5,text6}) => 
                 <img src={plusicon}/>
             </div>
         
+
 
 
             <div className="nav_about">
@@ -116,3 +125,26 @@ function MenuClose() {
     document.querySelector(".navigation").style.right = "-130%";
     menu_state = false;
 }
+
+
+var drsm = false;
+
+function Showsub () {
+    if(drsm === false){
+        SubOpen();
+    }else {
+        SubClose();
+    }
+}
+
+function SubOpen(){
+    document.querySelector(".drsm").display = "none";
+    drsm = true;
+}
+
+function SubClose() {
+    document.querySelector(".drsm").display = "block";
+    drsm = false;
+}
+      
+   
