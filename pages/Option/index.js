@@ -10,14 +10,18 @@ import {data, ChangeData} from '../../data';
 
 const OptionPage = ({}) => {
   console.log(data);
-
+  var num = data.numClicks;
     return<div id="optionpage">
 
         <Header/>
 
         <div className='stack'>
-            <Link href="/Level"><a><Stack /></a></Link>
-            <Stack text="Smoking" backgroundColor="#C8553D" />
+            <Stack onClick={()=>{
+                Router.push("/Level");
+            }}/>
+            <Stack text="Smoking" backgroundColor="#C8553D" onClick={()=>{
+                Router.push("/Topic");
+            }}/>
         </div>
 
 
@@ -26,20 +30,24 @@ const OptionPage = ({}) => {
             <div>
                 <StartButton text="Ingredients" bgcolor="#C8553D" onClick={()=>{
                     ChangeData({
-                        lastaction:"ingredPage"
+                        lastaction:"ingredPage",
+                        numClicks:num+1
                     })
                     Router.push("/Ingred");
                 }} />
             </div>
             <div>
-                <StartButton text="Side-Effects" bgcolor="#588B8B" onClick={()=>{
+                {data.lastaction !=="smoda" ? <StartButton text="Side-Effects" bgcolor="#588B8B" onClick={()=>{
                     ChangeData({
-                        lastaction:"effectPage"
+                        lastaction:"effectPage",
+                        numClicks:num+1
                     })
                     Router.push("/EffectSelect");
-                }}/>
+                }}/> : <StartButton bgcolor="#C0C0C0"text="Side-Effects"/>}
            </div>
-            <Link href="/Quiz1"><a><StartButton text="Quiz" bgcolor="#F28F3C" /></a></Link>
+                {data.lastaction =="effectPage" || data.numClicks > 2 ? <StartButton text="Quiz" bgcolor="#F28F3C" onClick={()=>{
+                    Router.push("/Quiz1");
+                }} /> : <StartButton bgcolor="#C0C0C0"text="Quiz"/>}
         </div>
 
     </div>

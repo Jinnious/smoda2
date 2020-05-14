@@ -5,9 +5,17 @@ import { Button1 } from '../../../stories/Button.stories';
 import Header from '../../Header';
 import {GoHome} from '../../../stories/Button.stories';
 import Router from 'next/router';
+import {data, ChangeData} from '../../../data';
 
 
-const Result = ({text}) => {
+
+
+
+const Result = ({}) => {
+    console.log(data);
+
+
+
     return<div className="resultsbackg">
         <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
     
@@ -17,7 +25,12 @@ const Result = ({text}) => {
             <div id="rinner"
             style={{color:"#F28F3C", fontSize:(40)}}>
 
-                {text} 
+                
+                    Congrats!
+                
+                
+                    You finished the Quiz :)
+                
 
             </div>
 
@@ -34,8 +47,7 @@ const Result = ({text}) => {
 }
 
 Result.defaultProps = {
-text:"Congrats! \
-\n You finished the Quiz"
+
 }
 
 
