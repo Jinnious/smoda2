@@ -28,7 +28,7 @@ const GoodEffectPage= ({cigarret,memory}) => <div className="gepage">
 
     <div id="ciga">
       <div id="gif"><img src={arrow3}></img></div>  
-    <p>Drag me!</p>
+    <p>Click the cigarret!</p>
     
     <img src={cigarret} onClick={()=>{
       Router.push("/Bad-brain");

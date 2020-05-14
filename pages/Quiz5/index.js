@@ -11,6 +11,7 @@ import {data, ChangeData} from '../../data';
 
 const Questions = ({img1,img2}) => {
     console.log(data);
+    
 
     return<div className="background">
         <Header />
@@ -24,13 +25,15 @@ const Questions = ({img1,img2}) => {
                 <div className="quizicon">
                         <img src={img1} onClick={()=>{
                             ChangeData({
-                                quizselection:"wrong"
+                                quizselection:"wrong",
+                                
                             })
                             Router.push("/Answer5");
                         }}/>
                         <img src={img2} onClick={()=>{
                             ChangeData({
-                                quizselection:"right"
+                                quizselection:"right",
+                                
                             })
                             Router.push("/Answer5");
                         }}/>

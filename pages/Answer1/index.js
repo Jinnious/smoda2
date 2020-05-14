@@ -8,8 +8,6 @@ import Router from 'next/router';
 console.log(data);
 
 
-
-
 const AnswerPage = ({color})=> {
     var subhead
     var quest
@@ -23,6 +21,7 @@ const AnswerPage = ({color})=> {
         img=require('../../img/correct_a.png'),
         answer_color="You are Right !",
         color = "#008000"
+
     } 
     else{
         subhead="Quiz 1",
@@ -50,7 +49,8 @@ const AnswerPage = ({color})=> {
                 <div className="quizbuttons" onClick={()=>{
                     Router.push("/Quiz2")
                     ChangeData({
-                        quizselection:"nextquiz"
+                        quizselection:"nextquiz",
+                        right:answer
                     })
                 }}>
                     <BasicButton text="Next" bgcolor="#F28F3C" />
