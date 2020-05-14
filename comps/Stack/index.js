@@ -4,9 +4,9 @@ import Router from 'next/router';
 
 
 
-const Stack = ({text,backgroundColor, clickStack}) => <div 
+const Stack = ({text,backgroundColor, onClick}) => <div 
 style={{backgroundColor:backgroundColor}}
-className="stack"  >
+className="stack" onclick={onClick} >
 
 <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
 
