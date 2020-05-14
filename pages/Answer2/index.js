@@ -8,24 +8,29 @@ import Router from 'next/router';
 
 
 
-const AnswerPage = ({})=> {
+const AnswerPage = ({color})=> {
     console.log(data);
     
     var subhead
     var quest
     var answer
     var img
+    var answer_color
     if(data.lastaction === "Select X_quiz2"){
         subhead="Quiz 2",
         quest="If you smoke, does your brain size increase?",
-        answer="Yes. It becomes smaller.",
-        img=require('../../comps/Quiz/Answers/circle.png')
+        answer="No. It becomes smaller instead.",
+        img=require('../../img/correct_a.png'),
+        answer_color="You are Right !",
+        color = "#8B0000"
     } 
     else{
         subhead="Quiz 2",
         quest="If you smoke, does your brain size increase?",
         answer="No. It becomes smaller instead.",
-        img=require('../../comps/Quiz/Answers/wrong.png')
+        img=require('../../img/wrong_a.png'),
+        answer_color="You are Wrong !",
+        color = "#8B0000"
     }
 
     return<div className="background">
@@ -36,7 +41,7 @@ const AnswerPage = ({})=> {
             <div className="question_inner">
                 <div className="about_info">
                     <div className="question_answer">{quest}</div>
-            
+                    <div className="color_answer" style={{color:color}}>{answer_color}</div>
                     <img src={img} />
             
                     <div className="answertext">{answer}</div>
