@@ -16,7 +16,7 @@ const AnswerPage = ({color})=> {
     var answer
     var img
     var answer_color
-    if(data.lastaction === "Select O_quiz3"){
+    if(data.quizselection === "right"){
         subhead="Quiz 3",
         quest="You may have damaged sense of taste if you smoke.",
         answer="Yes, smoking affects in your sense of taste.",
@@ -49,6 +49,9 @@ const AnswerPage = ({color})=> {
 
                 <div className="quizbuttons" onClick={()=>{
                     Router.push("/Quiz4")
+                    ChangeData({
+                        quizselection:"nextquiz"
+                    })
                 }}>
                     <BasicButton text="Next" bgcolor="#F28F3C" />
                 </div>

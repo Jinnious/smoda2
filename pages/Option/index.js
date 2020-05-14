@@ -5,11 +5,11 @@ import Stack from '../../comps/Stack';
 import './option.css';
 import Link from 'next/link';
 import Router from 'next/router';
-import {stage, ChangeStage} from '../../data';
+import {data, ChangeData} from '../../data';
 
 
 const OptionPage = ({}) => {
-    console.log(stage);
+  console.log(data);
 
     return<div id="optionpage">
 
@@ -24,21 +24,21 @@ const OptionPage = ({}) => {
 
         <div id="buttons_option">
             <div>
-            <StartButton text="Ingredients" bgcolor="#C8553D" onClick={()=>{
-                ChangeStage({
-                    lastaction:"Stage_ingred"
-                })
-                Router.push("/Ingred");
-            }} />
+                <StartButton text="Ingredients" bgcolor="#C8553D" onClick={()=>{
+                    ChangeData({
+                        lastaction:"ingredPage"
+                    })
+                    Router.push("/Ingred");
+                }} />
             </div>
             <div>
-            <StartButton text="Side-Effects" bgcolor="#588B8B" onClick={()=>{
-                ChangeStage({
-                    lastaction:"Stage_sideEffects"
-                })
-                Router.push("/EffectSelect");
-            }}/>
-            </div>
+                <StartButton text="Side-Effects" bgcolor="#588B8B" onClick={()=>{
+                    ChangeData({
+                        lastaction:"effectPage"
+                    })
+                    Router.push("/EffectSelect");
+                }}/>
+           </div>
             <Link href="/Quiz1"><a><StartButton text="Quiz" bgcolor="#F28F3C" /></a></Link>
         </div>
 

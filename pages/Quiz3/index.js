@@ -24,19 +24,22 @@ const Questions = ({img1,img2}) => {
                 <div className="quizicon">
                         <img src={img1} onClick={()=>{
                             ChangeData({
-                                lastaction:"Select O_quiz3"
+                                quizselection:"right"
                             })
                             Router.push("/Answer3");
                         }}/>
                         <img src={img2} onClick={()=>{
                             ChangeData({
-                                lastaction:"Select X_quiz3"
+                                quizselection:"wrong"
                             })
                             Router.push("/Answer3");
                         }}/>
                 </div>
                 <div className="quizbuttons"><BasicButton text='Back' bgcolor='#588B8B' onClick={()=>{
                     Router.push("/Quiz2")
+                    ChangeData({
+                        quizselection:"beforequiz"
+                    })
                 }}/></div>
         
             </div>

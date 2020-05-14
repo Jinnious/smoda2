@@ -16,7 +16,7 @@ const AnswerPage = ({color})=> {
     var answer
     var img
     var answer_color
-    if(data.lastaction === "Select O_quiz5"){
+    if(data.quizselection === "right"){
         subhead="Quiz 5",
         quest="Smoking is actually good for your heart, as it increases blood circulations.",
         answer="Yes,smoking increases the risk of conditions such as coronary heart disease, heart attack, stroke.",
@@ -50,6 +50,9 @@ const AnswerPage = ({color})=> {
 
                 <div className="quizbuttons" onClick={()=>{
                     Router.push("/Result")
+                    ChangeData({
+                        quizselection:"nextquiz"
+                    })
                 }}>
                     <BasicButton text="Next" bgcolor="#F28F3C" />
                 </div>
