@@ -12,7 +12,9 @@ import Link from 'next/link';
 import Router from 'next/router';
 
 
+
 const EffectSelect = () => <div>
+
     <div className="selectpage">
         <div className="effectselect_head"><Header/></div>
 

@@ -8,8 +8,8 @@ import Link from 'next/link';
 import BasicButton from '../../buttons/button1';
 
 
-
 const SmokIngred = () => <div className="smoking">
+
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
 
 
@@ -27,7 +27,9 @@ const SmokIngred = () => <div className="smoking">
     <p id="click">Tap each dots!</p>
     <div className="footerbutton_ingred">
         <Link href="Option"><a><BasicButton text="Back" bgcolor="#588B8B"/></a></Link>
-        <Link href="/Ingredients"><a><BasicButton text="Next" bgcolor="#F28F3C"/></a></Link>
+        <Link href="/Ingredients"><a><BasicButton text="Next" bgcolor="#F28F3C" onClick={()=>{
+                    ShowName();
+                }}/></a></Link>
     </div>
 
 </div>;

@@ -16,13 +16,13 @@ const AnswerPage = ({color})=> {
     var answer
     var img
     var answer_color
-    if(data.lastaction === "Select X_quiz2"){
+    if(data.quizselection === "right"){
         subhead="Quiz 2",
         quest="If you smoke, does your brain size increase?",
         answer="No. It becomes smaller instead.",
         img=require('../../img/correct_a.png'),
         answer_color="You are Right !",
-        color = "#8B0000"
+        color = "#008000"
     } 
     else{
         subhead="Quiz 2",
@@ -49,6 +49,9 @@ const AnswerPage = ({color})=> {
 
                 <div className="quizbuttons" onClick={()=>{
                     Router.push("/Quiz3")
+                    ChangeData({
+                        quizselection:"nextquiz"
+                    })
                 }}>
                     <BasicButton text="Next" bgcolor="#F28F3C" />
                 </div>

@@ -2,9 +2,9 @@ import React from 'react';
 import './button2.css';
 
 
-const StartButton = ({text,  bgcolor}) => <div 
+const StartButton = ({text,  bgcolor, onClick}) => <div 
     style={{backgroundColor:bgcolor}}
-    className="startbutton_box"
+    className="startbutton_box" onClick={onClick}
   
     >
         <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>

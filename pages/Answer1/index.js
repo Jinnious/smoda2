@@ -16,7 +16,7 @@ const AnswerPage = ({color})=> {
     var answer
     var img
     var answer_color
-    if(data.lastaction === "Select O"){
+    if(data.quizselection === "right"){
         subhead="Quiz 1",
         quest="Is nicotine an ingredient of cigarette?",
         answer="Yes, nicontine is an ingredient of cigarette.",
@@ -49,6 +49,9 @@ const AnswerPage = ({color})=> {
 
                 <div className="quizbuttons" onClick={()=>{
                     Router.push("/Quiz2")
+                    ChangeData({
+                        quizselection:"nextquiz"
+                    })
                 }}>
                     <BasicButton text="Next" bgcolor="#F28F3C" />
                 </div>

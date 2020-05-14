@@ -16,7 +16,7 @@ const AnswerPage = ({color})=> {
     var answer
     var img
     var answer_color
-    if(data.lastaction === "Select O_quiz4"){
+    if(data.quizselection === "right"){
         subhead="Quiz 4",
         quest="Smoking may give higher risks of lung cancer.",
         answer="Yes, smoking gives higher risks of lung cancer and even other lung diseases.",
@@ -49,6 +49,9 @@ const AnswerPage = ({color})=> {
 
                 <div className="quizbuttons" onClick={()=>{
                     Router.push("/Quiz5")
+                    ChangeData({
+                        quizselection:"nextquiz"
+                    })
                 }}>
                     <BasicButton text="Next" bgcolor="#F28F3C" />
                 </div>
