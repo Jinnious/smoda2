@@ -20,8 +20,8 @@ const GoodEffectPage= ({cigarret,memory}) => <div className="gepage">
 
     <div className="subhead_organ">Mouth</div>
    
-    <div id="org">
-    <img src={MouthImg}/>
+    <div id="org" >
+    <img src={MouthImg} />
     </div>
 
 
@@ -29,9 +29,9 @@ const GoodEffectPage= ({cigarret,memory}) => <div className="gepage">
       <div id="gif"><img src={arrow3}></img></div>  
     <p>Drag me!</p>
     
-    <img src={cigarret} onClick={()=>{
+    <img src={cigarret}  onClick={()=>{
       Router.push("/Bad-mouth");
-    }}/>
+    }} />
     </div>
 
 
@@ -47,6 +47,8 @@ const GoodEffectPage= ({cigarret,memory}) => <div className="gepage">
 
 
 </div>
+
+
 
 GoodEffectPage.defaultProps = {
 
