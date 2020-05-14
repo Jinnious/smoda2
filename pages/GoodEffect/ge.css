@@ -65,8 +65,10 @@ margin-bottom: 30px;
     width: 100px;
     height: 100px;
     float: right;
-    top: -48px;
+    top: 30px;
     right:15px;
+    -ms-transform: rotatex(180deg);
+    transform: rotatex(180deg);
 
 }
 
