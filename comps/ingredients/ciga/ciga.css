@@ -113,3 +113,9 @@ left: 20%;
 a:link{
     text-decoration: none;
 }
+
+
+.footerbutton_ingred {
+    position: relative;
+    text-align: center;
+}
