@@ -6,7 +6,7 @@
     padding-top:50px;
     width:375px;
     flex-direction: row !important;
-    margin-left: -30px;
+    /* margin-left: -30px; */
 }
 
 .quizicon img {
@@ -22,7 +22,7 @@
 .question_inner {
     display: inline-block;
     margin: 0px;
-    width: 95%;
+    width: 100%;
     margin-top:0px;
 
 }
@@ -55,9 +55,10 @@
   color: #F28F3C;
   font-size: 45px;
   font-family: 'Fredoka One', cursive;
-  position: relative;
-  top: -60px;
+  /* position: relative;
+  top: -60px; */
   /* left: 31%; */
+  margin-top:30px;
 }
 
 body {

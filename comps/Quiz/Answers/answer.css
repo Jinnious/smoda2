@@ -21,13 +21,13 @@
   max-width: px;
 } */
 
-.question_inner {
-  display: flex;
-    width: 100%;
-    margin-top:-260px;
-    padding: 25px;
+/* .question_inner { */
+  /* display: flex; */
+    /* width: 100%;
+    margin-top:-260px; */
+    /* padding: 25px; */
 
-}
+/* } */
 
 .answertext{
   font-size: 20px;
@@ -60,6 +60,7 @@
     /* width:375px; */
     height:100vh;
     color: #707071;
+    text-align: center;
 }
 
 body {
