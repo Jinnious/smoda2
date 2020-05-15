@@ -23,11 +23,16 @@
 
 .back_button {
     position: relative;
-    left: 25%;
+    left: 50%;
     top: -60px;
 }
 
 
 body {
     margin: 0px;
+}
+
+
+.sub {
+    top: 20%;
 }
