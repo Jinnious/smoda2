@@ -37,6 +37,7 @@ a:link{
     justify-content: center;
     flex-direction: column;
     display: block;
+    text-align: center;
 
 }
 
