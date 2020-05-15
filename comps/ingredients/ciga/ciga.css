@@ -17,7 +17,7 @@
     position: absolute;
     border-radius: 50%;
     bottom: 30%;
-    left: 23%;
+    left: 33%;
 }
 
 .dot_but {
@@ -27,7 +27,7 @@
     border-radius: 50%;
     position: absolute;
     top: 67%;
-    left: 47%;
+    left: 57%;
 }
 
 .dot_tar {
@@ -37,7 +37,7 @@
     border-radius: 50%;
     position: absolute;
     bottom: 30%;
-    left: 58%;
+    left: 68%;
 }
 
 .dot_ammo {
@@ -47,7 +47,7 @@
     border-radius: 50%;
     position: absolute;
     top: 72%;
-    left: 33%;
+    left: 43%;
 }
 
 .dot_nic {
@@ -57,7 +57,7 @@
     border-radius: 50%;
     position: absolute;
     top: 70%;
-    left: 13%;
+    left: 23%;
 }
 
 .ingred_line_one {
@@ -70,8 +70,8 @@
 .benzene {
     display: none;
     position: absolute;
-    left: -10px;
-    bottom: -160px;
+    left: 10%;
+    bottom: -15%;
     z-index: 1;
 
 }
@@ -79,8 +79,8 @@
 .butane {
     display: none;
     position: absolute;
-    left: 120px;
-    bottom: -185px;
+    left: 15%;
+    bottom: -20%;
     z-index: 1;
 }
 
@@ -88,7 +88,7 @@
     display: none;
     position: absolute;
     right: 125px;
-    bottom: -170px;
+    bottom: -25%;
     z-index: 1;
 }
 
@@ -96,20 +96,20 @@
 .annmo {
     display: none;
     position: absolute;
-    right: 130px;
-    top: 210px;
+    right: 15%;
+    top: 25%;
 }
 
 .nico {
     display: none;
     position: absolute;
-    right: 310px;
-    top: 210px;
+    right: 20%;
+    top: 29%;
 }
 
 .ingred_line_two {
     /* display: flex; */
-    margin-bottom: 300px;
+    margin-bottom: 20%px;
 }
 
 a:link{

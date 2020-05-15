@@ -1,8 +1,7 @@
 .smoking {
     font-family: 'Fredoka One', cursive;
     background-color: #FFF8E2;
-  
-    height: 100vh;
+
     align-content: center;
     justify-content: center;
   
@@ -32,22 +31,19 @@
  
     left: 12px; */
     bottom: 100px;
-    margin-top:-100px;
+   
 }
 
 #click {
     display: flex;
-  
-    left: 180px;
+    text-align: center;
+    left: 30%;
     bottom: 60px;
     color: #707071;
-    margin-left: 140px;
-    margin-top:-100px;
+   
+
 }
 
-a:link {
-    text-decoration: none;
-}
 
 
 .subhead_ing{
