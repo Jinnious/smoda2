@@ -1,11 +1,13 @@
 .ciga{
-    position: relative;
-    margin:-10px;
+    /* position: relative;
+    margin:-10px; */
+    text-align: center;
 }
 
 .ciga img{
-    width: 70%;
-    height: 70%;
+    width: 25%;
+    /* height: 70%; */
+    margin-top:10px;
 }
 
 .dot_ben {
