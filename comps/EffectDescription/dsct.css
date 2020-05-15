@@ -95,15 +95,12 @@ margin-left:6px;
     font-family: 'Fredoka One', cursive;
     color: #588B8B;
     font-size: 40px;
-padding-bottom: 35px;
-padding-top:10px;
+        padding-bottom: 35px;
+        padding-top:10px;
 
 
 }
 
-a:link {
-    text-decoration: none;
-}
 
 body {
     margin: 0px;
