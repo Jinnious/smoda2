@@ -207,7 +207,7 @@ class Card extends Component {
         super();
 
         this.state = {
-            Showsub: false;
+            Showsub: false,
         };
 
         this.Showsub = this.Showsub.bind(this);
