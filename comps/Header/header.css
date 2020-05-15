@@ -37,7 +37,7 @@
 
 .navigation {
 
-    display: inline-block;
+    /* display: inline-block; */
     background-color: rgb(192, 68, 23);
     font-family: 'Fredoka One', cursive;
     transition: right 1s;
@@ -107,7 +107,9 @@
     height: 30%;
     float: right;
     margin-top: -10px;
-margin-right:20px;
+    margin-right:20px;
+
+    
 }
 .nav_advan img {
     width: 20%;
