@@ -70,18 +70,22 @@ const Header = ({img,hamburg1,text1,text2,text3,text4,plusicon,text5,text6}) => 
             </div>
         
 
-            <Link href="Aboutus">
+            <Link href="Aboutus"> <a>
             <div className="nav_about">
                 {text3}
             </div>
+            </a>
+        
             </Link>
 
           
 
-                <Link href="Tutorial">
-                <div className="nav_tut">
+                <Link href="Tutorial"> <a>
+                  <div className="nav_tut">
                 {text4}
-            </div>
+                  </div>
+                </a>
+
                 </Link>
 
 
