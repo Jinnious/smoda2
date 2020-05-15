@@ -31,7 +31,6 @@ const Header = ({img,hamburg1,text1,text2,text3,text4,plusicon,text5,text6}) => 
 
         <div className="navigation">
 
-
             <div className="nav_basic" 
  >
                 {text1}
