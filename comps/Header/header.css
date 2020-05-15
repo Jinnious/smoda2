@@ -98,3 +98,7 @@ margin-bottom:-20px;
 #typo {
   color: white;
 }
+
+section > div {
+  color: white;
+}
