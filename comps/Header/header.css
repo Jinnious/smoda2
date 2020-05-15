@@ -40,15 +40,17 @@ margin-bottom:-20px;
   position: fixed;
   right: 15px;
   top: 15px;
-  width: 40px;
-  height: 40px;
+  width: 20%;
+  height: 20%;
 }
 
 .plus_navi{
-  color: black;
+  color: white;
 }
 
 .menu{
+  float: right;
+  color: white;
   width: 200px;
   position: absolute;
   right: 0px;

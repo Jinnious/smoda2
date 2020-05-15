@@ -12,7 +12,7 @@
 .quizicon img {
   display: block;
   position: relative;
-  width: 40%;
+  width: 30%;
   height: 40%;
   margin: 10px;
 }
@@ -27,19 +27,13 @@
 
 }
 
-.quizbuttons {
-    display:flex;
-    position: absolute;
-    left: 60px;
-    bottom: 30px;
-}
 
 
 .background {
   background-color: #FFF8E2;
     /* width:375px; */
     /* height:812px; */
- 
+  height: 100wh;
 }
 
 .about_info_quiz{
@@ -49,7 +43,6 @@
   text-align: center;
   /* max-width: 320px; */
   position: relative;
-  top:30px;
 }
 
 .subhead_quiz {
