@@ -145,7 +145,7 @@ var open_state = false;
 
 function IsOpen() {
 
-    if(open_state === fals) {
+    if(open_state === false) {
         SubOpen();
     } else {
         SubClose();
@@ -174,7 +174,7 @@ var open_state1 = false;
 
 function Showsub() {
 
-    if(open_state1 === fals) {
+    if(open_state1 === false) {
         SubOpen1();
     } else {
         SubClose1();
