@@ -1,6 +1,6 @@
 
 import React from 'react';
-import ReactDom from "react-dom";
+
 import './header.css';
 import Link from 'next/link';
 import './menu.js';
