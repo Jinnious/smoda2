@@ -99,9 +99,9 @@ const Header = ({img,hamburg1,text1,text2,text3,text4,plusicon,text5,text6}) => 
     
 
     
-    // </div>
+    </div>
   
-// </div>
+ </div>
 
 Header.defaultProps = {
     img:defaultImg,
@@ -144,6 +144,8 @@ function MenuClose() {
     document.querySelector(".navigation").style.right = "-130%";
     menu_state = false;
 }
+
+
 
 
 var open_state = false;
