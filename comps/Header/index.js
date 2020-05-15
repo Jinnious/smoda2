@@ -18,7 +18,7 @@ const Header = ({}) => <div className="header">
     <div id="circle">
     <div className="logo"><img src={img} />
     </div>
-         
+
          
     <div className="dropdown">
   <button onclick="myFunction()" className="dropbtn">Dropdown</button>
