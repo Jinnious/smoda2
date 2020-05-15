@@ -20,17 +20,17 @@
     text-align: center;
 }
 
-.cigaImg {
+/* .cigaImg {
     position: relative;
     margin-top: 20%;
     top: 30px;
     left: 14%;
     margin-bottom: 140px;
-}
+} */
 
 
 .footerbutton_ingred {
     position: relative;
     top: 100px;
-    left: 12px;
+    /* left: 12px; */
 }
