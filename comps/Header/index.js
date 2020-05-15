@@ -12,7 +12,7 @@ import BasicButton from '../buttons/button1';
 
 
 
-const Header = ({img,hamburg1,text1,text2,text3,text4,plusicon,text5,text6}) => <div className="header">
+const Header = ({}) => <div className="header">
 
       
     <div id="circle">
