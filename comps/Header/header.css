@@ -6,7 +6,7 @@
   background-color:white;
   align-items: center;
   justify-content: center;
-  width:100%;
+  /* width:100%; */
 
   font-family: 'Fredoka One', cursive;
   position: relative;
@@ -40,7 +40,6 @@ margin-bottom:-20px;
   position: fixed;
   right: 15px;
   top: 15px;
-  color: black;
   width: 40px;
   height: 40px;
 }
@@ -78,4 +77,13 @@ margin-bottom:-20px;
 
 .submenu2 {
   display: none;
+}
+
+.plus_icon{
+  width: 40px;
+  height: 40px;
+}
+
+.header {
+    text-align: center;
 }
