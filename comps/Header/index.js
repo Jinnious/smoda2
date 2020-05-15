@@ -172,7 +172,7 @@ function SubClose() {
 
 var open_state1 = false;
 
-function IsOpen1() {
+function Showsub() {
 
     if(open_state1 === fals) {
         SubOpen1();
