@@ -1,6 +1,6 @@
 
 import React from 'react';
-
+import Router from 'next/router';
 import './header.css';
 import Link from 'next/link';
 
@@ -69,26 +69,27 @@ const Header = ({img,hamburg1,text1,text2,text3,text4,plusicon,text5,text6}) => 
 
                 <img src={plusicon}/>
             </div>
-        
+     
 
-            <Link href="/About"> <a>
-            <div className="nav_about">
+           
+            <div className="nav_about"
+            onClick={()=> {
+                Router.push('/About')
+            }}>
                 {text3}
             </div>
-            </a>
-        
-            </Link>
-
+           
           
 
-                <Link href="/Tutorial"> <a>
-                  <div className="nav_tut">
+               
+                  <div className="nav_tut"
+                   onClick={()=> {
+                    Router.push('/Tutorial')
+                }}>
+                    
                 {text4}
                   </div>
-                </a>
-
-                </Link>
-
+              
 
 
         </div>
