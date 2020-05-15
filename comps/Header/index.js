@@ -25,12 +25,6 @@ const Header = ({img,hamburg1,text1,text2,text3,text4,plusicon,text5,text6}) => 
         <div className="hambur" onClick={() =>{
             Shownav();
         }}><img src={hamburg1} /></div>
-
-
-}
-
-
-
         <div className="navigation">
 
 
