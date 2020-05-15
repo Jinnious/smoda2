@@ -129,7 +129,8 @@ function MenuClose() {
 
 var drsm = false;
 
-function Showsub () {
+function Showsub () 
+{
     if(drsm === false){
         SubOpen();
     }else {
@@ -143,7 +144,7 @@ function SubOpen(){
 }
 
 function SubClose() {
-    document.querySelector(".drsm").display = "block";
+    document.querySelector(".drsm").display = "inline-block";
     drsm = false;
 }
       
