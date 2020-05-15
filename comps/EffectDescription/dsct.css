@@ -1,7 +1,7 @@
 .dsct_inner{
 
     border: solid 5px #707071;
-    width:300px;
+    /* width:300px; */
     margin-top: -12px;
     border-radius: 20px;
     padding: 5px;
@@ -9,7 +9,7 @@
    justify-content: center;
    align-items: center;
    align-content: center;
-    margin-left:30px;
+
     margin-bottom: 20px;
     margin-top:2px;
     text-align: center;
@@ -46,7 +46,7 @@ margin-left:6px;
 .dsct {
 /* 
     /* width: 390x; */
-    left: -10px;
+
     background-color: #FFF8E2;
    
 
