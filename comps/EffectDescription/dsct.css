@@ -23,7 +23,7 @@
 .des_img img{
 
     left: 0;
-    width:100%;
+    width:50%;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -46,7 +46,7 @@ margin-left:6px;
 .dsct {
 /* 
     /* width: 390x; */
-
+    left: -10px;
     background-color: #FFF8E2;
    
 
