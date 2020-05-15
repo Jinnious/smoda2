@@ -56,15 +56,16 @@ margin-bottom:-20px;
 .menu{
   float: right;
   color: white;
-  width: 200px;
+  width: 400px;
   position: absolute;
   right: 0px;
-  top: 120%;
+  top: 100%;
   display: none; 
   background-color: #C8553D;
   opacity: 0;
   transition: opacity 0.3s;
   z-index: 1;
+  padding-bottom:30px;
 }
 
 .menu section {
@@ -85,6 +86,7 @@ margin-bottom:-20px;
 
 .submenu2 {
   display: none;
+  margin-top:-30px;
 }
 
 .plus_icon{
@@ -98,6 +100,7 @@ margin-bottom:-20px;
 
 #typo {
   color: white;
+  margin-bottom:40px;
 }
 
 section > div {
