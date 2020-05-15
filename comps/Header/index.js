@@ -45,6 +45,7 @@ const Header = ({img,hamburg1,text1,text2,text3,text4,plusicon,text5,text6}) => 
                             {text5}
                             <p></p>
                             {text6}
+
                             </div> 
 
                 <img src={plusicon}/>
@@ -70,7 +71,7 @@ const Header = ({img,hamburg1,text1,text2,text3,text4,plusicon,text5,text6}) => 
             </div>
         
 
-            <Link href="Aboutus"> <a>
+            <Link href="/About"> <a>
             <div className="nav_about">
                 {text3}
             </div>
@@ -80,7 +81,7 @@ const Header = ({img,hamburg1,text1,text2,text3,text4,plusicon,text5,text6}) => 
 
           
 
-                <Link href="Tutorial"> <a>
+                <Link href="/Tutorial"> <a>
                   <div className="nav_tut">
                 {text4}
                   </div>
@@ -197,6 +198,13 @@ function SubClose1() {
     document.querySelector(".drsm2").display = "inline-block";
     open_state1 = false;
 }
+
+
+
+
+
+
+
 
 
 
