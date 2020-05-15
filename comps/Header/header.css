@@ -51,7 +51,7 @@
 }
 
 .drsm2 {
-
+    overflow: hidden;
     /* display: inline-block; */
     height:150px;
     width:288px;
@@ -77,7 +77,7 @@
 
 
 .drsm1 {
-
+    overflow: hidden;
     /* display: inline-block; */
     height:150px;
     width:288px;
