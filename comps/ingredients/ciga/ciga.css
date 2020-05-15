@@ -26,7 +26,7 @@
     background-color: #707071;
     border-radius: 50%;
     position: absolute;
-    top: 67%;
+    top: 63%;
     left: 57%;
 }
 
@@ -71,16 +71,15 @@
     display: none;
     position: absolute;
     left: 10%;
-    bottom: -15%;
+    top: 25%;
     z-index: 1;
-
 }
 
 .butane {
     display: none;
     position: absolute;
     left: 15%;
-    bottom: -20%;
+    top: 30%;
     z-index: 1;
 }
 
@@ -88,28 +87,27 @@
     display: none;
     position: absolute;
     right: 125px;
-    bottom: -25%;
+    top: 35%;
     z-index: 1;
 }
-
 
 .annmo {
     display: none;
     position: absolute;
     right: 15%;
-    top: 25%;
+    top: 35%;
 }
 
 .nico {
     display: none;
     position: absolute;
     right: 20%;
-    top: 29%;
+    top: 30%;
 }
 
 .ingred_line_two {
     /* display: flex; */
-    margin-bottom: 20%px;
+    margin-bottom: 20%;
 }
 
 a:link{
