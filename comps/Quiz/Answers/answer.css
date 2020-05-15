@@ -57,8 +57,8 @@
 
 .background {
   background-color: #FFF8E2;
-    width:375px;
-    height:812px;
+    /* width:375px; */
+    height:100vh;
     color: #707071;
 }
 

@@ -8,10 +8,12 @@
 
 #optionpage {
     
- 
+/*  
     display: block;  
     width: 100vw;
-    height: 812px;
+    height: 812px; */
+
+    text-align: center;
 
 }
 
