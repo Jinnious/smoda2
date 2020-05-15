@@ -8,9 +8,10 @@
 
   font-family: 'Fredoka One', cursive;
   position: relative;
-  display:flex;
 
 
+
+  display: inline-block;
 
 }
 
