@@ -1,4 +1,6 @@
-.header {
+
+
+.whitebox{
   color:white;
   cursor: pointer;
   background-color:white;
@@ -10,7 +12,6 @@
   position: relative;
   display: inline-block;
 }
-
 
 .logo img {
  
@@ -29,4 +30,48 @@
   padding-top:20px;
   padding:20px;
 margin-bottom:-20px;
+}
+
+.menu_icon {
+  position: fixed;
+  right: 15px;
+  top: 15px;
+  color: black;
+  width: 40px;
+  height: 40px;
+}
+
+.plus_navi{
+  color: black;
+}
+
+.menu{
+  width: 200px;
+  position: absolute;
+  right: 0px;
+  top: 120%;
+  display: none; 
+  background-color: #C8553D;
+  opacity: 0;
+  transition: opacity 0.3s;
+  z-index: 1;
+}
+
+.menu section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu section > div {
+  padding: 10px;
+  max-width: 100%;
+}
+
+.submenu {
+  display: none;
+}
+
+.submenu2 {
+  display: none;
 }
