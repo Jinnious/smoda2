@@ -50,11 +50,11 @@ const Header = ({img}) =>
                     </div>
                 </section>
 
-                <section>
+                <section id="typo">
                     <Link href="/About"><a><div>About Us</div></a></Link>
                 </section>
 
-                <section>
+                <section id="typo">
                     <Link href="/Tutorial"><a><div>Tutorial</div></a></Link>
                 </section>       
 
