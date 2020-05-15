@@ -3,16 +3,17 @@
 
 #topic_buttons{
     position: relative;
-   
+
+
     text-align: center;
     width: 100vw;
-   
+ 
 
 }
 
 .topic_stack{
     position: relative;
-    top: -80px;
+    /* top: -80px; */
 }
 body {
     margin-left:25px;
