@@ -10,18 +10,19 @@ const defaultImg = require('./Logo.png');
 
 
 
-const Header = ({img}) => <div className="header">
+const Header = ({img}) => 
+    <div className="header">
 
       
-    <div id="circle">
-    <div className="logo"><img src={img} /></div>
+        <div id="circle">
+        <div className="logo"><img src={img} /></div>
          
          </div>
 
      
         
 
-         </div>
+    </div>
 
 Header.defaultProps = {
     img:defaultImg
