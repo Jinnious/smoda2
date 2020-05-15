@@ -50,9 +50,35 @@
     z-index : 1;
 }
 
-.drsm {
+.drsm2 {
 
-    display: inline-block;
+    /* display: inline-block; */
+    height:150px;
+    width:288px;
+
+    background-color: #CC7967;
+    font-family: 'Fredoka One', cursive;
+    left: 12%;
+    position: absolute;
+    top: 26%;
+    right: 20%;
+    z-index: 1;
+    font-size: 35px;
+    color:white;
+    margin-right: 20px;
+    padding: 15px;
+    margin-left:-20px;
+    margin-top:20px;
+
+
+    /* display: none; */
+}
+
+
+
+.drsm1 {
+
+    /* display: inline-block; */
     height:150px;
     width:288px;
 
