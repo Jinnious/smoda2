@@ -227,12 +227,11 @@ class Card extends Component {
     Closesub (event) {
 
         if (!this.dropdownMenu.contains(event.target)) {
-
-            this.setState({Showsub : false}, () 
-            => {
-               document.removeEventListener ('click', this.Closesub);
-        });
-    }
+      
+            this.setState({ Showsub: false }, () => {
+              document.removeEventListener('click', this.closeMenu);
+            });  
+        }
 
 }
 
