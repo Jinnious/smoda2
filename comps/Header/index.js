@@ -169,7 +169,7 @@ function SubOpen() {
 
 function SubClose() {
 
-    document.querySelector(".drsm1").display = "inline-block";
+    document.querySelector(".drsm1").display = "block";
     open_state = false;
 }
 
@@ -198,7 +198,7 @@ function SubOpen1() {
 
 function SubClose1() {
 
-    document.querySelector(".drsm2").display = "inline-block";
+    document.querySelector(".drsm2").display = "block";
     open_state1 = false;
 }
 
