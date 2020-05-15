@@ -23,19 +23,12 @@
     left: 3%;
 } */
 
-.footerbutton_ingred {
-    /* display: flex;
-    left: 12px; */
-    /* bottom: 100px; */
-    position: relative;
-   
-}
+
 
 #click {
-    display: flex;
-    position: relative;
+  
     text-align: center;
-    left: 30%;
+  
     bottom: 60px;
     color: #707071;
 }
