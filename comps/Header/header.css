@@ -40,7 +40,6 @@ margin-bottom:-20px;
   position: fixed;
   right: 15px;
   top: 15px;
-  color: black;
   width: 40px;
   height: 40px;
 }
@@ -78,4 +77,9 @@ margin-bottom:-20px;
 
 .submenu2 {
   display: none;
+}
+
+.plus_icon{
+  width: 40px;
+  height: 40px;
 }
