@@ -2,9 +2,11 @@ import React from 'react';
 import Router from 'next/router';
 import './header.css';
 import Link from 'next/link';
-import {TiThMenuOutline} from "react-icons/Ti";
-import {FaPlus} from "react-icons/Fa";
+
 import BasicButton from '../buttons/button1';
+
+import menuicon from "../../img/menu.png";
+import plusicon from "../../img/plus.png";
 
 const defaultImg = require('./Logo.png');
 
@@ -19,11 +21,11 @@ const Header = ({img}) =>
             <div id="circle">
                 <div className="logo"><Link href="/Level"><a><img src={img} /></a></Link></div>
             </div>
-            <TiThMenuOutline className="menu_icon" onClick={MenuToggle}/>
+            <img src={menuicon} className="menu_icon" onClick={MenuToggle}/>
             <div className="menu">
 
                 <section>
-                    <p onClick={SubToggle}>Basic <FaPlus className="plus_navi"/></p>
+                    <p onClick={SubToggle}>Basic <img src={plusicon} className="plus_icon"/></p>
                     <div className="submenu">
                     <div>
                         Smoking
@@ -37,7 +39,7 @@ const Header = ({img}) =>
 
 
                 <section>
-                    <p onClick={SubToggle2}>Advanced <FaPlus className="plus_navi"/></p>
+                    <p onClick={SubToggle2}>Advanced <img src={plusicon} className="plus_icon"/></p>
                     <div className="submenu2">
                     <div>
                         smoking
