@@ -1,9 +1,9 @@
 .about {
 
 
-    text-align: justify;
+    text-align: center;
     /* width:390px; */
-    height:812px;
+    height:100vh;
     background-color: #FFF8E2;
   
 }
@@ -13,13 +13,13 @@
 }
 .about_inner {
     display: inline-block;
-    margin-top: 25x;
+    margin-top: -95px;
     width: 300px;
     align-content: center;
     justify-content: center;
     align-items: center;
     position: relative;
-    left: 14%;
+    /* left: 14%; */
     
 }
 
@@ -32,7 +32,7 @@
     padding: 20px;
     /* position: absolute; */
  
-   margin-left: -30px;
+   /* margin-left: -30px; */
 
 }
 
