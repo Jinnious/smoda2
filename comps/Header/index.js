@@ -3,7 +3,7 @@ import React from 'react';
 
 import './header.css';
 import Link from 'next/link';
-import './menu.js';
+
 import BasicButton from '../buttons/button1';
 
 const defaultImg = require('./Logo.png');
