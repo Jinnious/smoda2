@@ -8,10 +8,12 @@ export var data = {
     numClicks:0
 }
 
-// if(process.browser){
-//     var sessiondata = sessionStorage.getItem("data");
-//     ChangeData(JSON.parse(sessiondata));
-// }
+if(process.browser) {
+    var sessiondata = sessionStorage.getItem("data");
+    if(sessiondata !== null){
+        ChangeData(JSON.parse(sessiondata));
+    }
+}
 
 export function ChangeData(d){
     data = d;

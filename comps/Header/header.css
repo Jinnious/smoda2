@@ -4,7 +4,7 @@
     background-color:white;
     align-items: center;
     justify-content: center;
-    width:390px;
+    width:100vw;
     margin-bottom: 150px;
     font-family: 'Fredoka One', cursive;
     height: 80px;
@@ -37,7 +37,7 @@
 
 .navigation {
 
-    display: inline-block;
+    /* display: inline-block; */
     background-color: rgb(192, 68, 23);
     font-family: 'Fredoka One', cursive;
     transition: right 1s;
@@ -50,9 +50,9 @@
     z-index : 1;
 }
 
-.drsm {
-
-    display: inline-block;
+#drsm2 {
+    overflow: hidden;
+    /* display: inline-block; */
     height:150px;
     width:288px;
 
@@ -69,16 +69,49 @@
     padding: 15px;
     margin-left:-20px;
     margin-top:20px;
+
+
+    display: none;
 }
 
 
+
+#drsm1 {
+    overflow: hidden;
+    /* display: inline-block; */
+    height:150px;
+    width:288px;
+
+    background-color: #CC7967;
+    font-family: 'Fredoka One', cursive;
+    left: 12%;
+    position: absolute;
+    top: 26%;
+    right: 20%;
+    z-index: 1;
+    font-size: 35px;
+    color:white;
+    margin-right: 20px;
+    padding: 15px;
+    margin-left:-20px;
+    margin-top:20px;
+    position: absolute;
+
+    display: none;
+}
+
+.show {
+    display: block;
+}
 
 .nav_basic img{
     width: 20%;
     height: 30%;
     float: right;
     margin-top: -10px;
-margin-right:20px;
+    margin-right:20px;
+
+    
 }
 .nav_advan img {
     width: 20%;
@@ -94,12 +127,15 @@ padding:10px;
 }
 
 .nav_advan {
+    display: inline-block;
+    position: relative;
     padding:10px;
 }
 
 .nav_about {
     padding:10px;
-    padding-top:185px;
+
+   margin-top:185px;
 }
 
 .nav_tut{

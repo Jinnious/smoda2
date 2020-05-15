@@ -1,7 +1,9 @@
 
 import React from 'react';
+import Router from 'next/router';
 import './header.css';
 import Link from 'next/link';
+
 import BasicButton from '../buttons/button1';
 
 const defaultImg = require('./Logo.png');
@@ -23,43 +25,65 @@ const Header = ({img,hamburg1,text1,text2,text3,text4,plusicon,text5,text6}) => 
         <div className="hambur" onClick={() =>{
             Shownav();
         }}><img src={hamburg1} /></div>
-
-
         <div className="navigation">
 
-            <div className="nav_basic">
+{/* 
+            <div className="nav_basic" 
+ >
                 {text1}
-                <img src={plusicon}/>
-            </div>
+
+                <div id="drsm1">
+
+                            {text5}
+                            <p></p>
+                            {text6}
+
+                            </div> 
+
+                <img src={plusicon}
+                   onClick = {() => {IsOpen();}}/>
+            </div> */}
 
          
             
             <div className="nav_advan"
-            // onClick ={() => {
-            //     Showsub(); }}
+        
+    
             >
                {text2}
 
-                {<div className="drsm">
+                     <div id="drsm2">
 
                     {text5}
                     <p></p>
                     {text6}
                    
-                    </div> }
+                    </div> 
 
-                <img src={plusicon}/>
+                <img src={plusicon}
+                   onClick={()=> {Showsub();}}/>
             </div>
-        
+     
 
-
-            <div className="nav_about">
+           
+            <div className="nav_about"
+            onClick={()=> {
+                Router.push('/About')
+            }}>
                 {text3}
             </div>
+           
+          
 
-            <div className="nav_tut">
+               
+                  <div className="nav_tut"
+                   onClick={()=> {
+                    Router.push('/Tutorial')
+                }}>
+
                 {text4}
-            </div>
+                  </div>
+              
 
 
         </div>
@@ -70,9 +94,9 @@ const Header = ({img,hamburg1,text1,text2,text3,text4,plusicon,text5,text6}) => 
     
 
     
-    // </div>
+    </div>
   
-// </div>
+ </div>
 
 Header.defaultProps = {
     img:defaultImg,
@@ -89,6 +113,12 @@ Header.defaultProps = {
 
 
 export default Header;
+
+
+
+function Showsub() {
+    document.getElementById("drsm2").classList.toggle("show");
+}
 
 
 
@@ -116,3 +146,141 @@ function MenuClose() {
     document.querySelector(".navigation").style.right = "-130%";
     menu_state = false;
 }
+
+
+
+
+// var open_state = false;
+
+// function IsOpen() {
+
+//     if(open_state === false) {
+//         SubOpen();
+//     } else {
+//         SubClose();
+//     }
+//     }
+
+// function SubOpen() {
+    
+//     document.querySelector(".drsm1").display = "none";
+//     open_state = true;
+    
+// }
+
+// function SubClose() {
+
+//     document.querySelector(".drsm1").display = "block";
+//     open_state = false;
+// }
+
+
+
+
+
+
+// var open_state1 = false;
+
+// function Showsub() {
+
+//     if(open_state1 === false) {
+//         SubOpen1();
+//     } else {
+//         SubClose1();
+//     }
+//     }
+
+// function SubOpen1() {
+    
+//     document.querySelector(".drsm2").display = "none";
+//     open_state1 = true;
+    
+// }
+
+// function SubClose1() {
+
+//     document.querySelector(".drsm2").display = "block";
+//     open_state1 = false;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+// import React, {Component} from 'react';
+
+// class Card extends Component {
+
+//     constructor() 
+//     {
+//         super();
+
+//         this.state = {
+//             Showsub: false
+//         };
+
+//         this.Showsub = this.Showsub.bind(this);
+//         this.Closesub = this.Closesub.bind(this);
+
+//     }
+
+//     Showsub(event) {
+//         event.preventDefault() ;
+
+//         this.setState({Showsub: true}, () => {
+//             document.addEventListener ('click', this.Closesub);
+//         });
+//     }
+
+
+//     Closesub (event) {
+
+//         if (!this.dropdownMenu.contains(event.target)) {
+      
+//             this.setState({ Showsub: false }, () => {
+//               document.removeEventListener('click', this.closeMenu);
+//             });  
+//         }
+
+// }
+
+//     render() {
+//         return (
+//             <div>
+//             <button onClick={this.Showsub}>
+//               Show menu
+//             </button>
+
+
+//            { this.state.Showsub
+
+//            ? (
+//             <div className="menu"
+//             ref={(element) => {
+//                 this.dropdownMenu = element;
+//             }}>
+
+//             <button> Basic </button>
+//             <button> Advanced </button>
+//             <button> About us </button>
+//             <button> Tutorial </button>
+//           </div>
+//            )
+//            : (
+//                null
+//            )
+//     }
+//         </div>
+//            );
+           
+//       }
+//     }
+        
+    
