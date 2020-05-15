@@ -2,7 +2,7 @@
 
 #levelpage{
 
-width: 375px;
+/* width: 375px; */
 height: 816px;
 font-family: 'Fredoka One', cursive;
 
@@ -25,7 +25,7 @@ a:link{
 .levelpage_inner img {
 
     margin-bottom: 100px;
-    margin-left: 30px;
+    /* margin-left: 30px; */
 }
 
 .levelpage_inner {
@@ -34,6 +34,7 @@ a:link{
     justify-content: center;
     flex-direction: column;
     display: block;
+    text-align: center;
 
 }
 
