@@ -27,8 +27,6 @@ const Header = ({img,hamburg1,text1,text2,text3,text4,plusicon,text5,text6}) => 
         }}><img src={hamburg1} /></div>
 
 
-
-
 }
 
 
@@ -37,7 +35,7 @@ const Header = ({img,hamburg1,text1,text2,text3,text4,plusicon,text5,text6}) => 
 
 
             <div className="nav_basic" 
-            onClick = {() => {IsOpen();}} >
+ >
                 {text1}
 
                 <div className="drsm1">
@@ -48,14 +46,15 @@ const Header = ({img,hamburg1,text1,text2,text3,text4,plusicon,text5,text6}) => 
 
                             </div> 
 
-                <img src={plusicon}/>
+                <img src={plusicon}
+                   onClick = {() => {IsOpen();}}/>
             </div>
 
          
             
             <div className="nav_advan"
         
-            onClick={()=> {Showsub();}}
+         
             >
                {text2}
 
@@ -67,7 +66,8 @@ const Header = ({img,hamburg1,text1,text2,text3,text4,plusicon,text5,text6}) => 
                    
                     </div> 
 
-                <img src={plusicon}/>
+                <img src={plusicon}
+                   onClick={()=> {Showsub();}}/>
             </div>
      
 
@@ -86,7 +86,7 @@ const Header = ({img,hamburg1,text1,text2,text3,text4,plusicon,text5,text6}) => 
                    onClick={()=> {
                     Router.push('/Tutorial')
                 }}>
-                    
+
                 {text4}
                   </div>
               
