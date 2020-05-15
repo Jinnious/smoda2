@@ -50,12 +50,12 @@ const Header = ({img}) =>
                     </div>
                 </section>
 
-                <section id="typo">
-                    <Link href="/About"><a><div>About Us</div></a></Link>
+                <section >
+                    <Link href="/About"><a><div id="typo" >About Us</div></a></Link>
                 </section>
 
-                <section id="typo">
-                    <Link href="/Tutorial"><a><div>Tutorial</div></a></Link>
+                <section >
+                    <Link href="/Tutorial"><a><div id="typo">Tutorial</div></a></Link>
                 </section>       
 
             </div>
