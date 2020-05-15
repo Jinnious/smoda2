@@ -41,8 +41,8 @@ margin-bottom:-20px;
 }
 
 .menu_icon {
-  position: fixed;
-  right: 15px;
+  position: absolute;
+  right: 5%;
 
   width: 15%;
   
