@@ -1,9 +1,9 @@
 .selectpage {
 
     background-color: #FFF8E2;
-    width: 375px;
-    height: 816px;
+    text-align: center;
     display: block;
+    width: 100vw;
     
 }
 
@@ -23,7 +23,7 @@
 
 .back_button {
     position: relative;
-    left: 25%;
+    left: 50%;
     top: -60px;
 }
 
@@ -32,6 +32,6 @@ a:link {
 }
 
 
-body {
-    margin-left:25px;
+.sub {
+    top: 20%;
 }
