@@ -188,7 +188,7 @@ function SubOpen1() {
     
 }
 
-function SubClose() {
+function SubClose1() {
 
     document.querySelector(".drsm2").display = "inline-block";
     open_state1 = false;
