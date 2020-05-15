@@ -6,14 +6,14 @@
   background-color:white;
   align-items: center;
   justify-content: center;
-  /* width:100%; */
+  width:100%;
 
   font-family: 'Fredoka One', cursive;
   position: relative;
 
 
 
-  display: inline-block;
+  display: flex;
 
 }
 
