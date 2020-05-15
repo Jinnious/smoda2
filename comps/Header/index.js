@@ -45,6 +45,7 @@ const Header = ({img,hamburg1,text1,text2,text3,text4,plusicon,text5,text6}) => 
                             {text5}
                             <p></p>
                             {text6}
+
                             </div> 
 
                 <img src={plusicon}/>
@@ -145,58 +146,65 @@ function MenuClose() {
 }
 
 
-// var open_state = false;
+var open_state = false;
 
-// function IsOpen() {
+function IsOpen() {
 
-//     if(open_state === false) {
-//         SubOpen();
-//     } else {
-//         SubClose();
-//     }
-//     }
+    if(open_state === false) {
+        SubOpen();
+    } else {
+        SubClose();
+    }
+    }
 
-// function SubOpen() {
+function SubOpen() {
     
-//     document.querySelector(".drsm1").display = "none";
-//     open_state = true;
+    document.querySelector(".drsm1").display = "none";
+    open_state = true;
     
-// }
+}
 
-// function SubClose() {
+function SubClose() {
 
-//     document.querySelector(".drsm1").display = "inline-block";
-//     open_state = false;
-// }
-
-
+    document.querySelector(".drsm1").display = "inline-block";
+    open_state = false;
+}
 
 
 
 
-// var open_state1 = false;
 
-// function Showsub() {
 
-//     if(open_state1 === false) {
-//         SubOpen1();
-//     } else {
-//         SubClose1();
-//     }
-//     }
+var open_state1 = false;
 
-// function SubOpen1() {
+function Showsub() {
+
+    if(open_state1 === false) {
+        SubOpen1();
+    } else {
+        SubClose1();
+    }
+    }
+
+function SubOpen1() {
     
-//     document.querySelector(".drsm2").display = "none";
-//     open_state1 = true;
+    document.querySelector(".drsm2").display = "none";
+    open_state1 = true;
     
-// }
+}
 
-// function SubClose1() {
+function SubClose1() {
 
-//     document.querySelector(".drsm2").display = "inline-block";
-//     open_state1 = false;
-// }
+    document.querySelector(".drsm2").display = "inline-block";
+    open_state1 = false;
+}
+
+
+
+
+
+
+
 
 
 
