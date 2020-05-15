@@ -12,7 +12,7 @@
 .quizicon img {
   display: block;
   position: relative;
-  width: 40%;
+  width: 30%;
   height: 40%;
   margin: 10px;
 }
@@ -27,12 +27,6 @@
 
 }
 
-.quizbuttons {
-    display:flex;
-    position: absolute;
-    left: 60px;
-    bottom: 30px;
-}
 
 
 .background {
@@ -47,7 +41,7 @@
   color: #707071;
   font-size: 28px;
   text-align: center;
-  max-width: 320px;
+  /* max-width: 320px; */
   position: relative;
 }
 

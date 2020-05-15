@@ -35,13 +35,7 @@
 }
 
 
-.quizbuttons {
-  margin-top: 80px;
-  margin-left: 32px;
-  margin-bottom: -20px;
-  
 
-}
 
 .question_answer {
   margin-left: 10px;
@@ -78,7 +72,7 @@ body {
 }
 .about_info img{
 
-  width: 50%;
+  width: 40%;
   position: relative;
   margin-top: 35px;
   margin-bottom: 20px;
@@ -89,7 +83,7 @@ body {
   color: #F28F3C;
   font-size: 45px;
   font-family: 'Fredoka One', cursive;
-  position: absolute;
+ 
   top: 150px;
   left: 120px;
   margin-bottom: 0px;
@@ -100,12 +94,12 @@ a:link {
 }
 
 .color_answer {
-  position: absolute;
+  
   top: 125px;
   left: 90px;
   font-size: 50px;
   z-index: 1;
-  width: 200px;
+ 
 }
 /* 
 
