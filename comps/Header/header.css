@@ -4,7 +4,7 @@
     background-color:white;
     align-items: center;
     justify-content: center;
-    width:390px;
+    width:100vw;
     margin-bottom: 150px;
     font-family: 'Fredoka One', cursive;
     height: 80px;
@@ -50,7 +50,7 @@
     z-index : 1;
 }
 
-.drsm2 {
+#drsm2 {
     overflow: hidden;
     /* display: inline-block; */
     height:150px;
@@ -76,7 +76,7 @@
 
 
 
-.drsm1 {
+#drsm1 {
     overflow: hidden;
     /* display: inline-block; */
     height:150px;
@@ -95,12 +95,14 @@
     padding: 15px;
     margin-left:-20px;
     margin-top:20px;
-
+    position: absolute;
 
     display: none;
 }
 
-
+.show {
+    display: block;
+}
 
 .nav_basic img{
     width: 20%;
@@ -125,6 +127,8 @@ padding:10px;
 }
 
 .nav_advan {
+    display: inline-block;
+    position: relative;
     padding:10px;
 }
 
