@@ -2,6 +2,7 @@ import React from 'react';
 import BasicButton from '../../comps/buttons/button2';
 import AdvancedButton from '../../comps/buttons/button2';
 import Link from 'next/link';
+import Router from 'next/router';
 import './level.css';
 
 
@@ -32,8 +33,15 @@ const LevelPage = ({Logo,GradeText,GradeText2,Aboutus}) => <div id="levelpage">
     </div>
     </div>
 
-    <Link href="/Turorial"><a> <div id="aboutus">{Aboutus}</div>   
-    </a></Link>
+
+
+   <div id="aboutus"
+    onClick={()=>{
+        Router.push("/Tutorial");
+    }}
+
+    >{Aboutus}</div>   
+   
 
 </div>
 
