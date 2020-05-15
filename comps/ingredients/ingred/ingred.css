@@ -1,11 +1,8 @@
 .smoking {
     font-family: 'Fredoka One', cursive;
     background-color: #FFF8E2;
-
     align-content: center;
     justify-content: center;
-  
-
 }
 
 
@@ -28,20 +25,19 @@
 
 .footerbutton_ingred {
     /* display: flex;
- 
     left: 12px; */
-    bottom: 100px;
+    /* bottom: 100px; */
+    position: relative;
    
 }
 
 #click {
     display: flex;
+    position: relative;
     text-align: center;
     left: 30%;
     bottom: 60px;
     color: #707071;
-   
-
 }
 
 
