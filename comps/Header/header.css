@@ -8,6 +8,9 @@
   margin-bottom: 150px;
   font-family: 'Fredoka One', cursive;
   height: 100%;
+  
+  position: relative;
+  display: inline-block;
 
 
 }
@@ -15,7 +18,7 @@
 
 .logo img {
  
-  width: 95%;
+  width: 80%;
    display: flex;
   z-index: -1;
   
@@ -50,7 +53,7 @@
 
 #drsm2 {
   overflow: hidden;
-  /* display: inline-block; */
+  display: inline-block;
   height:150px;
   width:288px;
 
@@ -68,15 +71,17 @@
   margin-left:-20px;
   margin-top:20px;
 
-
+  position: absolute;
   /* display: none; */
 }
 
 
 
 #drsm1 {
+
+  position: absolute;
   overflow: hidden;
-  /* display: inline-block; */
+  display: inline-block;
   height:150px;
   width:288px;
 
