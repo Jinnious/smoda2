@@ -2,15 +2,20 @@
   color:white;
   cursor: pointer;
   background-color:white;
+  align-items: center;
+  justify-content: center;
   width:100%;
+
   font-family: 'Fredoka One', cursive;
   position: relative;
+
+
 
 }
 
 
 .logo img {
-
+ 
   width: 80%;
    display: flex;
   z-index: -1;
@@ -21,8 +26,9 @@
 .logo {
   border-radius: 90%;
   background-color: white;
-  width:10%;
+  width:100px;
   margin-left:123px;
   padding-top:20px;
   padding:20px;
+margin-bottom:-20px;
 }
