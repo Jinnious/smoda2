@@ -8,14 +8,18 @@
 
   font-family: 'Fredoka One', cursive;
   position: relative;
+
+
+
   display: inline-block;
+
 }
 
 
 .logo img {
  
   width: 80%;
-   display: flex;
+   /* display: flex; */
   z-index: -1;
   
 }
@@ -25,7 +29,7 @@
   border-radius: 90%;
   background-color: white;
   width:100px;
-  margin-left:123px;
+  /* margin-left:123px; */
   padding-top:20px;
   padding:20px;
 margin-bottom:-20px;
