@@ -6,7 +6,7 @@
   background-color:white;
   align-items: center;
   justify-content: center;
-  width:100%;
+  /* width:100%; */
 
   font-family: 'Fredoka One', cursive;
   position: relative;
@@ -82,4 +82,8 @@ margin-bottom:-20px;
 .plus_icon{
   width: 40px;
   height: 40px;
+}
+
+.header {
+    text-align: center;
 }
