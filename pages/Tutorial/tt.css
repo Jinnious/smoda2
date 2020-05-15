@@ -1,9 +1,9 @@
 #tutorialpage {
 
-    width: 375px;
+    width: 100vw;
     height: 812px;
     font-family: 'Fredoka One', cursive;
-    position: absolute;
+    /* position: absolute; */
     color: #588B8B;
     
 }
