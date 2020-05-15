@@ -1,13 +1,13 @@
 
 .gepage {
 display: block;
-width: 375px;
+/* width: 375px; */
 height:812px;
 background-color: #FFF8E2;
 align-items: center;
 justify-content: center;
 font-family: 'Fredoka One', cursive;
-
+text-align: center;
 }
 
 
@@ -15,33 +15,33 @@ font-family: 'Fredoka One', cursive;
     color: #588B8B;
     font-size: 45px;
     position: relative;
-    left: 102px;
+    /* left: 102px; */
     top: -50px;
     margin-bottom: -20px;
 }
 
 
 #ciga img {
-    display: flex;
     position: relative;
-    margin-left: 14%;
-    width: 60%;
-    height: 50%;
-    top: -120px;
+    margin-right:-50px;
+    max-width: 250px;
+    top: -90px;
+    text-align: center;
 }
 #ciga p {
-    float: right;
-    right: -100px;
+    /* float: right; */
+    /* right: -100px; */
     position: relative;
     color:#707070;
-     top: 10px;;
+     /* top: -15px; */
+     margin-left:100px;
 
 
 }
 #org img{
     position: relative;
-    width: 90%;
-    height: 90%;
+    max-width: 330px;
+    /* height: 90%; */
     top: -30px;
 }
 
@@ -65,8 +65,8 @@ margin-bottom: 30px;
     width: 100px;
     height: 100px;
     float: right;
-    top: 30px;
-    right:15px;
+    top: 2px;
+    right:13%;
     -ms-transform: rotatex(180deg);
     transform: rotatex(180deg);
 

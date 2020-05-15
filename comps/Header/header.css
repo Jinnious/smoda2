@@ -37,7 +37,7 @@
 
 .navigation {
 
-    display: inline-block;
+    /* display: inline-block; */
     background-color: rgb(192, 68, 23);
     font-family: 'Fredoka One', cursive;
     transition: right 1s;
@@ -50,9 +50,9 @@
     z-index : 1;
 }
 
-.drsm {
-
-    display: inline-block;
+.drsm2 {
+    overflow: hidden;
+    /* display: inline-block; */
     height:150px;
     width:288px;
 
@@ -69,6 +69,35 @@
     padding: 15px;
     margin-left:-20px;
     margin-top:20px;
+
+
+    display: none;
+}
+
+
+
+.drsm1 {
+    overflow: hidden;
+    /* display: inline-block; */
+    height:150px;
+    width:288px;
+
+    background-color: #CC7967;
+    font-family: 'Fredoka One', cursive;
+    left: 12%;
+    position: absolute;
+    top: 26%;
+    right: 20%;
+    z-index: 1;
+    font-size: 35px;
+    color:white;
+    margin-right: 20px;
+    padding: 15px;
+    margin-left:-20px;
+    margin-top:20px;
+
+
+    display: none;
 }
 
 
@@ -78,7 +107,9 @@
     height: 30%;
     float: right;
     margin-top: -10px;
-margin-right:20px;
+    margin-right:20px;
+
+    
 }
 .nav_advan img {
     width: 20%;
@@ -99,7 +130,8 @@ padding:10px;
 
 .nav_about {
     padding:10px;
-    padding-top:185px;
+
+   margin-top:185px;
 }
 
 .nav_tut{
