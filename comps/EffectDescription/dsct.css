@@ -32,7 +32,7 @@
 
 .des_img1 img {
 margin-top: -30px;
-width: 450%;
+width: 45%;
 height: 45%;
 margin-bottom: 10px;
 justify-content: center;
@@ -44,9 +44,9 @@ margin-left:6px;
 }
 
 .dsct {
+/* 
+    /* width: 390x; */
 
-    width: 390x;
-    height:816px;
     background-color: #FFF8E2;
    
 
