@@ -33,12 +33,12 @@ const Header = ({img,hamburg1,text1,text2,text3,text4,plusicon,text5,text6}) => 
 
         <div className="navigation">
 
-
+{/* 
             <div className="nav_basic" 
  >
                 {text1}
 
-                <div className="drsm1">
+                <div id="drsm1">
 
                             {text5}
                             <p></p>
@@ -48,17 +48,17 @@ const Header = ({img,hamburg1,text1,text2,text3,text4,plusicon,text5,text6}) => 
 
                 <img src={plusicon}
                    onClick = {() => {IsOpen();}}/>
-            </div>
+            </div> */}
 
          
             
             <div className="nav_advan"
         
-         
+    
             >
                {text2}
 
-                     <div className="drsm2">
+                     <div id="drsm2">
 
                     {text5}
                     <p></p>
@@ -122,6 +122,13 @@ export default Header;
 
 
 
+function Showsub() {
+    document.getElementById("drsm2").classList.toggle("show");
+}
+
+
+
+
 var menu_state = false;
 
 function Shownav() {
@@ -149,58 +156,58 @@ function MenuClose() {
 
 
 
-var open_state = false;
+// var open_state = false;
 
-function IsOpen() {
+// function IsOpen() {
 
-    if(open_state === false) {
-        SubOpen();
-    } else {
-        SubClose();
-    }
-    }
+//     if(open_state === false) {
+//         SubOpen();
+//     } else {
+//         SubClose();
+//     }
+//     }
 
-function SubOpen() {
+// function SubOpen() {
     
-    document.querySelector(".drsm1").display = "none";
-    open_state = true;
+//     document.querySelector(".drsm1").display = "none";
+//     open_state = true;
     
-}
+// }
 
-function SubClose() {
+// function SubClose() {
 
-    document.querySelector(".drsm1").display = "block";
-    open_state = false;
-}
-
-
+//     document.querySelector(".drsm1").display = "block";
+//     open_state = false;
+// }
 
 
 
 
-var open_state1 = false;
 
-function Showsub() {
 
-    if(open_state1 === false) {
-        SubOpen1();
-    } else {
-        SubClose1();
-    }
-    }
+// var open_state1 = false;
 
-function SubOpen1() {
+// function Showsub() {
+
+//     if(open_state1 === false) {
+//         SubOpen1();
+//     } else {
+//         SubClose1();
+//     }
+//     }
+
+// function SubOpen1() {
     
-    document.querySelector(".drsm2").display = "none";
-    open_state1 = true;
+//     document.querySelector(".drsm2").display = "none";
+//     open_state1 = true;
     
-}
+// }
 
-function SubClose1() {
+// function SubClose1() {
 
-    document.querySelector(".drsm2").display = "block";
-    open_state1 = false;
-}
+//     document.querySelector(".drsm2").display = "block";
+//     open_state1 = false;
+// }
 
 
 
