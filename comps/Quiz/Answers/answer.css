@@ -3,14 +3,14 @@
     align-content: center;
     justify-content: center;
     align-items: center;
-    padding-top:80px;
+    padding-top:50px;
     padding-bottom:80px;
-    width:375px;
+    /* width:375px; */
     flex-direction: column;
 }
 
 .quizicon img{
-  display: block;
+  /* display: block; */
   position: relative;
   width: 40%;
   height: 40%;
