@@ -1,168 +1,38 @@
-.header {
-    color:white;
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
     cursor: pointer;
-    background-color:white;
-    align-items: center;
-    justify-content: center;
-    width:100vw;
-    margin-bottom: 150px;
-    font-family: 'Fredoka One', cursive;
-    height: 80px;
-
+  }
   
-}
-
-
-.logo img {
-   
-    width: 95%;
-     display: flex;
-    z-index: -1;
-    
-
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
   
-
-}
-
-
-.hambur img{
-    margin-top: -80px;
-    width: 20%;
-    height: 30%;
-    float: right;
-    margin-right: 15px;
-
-}
-
-
-.navigation {
-
-    /* display: inline-block; */
-    background-color: rgb(192, 68, 23);
-    font-family: 'Fredoka One', cursive;
-    transition: right 1s;
-    right: -130%;
+  .dropdown {
     position: relative;
-    height:500px;
-    font-size:40px;
-    padding-left:20px;
-    padding-top:20px;
-    z-index : 1;
-}
-
-#drsm2 {
-    overflow: hidden;
-    /* display: inline-block; */
-    height:150px;
-    width:288px;
-
-    background-color: #CC7967;
-    font-family: 'Fredoka One', cursive;
-    left: 12%;
-    position: absolute;
-    top: 26%;
-    right: 20%;
-    z-index: 1;
-    font-size: 35px;
-    color:white;
-    margin-right: 20px;
-    padding: 15px;
-    margin-left:-20px;
-    margin-top:20px;
-
-
-    display: none;
-}
-
-
-
-#drsm1 {
-    overflow: hidden;
-    /* display: inline-block; */
-    height:150px;
-    width:288px;
-
-    background-color: #CC7967;
-    font-family: 'Fredoka One', cursive;
-    left: 12%;
-    position: absolute;
-    top: 26%;
-    right: 20%;
-    z-index: 1;
-    font-size: 35px;
-    color:white;
-    margin-right: 20px;
-    padding: 15px;
-    margin-left:-20px;
-    margin-top:20px;
-    position: absolute;
-
-    display: none;
-}
-
-.show {
-    display: block;
-}
-
-.nav_basic img{
-    width: 20%;
-    height: 30%;
-    float: right;
-    margin-top: -10px;
-    margin-right:20px;
-
-    
-}
-.nav_advan img {
-    width: 20%;
-    height: 30%;
-    float: right;
-    margin-top: -10px;
-    margin-right:20px;
-
-}
-
-.nav_basic {
-padding:10px;
-}
-
-.nav_advan {
     display: inline-block;
-    position: relative;
-    padding:10px;
-}
-
-.nav_about {
-    padding:10px;
-
-   margin-top:185px;
-}
-
-.nav_tut{
-    padding:10px;
-
-}
-
-/* body{
-    margin: 0px;
-
-}
-/* 
-#circle {
-    border-radius: 80%;
-    color:white;
-    background-color: white;
-} */
-
-.logo {
-    border-radius: 90%;
-    background-color: white;
-    width:100px;
-    margin-left:123px;
-    padding-top:20px;
-    padding:20px;
-margin-bottom:-20px;
-}
-
-
-
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
