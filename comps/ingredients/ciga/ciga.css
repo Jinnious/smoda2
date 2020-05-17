@@ -87,8 +87,8 @@
     position: absolute;
 
     margin-left: 5%;
-margin-top:10%;
-    /* top: 60%; */
+    margin-top:10%;
+    top: 60%; 
 
     z-index: 1;
 }
@@ -99,7 +99,7 @@ margin-top:10%;
 
     left: 55%;
 margin-top:15%;
-    /* top: 50%; */
+    top: 50%; 
     z-index: 1;
 }
 
@@ -107,7 +107,7 @@ margin-top:15%;
     display: none;
     position: absolute;
     right: 25%;
-    /* top: 55%; */
+    top: 55%;
     z-index: 1;
 }
 
@@ -124,8 +124,8 @@ margin-top:15%;
     display: none;
     position: absolute;
 
-/* left: 20%; */
-    /* top: 55%; */
+    left: 20%; 
+    top: 55%; 
 margin-top:-10%;
 }
 

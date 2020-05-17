@@ -2,6 +2,7 @@ import React from 'react';
 import './ciga.css';
 import IngName from '../name';
 import Link from 'next/link';
+import Router from 'next/router';
 
 const defaultImg = require('../../../img/smoking.png');
 
@@ -10,7 +11,9 @@ const SmokCiga = ({img}) => {
     return  <div>
 
                 <div className="ingred_line_one">
-                    <div className="benzene"><Link href="/Benzene"><a><IngName text="Benzene" color="#588B8B" border="#588B8B 3px solid" /></a></Link></div>
+                    <div className="benzene"><IngName text="Benzene" color="#588B8B" border="#588B8B 3px solid" onclick={()=>{
+                        Router.push("/Benzene");
+                    }}/></div>
                     <div className="butane"><Link href="/Butane"><a><IngName text="Butane" color="#707071" border="#707071 3px solid"/></a></Link></div>
                     <div className="tar"><Link href="/Tar"><a><IngName text="Tar" color="#4469E3" border="#4469E3 3px solid"/></a></Link></div>
                 </div>
