@@ -12,7 +12,7 @@ const TopicPage = ({drk}) => <div id="topicpage">
 
 <Header/>
 
-<div className='topic_stack'><Stack/></div>
+<div className='topic_stack'><Link href="/Level"><a><Stack /></a></Link></div>
 
 
 <div id="topic_buttons">
