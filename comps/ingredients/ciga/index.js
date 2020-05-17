@@ -10,8 +10,8 @@ const SmokCiga = ({img}) => {
     return  <div>
 
                 <div className="ingred_line_one">
-                    <div className="benzene"><Link href="/Benzene"><a><IngName text="Benzene" color="#588B8B" border="#588B8B 3px solid" /></a></Link></div>
-                    <div className="butane"><Link href="/Butane"><a><IngName text="Butane" color="#707071" border="#707071 3px solid"/></a></Link></div>
+                    <div className="benzene"><Link href="/Benzene"><a><IngName text="Benzene" color="#588B8B" border="#588B8B 3vw solid" /></a></Link></div>
+                    <div className="butane"><Link href="/Butane"><a><IngName text="Butane" color="#707071" border="#707071 3vw solid"/></a></Link></div>
                 </div>
 
                 <div className="ciga">
@@ -35,9 +35,9 @@ const SmokCiga = ({img}) => {
                     </div>
 
                 <div className="ingred_line_two">
-                    <div className="annmo"><Link href="/Ammonia"><a><IngName text="Ammonia" color="#F28F3C" border="#F28F3C 3px solid"/></a></Link></div>
-                    <div className="nico"><Link href="Nicotine"><a><IngName text="Nicotine" color="#C8553D" border="#C8553D 3px solid"/></a></Link></div>
-                    <div className="tar"><Link href="/Tar"><a><IngName text="Tar" color="#4469E3" border="#4469E3 3px solid"/></a></Link></div>   
+                    <div className="annmo"><Link href="/Ammonia"><a><IngName text="Ammonia" color="#F28F3C" border="#F28F3C 3vw solid"/></a></Link></div>
+                    <div className="nico"><Link href="Nicotine"><a><IngName text="Nicotine" color="#C8553D" border="#C8553D 3vw solid"/></a></Link></div>
+                    <div className="tar"><Link href="/Tar"><a><IngName text="Tar" color="#4469E3" border="#4469E3 3vw solid"/></a></Link></div>   
                 </div>
             </div>
 }
