@@ -12,7 +12,7 @@ const SmokCiga = ({img}) => {
                 <div className="ingred_line_one">
                     <div className="benzene"><Link href="/Benzene"><a><IngName text="Benzene" color="#588B8B" border="#588B8B 1vw solid" /></a></Link></div>
                     <div className="butane"><Link href="/Butane"><a><IngName text="Butane" color="#707071" border="#707071 1vw solid"/></a></Link></div>
-                    <div className="tar"><Link href="/Tar"><a><IngName text="Tar" color="#4469E3" border="#4469E3 3vw solid"/></a></Link></div>
+                    <div className="tar"><Link href="/Tar"><a><IngName text="Tar" color="#4469E3" border="#4469E3 1vw solid"/></a></Link></div>
                 </div>
 
                 <div className="ciga">
