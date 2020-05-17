@@ -113,20 +113,16 @@ margin-top:15%;
 
 .annmo {
     display: none;
-    position: absolute;
-
-    right: 0;
-    /* top: 60%; */
-
+    position: fixed;
+    margin-left: 37%;
+    margin-top: -10%;
 }
 
 .nico {
     display: none;
-    position: absolute;
+    position: fixed;
+    margin-top: -10%;
 
-    left: 20%; 
-    top: 55%; 
-margin-top:-10%;
 }
 
 .ingred_line_two {
