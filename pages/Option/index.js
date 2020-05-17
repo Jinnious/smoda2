@@ -4,7 +4,6 @@ import Header from '../../comps/Header';
 import Stack from '../../comps/Stack';
 import './option.css';
 import Link from 'next/link';
-import Router from 'next/router';
 import {data, ChangeData} from '../../data';
 
 
@@ -16,12 +15,8 @@ const OptionPage = ({}) => {
         <Header/>
 
         <div className='stack'>
-            <Stack onClick={()=>{
-                Router.push("/Level");
-            }}/>
-            <Stack text="Smoking" backgroundColor="#C8553D" onClick={()=>{
-                Router.push("/Topic");
-            }}/>
+            <Link href="/Level"><a><Stack /></a></Link>
+            <Link href="/Topic>"><a><Stack text="Smoking" backgroundColor="#C8553D" /></a></Link>
         </div>
 
 
