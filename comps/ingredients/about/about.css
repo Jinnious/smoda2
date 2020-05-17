@@ -9,7 +9,7 @@
 }
 
 .head{
-    height: 170px;
+    height: 80px;
 }
 .about_inner {
     display: inline-block;
@@ -19,6 +19,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    margin-top: auto;
     /* left: 14%; */
     
 }
@@ -59,8 +60,7 @@ a:link{
 .xicon{
     width: 50px;
     position: relative;
-    left: 43%;
-    top: -86px;
-    margin-bottom: -25px;
-    /* margin-top: -10px; */
+    left: 37%;
+    margin-bottom: 40px;
+    top: 30px;
 }
