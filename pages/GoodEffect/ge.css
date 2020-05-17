@@ -15,9 +15,8 @@ text-align: center;
     color: #588B8B;
     font-size: 45px;
     position: relative;
-    /* left: 102px; */
-    top: -50px;
-    margin-bottom: -20px;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 
@@ -46,10 +45,10 @@ text-align: center;
 }
 
 .bodycontents {
-margin-left: 20px;
+
 align-items: center;
 justify-content: center;
-margin-bottom: 30px;
+
 
 }
 
