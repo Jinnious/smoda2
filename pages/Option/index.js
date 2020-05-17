@@ -14,10 +14,10 @@ const OptionPage = ({}) => {
 
         <Header/>
 
-        <div className='stack'>
+        
             <Link href="/Level"><a><Stack /></a></Link>
             <Link href="/Topic>"><a><Stack text="Smoking" backgroundColor="#C8553D" /></a></Link>
-        </div>
+       
 
 
 
