@@ -70,11 +70,12 @@
     border-radius: 50%;
     position: absolute;
     top: 70%;
-    /* top:46%; */
-    left: 20%;
-    /* left: 23%;
+   
+    left: 20%;}
+    
 
-}
+
+
 .ingred_line_one {
     display: flex;
     position: relative;
