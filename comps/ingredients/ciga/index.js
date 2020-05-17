@@ -2,7 +2,6 @@ import React from 'react';
 import './ciga.css';
 import IngName from '../name';
 import Link from 'next/link';
-import Router from 'next/router';
 
 const defaultImg = require('../../../img/smoking.png');
 
