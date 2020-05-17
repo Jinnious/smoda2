@@ -4,6 +4,7 @@ import Header from '../../comps/Header';
 import Stack from '../../comps/Stack';
 import './option.css';
 import Link from 'next/link';
+import Router from 'next/router';
 import {data, ChangeData} from '../../data';
 
 
