@@ -2,6 +2,7 @@
     /* position: relative;
     margin:-10px; */
     text-align: center;
+    position: relative;
 }
 
 .ciga img{
@@ -18,9 +19,9 @@
     background-color: #588B8B;
     position: absolute;
     border-radius: 50%;
-    bottom: 30%;
+    bottom: 26%;
     left: 33%;
-    top: 45%;
+    /* top: 45%; */
 }
 
 .dot_but {
@@ -33,7 +34,7 @@
     position: absolute;
     top: 63%;
     left: 60%;
-    top:45%;
+    /* top:45%; */
 }
 
 .dot_tar {
@@ -43,9 +44,9 @@
     background-color: #4469E3;
     border-radius: 50%;
     position: absolute;
-    bottom: 30%;
-    left: 78%;
-    top:45%;
+    bottom: 18%;
+    left: 70%;
+    /* top:45%; */
 }
 
 .dot_ammo {
@@ -55,9 +56,9 @@
     background-color: #F28F3C;
     border-radius: 50%;
     position: absolute;
-    top: 77%;
+    top: 70%;
     left: 43%;
-    top:49%;
+    /* top:49%; */
 }
 
 .dot_nic {
@@ -68,11 +69,11 @@
     background-color: #C8553D;
     border-radius: 50%;
     position: absolute;
-    top: 65%;
-    top:46%;
-    left: 13%;
+    top: 70%;
+    /* top:46%; */
+    left: 20%;
     /* left: 23%;
-} */
+} */}
 
 .ingred_line_one {
     display: flex;
@@ -85,7 +86,8 @@
     display: none;
     position: absolute;
 
-    left: 40%;
+    margin-left: 5%;
+margin-top:10%;
     /* top: 60%; */
 
     z-index: 1;
@@ -95,8 +97,8 @@
     display: none;
     position: absolute;
 
-    left: 70%;
-
+    left: 60%;
+margin-top:15%;
     /* top: 50%; */
     z-index: 1;
 }
@@ -113,8 +115,8 @@
     display: none;
     position: absolute;
 
-    right: 45%;
-    top: 60%;
+    right: 0;
+    /* top: 60%; */
 
 }
 
@@ -122,9 +124,9 @@
     display: none;
     position: absolute;
 
-left: 20%;
-    top: 55%;
-
+/* left: 20%; */
+    /* top: 55%; */
+margin-top:-10%;
 }
 
 .ingred_line_two {
