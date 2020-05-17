@@ -1,7 +1,7 @@
 import React from 'react';
 import './name.css';
 
-const IngName = ({text, color, border}) => <div>
+const IngName = ({text, color, border, onClick}) => <div onClick={onclick}>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"></link>
     <div className="ing_name" style={{color:color, border:border}}>
         <div className="name_inner">{text}</div>
